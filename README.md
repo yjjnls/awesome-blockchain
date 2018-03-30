@@ -3,9 +3,9 @@
 
 The blockchain is an incorruptible digital ledger of economic transactions that can be programmed to record not just financial transactions but virtually everything of value (by [Don Tapscott](https://www.linkedin.com/pulse/whats-next-generation-internet-surprise-its-all-don-tapscott)).
 
-**This is not a simple collection of Internet resources, but verified and organized data ensuring it's really suitable for your learning process and uesful for your development and application.**
+<font color=#0099ff size=3>**This is not a simple collection of Internet resources, but verified and organized data ensuring it's really suitable for your learning process and uesful for your development and application.**</font> 
 
-The majority contents will be written in Chinese, English will also be included.   
+Majority of the contents will be written in Chinese, English will also be included.   
 The repository will be continually updated.
 
 ## Contents
