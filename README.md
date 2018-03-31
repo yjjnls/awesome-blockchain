@@ -21,12 +21,12 @@ The repository will be continually updated.
 
 ## Development Tutorial
 ### BitCoin 
-[<img src="https://bitcoin.org/img/icons/logotop.svg" align="right" width="80">](https://www.hyperledger.org/projects/fabric)
+[<img src="https://bitcoin.org/img/icons/logotop.svg" align="right" width="120">](https://www.hyperledger.org/projects/fabric)
 *  [BitCoin white paper](https://bitcoin.org/bitcoin.pdf) / [比特币白皮书](http://www.8btc.com/wiki/bitcoin-a-peer-to-peer-electronic-cash-system)
 *  [Mastering BitCoin](https://github.com/bitcoinbook/bitcoinbook) / [精通比特币](http://zhibimo.com/read/wang-miao/mastering-bitcoin/index.html)
 
 ### Ethereum
-[<img src="https://raw.githubusercontent.com/github/explore/875ffd6b3fb65c3f69deb4f269e87efda447cc8c/topics/ethereum/ethereum.png" align="right" width="80">](https://www.hyperledger.org/projects/fabric)
+[<img src="https://github.com/yjjnls/Notes/blob/master/img/ethereum.png" align="right" width="120">](https://www.hyperledger.org/projects/fabric)
 *  [Ethereum white paper](https://github.com/ethereum/wiki/wiki/White-Paper)
 *  [Ethereum wiki](https://github.com/ethereum/wiki/wiki)
 *  [Ethereum problems](https://github.com/ethereum/wiki/wiki/Problems)
