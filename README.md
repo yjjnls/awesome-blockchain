@@ -26,7 +26,7 @@ The repository will be continually updated.
 *  [Mastering BitCoin](https://github.com/bitcoinbook/bitcoinbook) / [精通比特币](http://zhibimo.com/read/wang-miao/mastering-bitcoin/index.html)
 
 ### Ethereum
-[<img src="https://github.com/yjjnls/Notes/blob/master/img/ethereum.png" align="right" width="120">](https://www.hyperledger.org/projects/fabric)
+[<img src="https://github.com/yjjnls/Notes/blob/master/img/ethereum.png" align="right" width="80">](https://www.hyperledger.org/projects/fabric)
 *  [Ethereum white paper](https://github.com/ethereum/wiki/wiki/White-Paper)
 *  [Ethereum wiki](https://github.com/ethereum/wiki/wiki)
 *  [Ethereum problems](https://github.com/ethereum/wiki/wiki/Problems)
