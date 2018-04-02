@@ -14,10 +14,13 @@ The repository will be continually updated.
 
 ## Basic Introduction
 基础概念和原理介绍
+*  [数字加密相关知识](./Basic/crypto.md)
 
 ## Further Extesnsion
-相关补充与扩展书籍
+### Books
 *  [区块链技术指南](https://yeasy.gitbooks.io/blockchain_guide/content/)
+*  [区块链原理、设计与应用](https://github.com/yjjnls/books/blob/master/block%20chain/%E5%8C%BA%E5%9D%97%E9%93%BE%E5%8E%9F%E7%90%86%E3%80%81%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%BA%94%E7%94%A8.pdf)
+*  [区块链 从数字货币到信用社会](https://github.com/yjjnls/books/blob/master/block%20chain/%E5%8C%BA%E5%9D%97%E9%93%BE%20%E4%BB%8E%E6%95%B0%E5%AD%97%E8%B4%A7%E5%B8%81%E5%88%B0%E4%BF%A1%E7%94%A8%E7%A4%BE%E4%BC%9A.pdf)
 
 ## Development Tutorial
 ### BitCoin 
@@ -39,7 +42,8 @@ The repository will be continually updated.
 ## Releated Tools
 深入学习
 ### Solidity
-### 
+### truffle
+### web3.js
 
 ## Projects and Applications
 
