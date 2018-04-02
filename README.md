@@ -30,7 +30,7 @@ The repository will be continually updated.
 
 ### Ethereum
 [<img src="https://github.com/yjjnls/Notes/blob/master/img/ethereum.png" align="right" width="80">](https://www.hyperledger.org/projects/fabric)
-*  [Ethereum white paper](https://github.com/ethereum/wiki/wiki/White-Paper)
+*  [Ethereum white paper](https://github.com/ethereum/wiki/wiki/White-Paper) / [以太坊白皮书](./Ethereum/white%20paper.md)
 *  [Ethereum wiki](https://github.com/ethereum/wiki/wiki)
 *  [Ethereum problems](https://github.com/ethereum/wiki/wiki/Problems)
 
