@@ -82,7 +82,7 @@ B可以每次都到CA的网站上（或者什么别的官方途径）获得CA的
 默克尔树，又叫哈希树，由一个root节点，一组中间节点和一组叶节点组成。  
 叶节点包含存储数据或者其哈希值，中间节点和root节点都是其孩子的hash值。  
 
-![markle tree](./img/markle%20tree.jpg)
+![markle tree](https://github.com/yjjnls/Notes/blob/master/block%20chain/Basic/img/markle%20tree.jpg)
 
 应用：
 1\.  快速比较数据，两个默克尔树的根节点相同，那么其所代表的数据必然相同
