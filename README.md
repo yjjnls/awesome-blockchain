@@ -25,7 +25,7 @@ The repository will be continually updated.
 ## Development Tutorial
 ### [BitCoin](https://github.com/bitcoin/bitcoin) 
 [<img src="https://bitcoin.org/img/icons/logotop.svg" align="right" width="120">](https://bitcoin.org/zh_CN/)
-*  [BitCoin white paper](https://bitcoin.org/bitcoin.pdf) / [比特币白皮书](http://www.8btc.com/wiki/bitcoin-a-peer-to-peer-electronic-cash-system)
+*  [BitCoin white paper](https://bitcoin.org/bitcoin.pdf) / [比特币白皮书](BitCoin/white%20paper.md)
 *  [Mastering BitCoin](https://github.com/bitcoinbook/bitcoinbook) / [精通比特币](http://zhibimo.com/read/wang-miao/mastering-bitcoin/index.html)
 
 ### Ethereum
