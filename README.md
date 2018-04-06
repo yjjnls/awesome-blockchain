@@ -23,8 +23,8 @@ The repository will be continually updated.
 *  [区块链 从数字货币到信用社会](https://github.com/yjjnls/books/blob/master/block%20chain/%E5%8C%BA%E5%9D%97%E9%93%BE%20%E4%BB%8E%E6%95%B0%E5%AD%97%E8%B4%A7%E5%B8%81%E5%88%B0%E4%BF%A1%E7%94%A8%E7%A4%BE%E4%BC%9A.pdf)
 
 ## Development Tutorial
-### BitCoin 
-[<img src="https://bitcoin.org/img/icons/logotop.svg" align="right" width="120">](https://www.hyperledger.org/projects/fabric)
+### [BitCoin](https://github.com/bitcoin/bitcoin) 
+[<img src="https://bitcoin.org/img/icons/logotop.svg" align="right" width="120">](https://bitcoin.org/zh_CN/)
 *  [BitCoin white paper](https://bitcoin.org/bitcoin.pdf) / [比特币白皮书](http://www.8btc.com/wiki/bitcoin-a-peer-to-peer-electronic-cash-system)
 *  [Mastering BitCoin](https://github.com/bitcoinbook/bitcoinbook) / [精通比特币](http://zhibimo.com/read/wang-miao/mastering-bitcoin/index.html)
 
