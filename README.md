@@ -15,6 +15,11 @@ The repository will be continually updated.
 ## Basic Introduction
 基础概念和原理介绍
 *  [数字加密相关知识](./Basic/crypto.md)
+- [ ] 共识算法介绍
+- [ ] 比特币基础知识
+- [ ] 以太坊基础知识
+- [ ] 数字交易所基础知识
+- [ ] 应用与思考
 
 ## Further Extesnsion
 ### Books
@@ -46,18 +51,27 @@ The repository will be continually updated.
 ### web3.js
 
 ## Projects and Applications
+### Monero
 
-[<img src="https://avatars3.githubusercontent.com/u/22163706?s=200&v=4" align="right" width="40">](https://github.com/mvs-org/metaverse)
+### IOTA
+
+### EOS
+
+<!-- [<img src="https://avatars2.githubusercontent.com/u/10536621?s=200&v=4" align="right" width="40">](https://github.com/ipfs/ipfs) -->
+### IFPS
+
+
+<!-- [<img src="https://avatars3.githubusercontent.com/u/22163706?s=200&v=4" align="right" width="40">](https://github.com/mvs-org/metaverse)
 ### Metaverse
 元界链
 
 
 [<img src="https://avatars0.githubusercontent.com/u/28505705?s=200&v=4" align="right" width="40">](https://github.com/Bytom/bytom)
 ### BYTOM 
-比原链
+比原链 -->
 
-[<img src="https://avatars2.githubusercontent.com/u/10536621?s=200&v=4" align="right" width="40">](https://github.com/ipfs/ipfs)
-### IFPS
+
+
 
 ## Contribute
 
