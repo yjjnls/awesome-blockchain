@@ -16,6 +16,7 @@ The repository will be continually updated.
 基础概念和原理介绍
 *  [数字加密相关知识](./Basic/crypto.md)
 - [ ] 共识算法介绍
+*  [账户模型](./Basic/account.md)
 - [ ] 比特币基础知识
 - [ ] 以太坊基础知识
 - [ ] 数字交易所基础知识
