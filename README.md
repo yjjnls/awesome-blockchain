@@ -21,6 +21,7 @@ The repository will be continually updated.
 - [ ] 以太坊基础知识
 - [ ] 数字交易所基础知识
 - [ ] 应用与思考
+* [数字货币排行](https://coinmarketcap.com/)
 
 ## Further Extesnsion
 ### Books
