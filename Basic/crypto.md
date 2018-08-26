@@ -98,3 +98,4 @@ B可以每次都到CA的网站上（或者什么别的官方途径）获得CA的
 # Reference
 1. [数字签名是什么？](http://www.ruanyifeng.com/blog/2011/08/what_is_a_digital_signature.html)
 2. [比特币背后的密码学原理](https://www.jianshu.com/p/225ff9439132)
+3. [《区块链原理设计与应用》第5章：密码学与安全技术](https://github.com/yjjnls/books/blob/master/block%20chain/%E5%8C%BA%E5%9D%97%E9%93%BE%E5%8E%9F%E7%90%86%E3%80%81%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%BA%94%E7%94%A8.pdf)
