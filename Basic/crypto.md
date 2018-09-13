@@ -23,6 +23,8 @@
 
 公开密钥算法总是要基于一个数学上的难题。比如RSA 依据的是：给定两个素数p、q 很容易相乘得到n，而对n进行因式分解却相对困难。那椭圆曲线上有什么难题呢？
 
+![Trapdoor function](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Trapdoor_permutation.svg/300px-Trapdoor_permutation.svg.png)
+
 考虑如下等式：  
 
     K=kG  [其中 K,G为Ep(a,b)上的点，k为小于n（n是点G的阶）的整数]  
@@ -99,3 +101,5 @@ B可以每次都到CA的网站上（或者什么别的官方途径）获得CA的
 1. [数字签名是什么？](http://www.ruanyifeng.com/blog/2011/08/what_is_a_digital_signature.html)
 2. [比特币背后的密码学原理](https://www.jianshu.com/p/225ff9439132)
 3. [《区块链原理设计与应用》第5章：密码学与安全技术](https://github.com/yjjnls/books/blob/master/block%20chain/%E5%8C%BA%E5%9D%97%E9%93%BE%E5%8E%9F%E7%90%86%E3%80%81%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%BA%94%E7%94%A8.pdf)
+4. [Secure Hash Algorithms](https://en.wikipedia.org/wiki/Secure_Hash_Algorithms)
+5. [Digital Signature Algorithm](https://en.wikipedia.org/wiki/Digital_Signature_Algorithm)
