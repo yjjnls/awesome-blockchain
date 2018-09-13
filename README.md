@@ -1,4 +1,5 @@
-# Awesome Blockchain [![Awesome](https://awesome.re/badge.svg)](https://github.com/yjjnls/awesome-blockchain)
+# Awesome Blockchain 
+[![Awesome](https://awesome.re/badge.svg)](https://github.com/yjjnls/awesome-blockchain)
 >Curated list of resources for the development and applications of block chain.
 
 The blockchain is an incorruptible digital ledger of economic transactions that can be programmed to record not just financial transactions but virtually everything of value (by [Don Tapscott](https://www.linkedin.com/pulse/whats-next-generation-internet-surprise-its-all-don-tapscott)).
@@ -7,13 +8,12 @@ The blockchain is an incorruptible digital ledger of economic transactions that 
 
 
 ## Contents
-- [Awesome Blockchain](#awesome-blockchain-awesomehttpsgithubcomyjjnlsawesome-blockchain)
+- [Awesome Blockchain](#awesome-blockchain)
     - [Contents](#contents)
     - [Frequently Asked Questions (F.A.Q.s) & Answers](#frequently-asked-questions-faqs--answers)
     - [Basic Introduction](#basic-introduction)
     - [Further Extesnsion](#further-extesnsion)
         - [Books](#books)
-        - [Talk Notes](#talk-notes)
     - [Development Tutorial](#development-tutorial)
         - [BitCoin](#bitcoin)
         - [Ethereum](#ethereum)
@@ -108,16 +108,15 @@ A: Yes, every branch in the git repo is a blockchain.
 The "classic" Satoshi-blockchain is like a git repo with a single master branch (only).
 
 ## Basic Introduction
-基础概念和原理介绍
-*  [数字加密相关知识](./Basic/crypto.md)
-- [ ] 共识算法介绍
-*  [账户与交易模型](./Basic/account.md)
-- [ ] 比特币基础知识
-- [ ] 以太坊基础知识
-- [ ] 链上治理
-- [ ] 数字交易所基础知识
-- [ ] 应用与思考
-* [数字货币排行](https://coinmarketcap.com/)
+*  [Encryption](./Basic/crypto.md)  数字加密相关知识
+- [ ] [Consensus]()  共识算法详解
+*  [Account and transaction model](./Basic/account.md)  账户与交易模型
+- [ ] [Bitcoin basics]()  比特币基础知识
+- [ ] [Ethereum basics]()  以太坊基础知识
+<!-- - [ ] []()链上治理 -->
+- [ ] [Exchange]()  数字交易所基础知识
+- [ ] [Application]()  应用与思考：区块链不能做什么？
+* [Digital currency ranking](https://coinmarketcap.com/)  数字货币排行
 
 ## Further Extesnsion
 ### Books
@@ -257,12 +256,6 @@ Block format •
 Genesis block ++
 References_
 
-### Talk Notes
-
-- [**Blockchain! Blockchain! Blockchain! - Build Your Own Blockchains in JavaScript from Zero (Scratch)**](https://github.com/geraldb/talks/blob/master/blockchain.md) by Gerald Bauer, Vienna.js, September 2017
-- [**Blockchain! Blockchain! Blockchain! - Build Your Own Blockchains in Ruby from Zero (Scratch)**](https://github.com/geraldb/talks/blob/master/blockchain_ruby.md) by Gerald Bauer, Vienna.rb, Dezember 2017
-- [**Blockchain vs (Hyper) Ledger -- Inside (Hyper) Ledger Lite - Add Transactions One Block at a Time and Balance the Accounts (Books)**](https://github.com/geraldb/talks/blob/master/hyperledger.md) by Gerald Bauer, Hyperledger Vienna, March 2018
-- [**Blockchain! Blockchain! Blockchain! - Build Your Own Blockchains in Go from Zero (Scratch)**](https://github.com/geraldb/talks/blob/master/blockchain_go.md) by Gerald Bauer, Vienna.go, April 2018
 
 ## Development Tutorial
 ### [BitCoin](https://github.com/bitcoin/bitcoin) 
@@ -282,7 +275,6 @@ References_
 
 
 ## Releated Tools
-深入学习
 ### Solidity
 ### truffle
 ### web3.js
