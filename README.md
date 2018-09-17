@@ -123,7 +123,7 @@ The "classic" Satoshi-blockchain is like a git repo with a single master branch 
 - [ ] [Ethereum basics]()  以太坊基础知识
 <!-- - [ ] []()链上治理 -->
 - [ ] [Exchange]()  数字交易所基础知识
-- [ ] [Application]()  应用与思考：区块链不能做什么？
+- [ ] [Application](./Basic/application.md)  应用与思考：区块链不能做什么？
 * [Digital currency ranking](https://coinmarketcap.com/)  数字货币排行
 
 ## Further Extesnsion
