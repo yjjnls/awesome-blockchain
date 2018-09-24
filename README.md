@@ -14,7 +14,7 @@ The blockchain is an incorruptible digital ledger of economic transactions that 
     -   [Contents](#contents)
     -   [Frequently Asked Questions (F.A.Q.s) & Answers](#frequently-asked-questions-faqs--answers)
     -   [Basic Introduction](#basic-introduction)
-    -   [Further Extesnsion](#further-extesnsion)
+    -   [Further Extension](#further-extesnsion)
         -   [Books](#books)
         -   [Applications](#applications)
             -   [Identity Applications](#identity-applications)
@@ -125,12 +125,12 @@ The "classic" Satoshi-blockchain is like a git repo with a single master branch 
 -   [ ] [Ethereum basics](<>)  以太坊基础知识
     <!-- - [ ] []()链上治理 -->
 -   [ ] [Exchange](<>)  数字交易所基础知识
--   [ ] [Application](./application.md)  应用与思考
+-   [ ] [Application](./Extension/application.md)  应用与思考
 
 
 -   [Digital currency ranking](https://coinmarketcap.com/)  数字货币排行
 
-## Further Extesnsion
+## Further Extension
 
 ### Books
 
