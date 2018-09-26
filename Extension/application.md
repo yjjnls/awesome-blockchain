@@ -1,4 +1,4 @@
--   [区块链不能做什么？](./Basic/application.md)
+-   [区块链不能做什么？](https://www.jianshu.com/p/70f6a29a6296)
 
 -   [为什么在以太坊上构建项目注定会失败？](https://www.jianshu.com/p/91c4178616fb)
 
