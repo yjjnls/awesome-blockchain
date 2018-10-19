@@ -44,26 +44,26 @@ The blockchain is an incorruptible digital ledger of economic transactions that 
 **Q: What's a Blockchain?**
 
 A: A blockchain is a distributed database with a list (that is, chain) of records (that is, blocks) linked and secured by
-digital fingerprints (that is, cryptho hashes).
+digital fingerprints (that is, crypto hashes).
 Example from [`blockchain.rb`](https://github.com/openblockchains/awesome-blockchains/blob/master/blockchain.rb/blockchain.rb):
-
-    [#<Block:0x1eed2a0
-      @timestamp     = 1637-09-15 20:52:38,
-      @data          = "Genesis",
-      @previous_hash = "0000000000000000000000000000000000000000000000000000000000000000",
-      @hash          = "edbd4e11e69bc399a9ccd8faaea44fb27410fe8e3023bb9462450a0a9c4caa1b">,
-     #<Block:0x1eec9a0
-      @timestamp     = 1637-09-15 21:02:38,
-      @data          = "Transaction Data...",
-      @previous_hash = "edbd4e11e69bc399a9ccd8faaea44fb27410fe8e3023bb9462450a0a9c4caa1b",
-      @hash          = "eb8ecbf6d5870763ae246e37539d82e37052cb32f88bb8c59971f9978e437743">,
-     #<Block:0x1eec838
-      @timestamp     = 1637-09-15 21:12:38,
-      @data          = "Transaction Data......",
-      @previous_hash = "eb8ecbf6d5870763ae246e37539d82e37052cb32f88bb8c59971f9978e437743",
-      @hash          = "be50017ee4bbcb33844b3dc2b7c4e476d46569b5df5762d14ceba9355f0a85f4">,
-      ...
-
+```ruby
+[#<Block:0x1eed2a0
+    @timestamp     = 1637-09-15 20:52:38,
+    @data          = "Genesis",
+    @previous_hash = "0000000000000000000000000000000000000000000000000000000000000000",
+    @hash          = "edbd4e11e69bc399a9ccd8faaea44fb27410fe8e3023bb9462450a0a9c4caa1b">,
+    #<Block:0x1eec9a0
+    @timestamp     = 1637-09-15 21:02:38,
+    @data          = "Transaction Data...",
+    @previous_hash = "edbd4e11e69bc399a9ccd8faaea44fb27410fe8e3023bb9462450a0a9c4caa1b",
+    @hash          = "eb8ecbf6d5870763ae246e37539d82e37052cb32f88bb8c59971f9978e437743">,
+    #<Block:0x1eec838
+    @timestamp     = 1637-09-15 21:12:38,
+    @data          = "Transaction Data......",
+    @previous_hash = "eb8ecbf6d5870763ae246e37539d82e37052cb32f88bb8c59971f9978e437743",
+    @hash          = "be50017ee4bbcb33844b3dc2b7c4e476d46569b5df5762d14ceba9355f0a85f4">,
+    ...
+```
 ![](Basic/img/blockchain-jesus.png)
 
 **Q: What's a Hash? What's a (One-Way) Crypto(graphic) Hash Digest Checksum**?
@@ -112,23 +112,15 @@ The "classic" Satoshi-blockchain is like a git repo with a single master branch 
 
 ## Basic Introduction
 
--   [Encryption](./Basic/crypto.md)  数字加密相关知识
-
-
--   [ ] [Consensus](<>)  共识算法详解
-
-
--   [Account and transaction model](./Basic/account.md)  账户与交易模型
-
-
--   [ ] [Bitcoin basics](<>)  比特币基础知识
--   [ ] [Ethereum basics](<>)  以太坊基础知识
+-   [Encryption](./Basic/crypto.md)  
+-   [ ] [Consensus](<>)  
+-   [Account and transaction model](./Basic/account.md)  
+-   [ ] [Bitcoin basics](<>)  
+-   [ ] [Ethereum basics](<>)  
     <!-- - [ ] []()链上治理 -->
--   [ ] [Exchange](<>)  数字交易所基础知识
--   [ ] [Application](./Extension/application.md)  应用与思考
-
-
--   [Digital currency ranking](https://coinmarketcap.com/)  数字货币排行
+-   [ ] [Exchange](<>)  
+-   [ ] [Application](./Extension/application.md) 
+-   [Digital currency ranking](https://coinmarketcap.com/)  
 
 ## Further Extension
 
