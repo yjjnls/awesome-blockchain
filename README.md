@@ -14,6 +14,13 @@ The blockchain is an incorruptible digital ledger of economic transactions that 
     - [Contents](#contents)
     - [Frequently Asked Questions (F.A.Q.s) & Answers](#frequently-asked-questions-faqs--answers)
     - [Basic Introduction](#basic-introduction)
+        - [Encryption knowledge](#encryption-knowledge)
+        - [Consensus](#consensus)
+        - [Exchange](#exchange)
+        - [Applications](#applications)
+            - [Whys: do we need a blockchain?](#whys-do-we-need-a-blockchain)
+            - [Hows: how to use blockchain?](#hows-how-to-use-blockchain)
+        - [Digital currency ranking](#digital-currency-ranking)
     - [Further Extension](#further-extension)
         - [Books](#books)
         - [Applications](#applications)
@@ -114,15 +121,20 @@ The "classic" Satoshi-blockchain is like a git repo with a single master branch 
 
 ## Basic Introduction
 
--   [Encryption](./Basic/crypto.md)  
--   [ ] [Consensus](<>)  
+### [Encryption knowledge](./Basic/crypto.md)  
+### Consensus
+### Exchange
+### Applications
+#### [Whys: do we need a blockchain?](https://github.com/yjjnls/awesome-blockchain/blob/master/Extension/application.md#whys)
+#### [Hows: how to use blockchain?](https://github.com/yjjnls/awesome-blockchain/blob/master/Extension/application.md#hows)
+<!-- -   [ ] [Consensus](<>)  
 -   [Account and transaction model](./Basic/account.md)  
 -   [ ] [Bitcoin basics](<>)  
 -   [ ] [Ethereum basics](<>)  
-    <!-- - [ ] []()链上治理 -->
+    - [ ] []()链上治理
 -   [ ] [Exchange](<>)  
--   [Applications](./Extension/application.md) 
--   [Digital currency ranking](https://coinmarketcap.com/)  
+-   [Applications](./Extension/application.md)  -->
+### [Digital currency ranking](https://coinmarketcap.com/)  
 
 ## Further Extension
 
