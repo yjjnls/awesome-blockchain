@@ -142,7 +142,7 @@ The "classic" Satoshi-blockchain is like a git repo with a single master branch 
 
 -   [区块链技术指南](https://yeasy.gitbooks.io/blockchain_guide/content/)
 -   [区块链原理、设计与应用](https://github.com/yjjnls/books/blob/master/block%20chain/%E5%8C%BA%E5%9D%97%E9%93%BE%E5%8E%9F%E7%90%86%E3%80%81%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%BA%94%E7%94%A8.pdf)
--   [区块链 从数字货币到信用社会](https://github.com/yjjnls/books/blob/master/block%20chain/%E5%8C%BA%E5%9D%97%E9%93%BE%20%E4%BB%8E%E6%95%B0%E5%AD%97%E8%B4%A7%E5%B8%81%E5%88%B0%E4%BF%A1%E7%94%A8%E7%A4%BE%E4%BC%9A.pdf)
+-   [**Blockchain: from Digital Currency to Credit Society**](https://github.com/yjjnls/books/blob/master/block%20chain/%E5%8C%BA%E5%9D%97%E9%93%BE%20%E4%BB%8E%E6%95%B0%E5%AD%97%E8%B4%A7%E5%B8%81%E5%88%B0%E4%BF%A1%E7%94%A8%E7%A4%BE%E4%BC%9A.pdf)
 -   [**Attack of the 50 Foot Blockchain: Bitcoin, Blockchain, Ethereum & Smart Contracts**](https://davidgerard.co.uk/blockchain/table-of-contents/) by David Gerard, London, 2017 --
     _What is a bitcoin? ++
     The Bitcoin ideology ++
@@ -157,7 +157,7 @@ The "classic" Satoshi-blockchain is like a git repo with a single master branch 
     Business bafflegab, but on the Blockchain ++
     Case study: Why you can’t put the music industry on a blockchain_
 
--   [**Mastering Bitcoin - Programming the Open Blockchain**](https://github.com/bitcoinbook/bitcoinbook/blob/second_edition/ch09.asciidoc) 2nd Edition,
+-   [**Mastering Bitcoin - Programming the Open Blockchain**](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch09.asciidoc) 2nd Edition,
     by Andreas M. Antonopoulos, 2017 - FREE (Online Source Version) --
     _What Is Bitcoin? ++
     How Bitcoin Works ++
@@ -333,8 +333,8 @@ The "classic" Satoshi-blockchain is like a git repo with a single master branch 
 
 [<img src="https://bitcoin.org/img/icons/logotop.svg" align="right" width="120">](https://bitcoin.org/zh_CN/)
 
--   [BitCoin white paper](https://bitcoin.org/bitcoin.pdf) / [比特币白皮书](BitCoin/white%20paper.md)
--   [Mastering BitCoin](https://github.com/bitcoinbook/bitcoinbook) / [精通比特币](http://zhibimo.com/read/wang-miao/mastering-bitcoin/index.html)
+-   [BitCoin white paper](https://bitcoin.org/bitcoin.pdf) / [Chinese version](BitCoin/white%20paper.md)
+-   [Mastering BitCoin](https://github.com/bitcoinbook/bitcoinbook) / [Chinese version](http://book.8btc.com/books/6/masterbitcoin2cn/_book/)/ [pdf download](http://book.8btc.com/master_bitcoin?export=pdf)
 
 ### Ethereum
 
