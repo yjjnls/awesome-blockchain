@@ -23,7 +23,7 @@ The blockchain is an incorruptible digital ledger of economic transactions that 
         - [Digital currency ranking](#digital-currency-ranking)
     - [Further Extension](#further-extension)
         - [Books](#books)
-        - [Applications](#applications)
+        - [Applications](#applications-1)
             - [Identity Applications](#identity-applications)
                 - [Public Blockchain Identity](#public-blockchain-identity)
                 - [Blockchain as a collateral](#blockchain-as-a-collateral)
@@ -31,6 +31,7 @@ The blockchain is an incorruptible digital ledger of economic transactions that 
                 - [Guidance](#guidance)
             - [Internet of Things Applications](#internet-of-things-applications)
             - [Energy Applications](#energy-applications)
+            - [Media and Journalism](#media-and-journalism)
     - [Development Tutorial](#development-tutorial)
         - [BitCoin](#bitcoin)
         - [Ethereum](#ethereum)
@@ -326,6 +327,13 @@ The "classic" Satoshi-blockchain is like a git repo with a single master branch 
 -   [PowerPeers](https://www.powerpeers.nl/) - Peer-to-peer energy marketplace in the Netherlands.
 -   [Solar Change](http://www.solarchange.co/) - Makers of [Solar Coin](http://solarcoin.org/). AltCoin for a MW of solar power.
 -   [Terraledger](https://terraledger.com) - Provider of Renewable Energy Certificates.
+-   [ImpactPPA](https://impactppa.com) - Reinvesting of power generated under Power Purchase Agreement in more PPAs.
+
+#### Media and Journalism
+-   [Steem](https://steem.io) - Decentralized social network which incentivises content creation and curation.
+-   [PopChest](https://popchest.com) - Incentivized distributed video platform.
+-   [Civil](https://joincivil.com) - Decentralized newsmaking platform. 
+
 
 ## Development Tutorial
 
@@ -334,7 +342,8 @@ The "classic" Satoshi-blockchain is like a git repo with a single master branch 
 [<img src="https://bitcoin.org/img/icons/logotop.svg" align="right" width="120">](https://bitcoin.org/zh_CN/)
 
 -   [BitCoin white paper](https://bitcoin.org/bitcoin.pdf) / [Chinese version](BitCoin/white%20paper.md)
--   [Mastering BitCoin](https://github.com/bitcoinbook/bitcoinbook) / [Chinese version](http://book.8btc.com/books/6/masterbitcoin2cn/_book/)/ [pdf download](http://book.8btc.com/master_bitcoin?export=pdf)
+-   [Mastering BitCoin](https://github.com/bitcoinbook/bitcoinbook) / [Chinese version](http://book.8btc.com/books/6/masterbitcoin2cn/_book/) / [pdf download](http://book.8btc.com/master_bitcoin?export=pdf)
+-   [More](./BitCoin/awesome.md)
 
 ### Ethereum
 
