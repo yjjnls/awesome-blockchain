@@ -35,7 +35,9 @@ The blockchain is an incorruptible digital ledger of economic transactions that 
     - [Development Tutorial](#development-tutorial)
         - [BitCoin](#bitcoin)
         - [Ethereum](#ethereum)
-        - [Fabric](#fabric)
+        - [Consortium Blockchain](#consortium-blockchain)
+            - [Fabric](#fabric)
+            - [FISCO-BCOS](#fisco-bcos)
     - [Releated Tools](#releated-tools)
         - [Solidity](#solidity)
         - [truffle](#truffle)
@@ -141,8 +143,8 @@ The "classic" Satoshi-blockchain is like a git repo with a single master branch 
 
 ### Books
 
--   [区块链技术指南](https://yeasy.gitbooks.io/blockchain_guide/content/)
--   [区块链原理、设计与应用](https://github.com/yjjnls/books/blob/master/block%20chain/%E5%8C%BA%E5%9D%97%E9%93%BE%E5%8E%9F%E7%90%86%E3%80%81%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%BA%94%E7%94%A8.pdf)
+-   [区块链技术指南](https://yeasy.gitbooks.io/blockchain_guide/content/) by Baohua Yang, 2017
+<!-- -   [区块链原理、设计与应用](https://github.com/yjjnls/books/blob/master/block%20chain/%E5%8C%BA%E5%9D%97%E9%93%BE%E5%8E%9F%E7%90%86%E3%80%81%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%BA%94%E7%94%A8.pdf) -->
 -   [**Blockchain: from Digital Currency to Credit Society**](https://github.com/yjjnls/books/blob/master/block%20chain/%E5%8C%BA%E5%9D%97%E9%93%BE%20%E4%BB%8E%E6%95%B0%E5%AD%97%E8%B4%A7%E5%B8%81%E5%88%B0%E4%BF%A1%E7%94%A8%E7%A4%BE%E4%BC%9A.pdf)
 -   [**Attack of the 50 Foot Blockchain: Bitcoin, Blockchain, Ethereum & Smart Contracts**](https://davidgerard.co.uk/blockchain/table-of-contents/) by David Gerard, London, 2017 --
     _What is a bitcoin? ++
@@ -353,9 +355,16 @@ The "classic" Satoshi-blockchain is like a git repo with a single master branch 
 -   [Ethereum wiki](https://github.com/ethereum/wiki/wiki)
 -   [Ethereum problems](https://github.com/ethereum/wiki/wiki/Problems)
 
-### Fabric
+### Consortium Blockchain
+-   [Is consortium blockchain better?](http://www.infoq.com/cn/news/2018/10/is-consortium-blockchain-better)   
+-   [5 consortium blockchain comparison](http://www.infoq.com/cn/articles/5-consortium-blockchain-comparison)    
+-   [FISCO BCOS vs Fabric](http://www.infoq.com/cn/news/2018/09/uncover-consortium-blockchain)   
+
+#### Fabric
 
 [<img src="https://www.hyperledger.org/wp-content/uploads/2018/03/Hyperledger_Fabric_Logo_Color.png" align="right" width="120">](https://www.hyperledger.org/projects/fabric)
+
+#### [FISCO-BCOS](https://github.com/FISCO-BCOS/Wiki)
 
 ## Releated Tools
 
