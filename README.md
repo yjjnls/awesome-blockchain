@@ -18,20 +18,8 @@ The blockchain is an incorruptible digital ledger of economic transactions that 
         - [Consensus](#consensus)
         - [Exchange](#exchange)
         - [Applications](#applications)
-            - [Whys: do we need a blockchain?](#whys-do-we-need-a-blockchain)
-            - [Hows: how to use blockchain?](#hows-how-to-use-blockchain)
+        - [Capacity expansion and chain governance](#capacity-expansion-and-chain-governance)
         - [Digital currency ranking](#digital-currency-ranking)
-    - [Further Extension](#further-extension)
-        - [Books](#books)
-        - [Applications](#applications-1)
-            - [Identity Applications](#identity-applications)
-                - [Public Blockchain Identity](#public-blockchain-identity)
-                - [Blockchain as a collateral](#blockchain-as-a-collateral)
-                - [Unclear](#unclear)
-                - [Guidance](#guidance)
-            - [Internet of Things Applications](#internet-of-things-applications)
-            - [Energy Applications](#energy-applications)
-            - [Media and Journalism](#media-and-journalism)
     - [Development Tutorial](#development-tutorial)
         - [BitCoin](#bitcoin)
         - [Ethereum](#ethereum)
@@ -47,8 +35,17 @@ The blockchain is an incorruptible digital ledger of economic transactions that 
         - [IOTA](#iota)
         - [EOS](#eos)
         - [IFPS](#ifps)
-        - [Metaverse](#metaverse)
-        - [BYTOM](#bytom)
+    - [Further Extension](#further-extension)
+        - [Books](#books)
+        - [Applications](#applications-1)
+            - [Identity Applications](#identity-applications)
+                - [Public Blockchain Identity](#public-blockchain-identity)
+                - [Blockchain as a collateral](#blockchain-as-a-collateral)
+                - [Unclear](#unclear)
+                - [Guidance](#guidance)
+            - [Internet of Things Applications](#internet-of-things-applications)
+            - [Energy Applications](#energy-applications)
+            - [Media and Journalism](#media-and-journalism)
     - [Contribute](#contribute)
 
 ## Frequently Asked Questions (F.A.Q.s) & Answers
@@ -125,11 +122,17 @@ The "classic" Satoshi-blockchain is like a git repo with a single master branch 
 ## Basic Introduction
 
 ### [Encryption knowledge](./Basic/crypto.md)  
+
 ### Consensus
+
 ### Exchange
+
 ### Applications
-#### [Whys: do we need a blockchain?](https://github.com/yjjnls/awesome-blockchain/blob/master/Extension/application.md#whys)
-#### [Hows: how to use blockchain?](https://github.com/yjjnls/awesome-blockchain/blob/master/Extension/application.md#hows)
+-   [Do You Need a Blockchain?](https://spectrum.ieee.org/computing/networks/do-you-need-a-blockchain)   
+-   [What can't blockchain do?](https://www.jianshu.com/p/70f6a29a6296)   
+-   [More](./Extension/application.md)  
+
+### [Capacity expansion and chain governance](https://github.com/yfeng125/blockchain-tutorial/blob/master/doc/%E2%80%8B25.%E6%AF%94%E7%89%B9%E5%B8%81%EF%BC%9A%E6%89%A9%E5%AE%B9%E4%B9%8B%E4%BA%89%E3%80%81IFO%E4%B8%8E%E9%93%BE%E4%B8%8A%E6%B2%BB%E7%90%86.md)
 <!-- -   [ ] [Consensus](<>)  
 -   [Account and transaction model](./Basic/account.md)  
 -   [ ] [Bitcoin basics](<>)  
@@ -138,6 +141,57 @@ The "classic" Satoshi-blockchain is like a git repo with a single master branch 
 -   [ ] [Exchange](<>)  
 -   [Applications](./Extension/application.md)  -->
 ### [Digital currency ranking](https://coinmarketcap.com/)  
+
+
+## Development Tutorial
+
+### [BitCoin](https://github.com/bitcoin/bitcoin)
+
+[<img src="https://bitcoin.org/img/icons/logotop.svg" align="right" width="120">](https://bitcoin.org/zh_CN/)
+
+-   [BitCoin white paper](https://bitcoin.org/bitcoin.pdf) / [Chinese version](BitCoin/white%20paper.md)
+-   [Mastering BitCoin](https://github.com/bitcoinbook/bitcoinbook) / [Chinese version](http://book.8btc.com/books/6/masterbitcoin2cn/_book/) / [pdf download](http://book.8btc.com/master_bitcoin?export=pdf)
+-   [More](./BitCoin/awesome.md)
+
+### Ethereum
+
+[<img src="https://github.com/yjjnls/Notes/blob/master/img/ethereum.png" align="right" width="80">](https://www.hyperledger.org/projects/fabric)
+
+-   [Ethereum white paper](https://github.com/ethereum/wiki/wiki/White-Paper) / [以太坊白皮书](./Ethereum/white%20paper.md)
+-   [Ethereum wiki](https://github.com/ethereum/wiki/wiki)
+-   [Ethereum problems](https://github.com/ethereum/wiki/wiki/Problems)
+
+### Consortium Blockchain
+-   [Is consortium blockchain better?](http://www.infoq.com/cn/news/2018/10/is-consortium-blockchain-better)   
+-   [5 consortium blockchain comparison](http://www.infoq.com/cn/articles/5-consortium-blockchain-comparison) / [quick version](https://upload-images.jianshu.io/upload_images/11336404-f753396df0e930c8.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)    
+-   [FISCO BCOS vs Fabric](http://www.infoq.com/cn/news/2018/09/uncover-consortium-blockchain)   
+
+#### Fabric
+
+[<img src="https://www.hyperledger.org/wp-content/uploads/2018/03/Hyperledger_Fabric_Logo_Color.png" align="right" width="120">](https://www.hyperledger.org/projects/fabric)
+
+#### [FISCO-BCOS](https://github.com/FISCO-BCOS/Wiki)
+
+## Releated Tools
+
+### Solidity
+
+### truffle
+
+### web3.js
+
+## Projects and Applications
+
+### Monero
+
+### IOTA
+
+### EOS
+
+<!-- [<img src="https://avatars2.githubusercontent.com/u/10536621?s=200&v=4" align="right" width="40">](https://github.com/ipfs/ipfs) -->
+
+### IFPS
+
 
 ## Further Extension
 
@@ -335,65 +389,6 @@ The "classic" Satoshi-blockchain is like a git repo with a single master branch 
 -   [Steem](https://steem.io) - Decentralized social network which incentivises content creation and curation.
 -   [PopChest](https://popchest.com) - Incentivized distributed video platform.
 -   [Civil](https://joincivil.com) - Decentralized newsmaking platform. 
-
-
-## Development Tutorial
-
-### [BitCoin](https://github.com/bitcoin/bitcoin)
-
-[<img src="https://bitcoin.org/img/icons/logotop.svg" align="right" width="120">](https://bitcoin.org/zh_CN/)
-
--   [BitCoin white paper](https://bitcoin.org/bitcoin.pdf) / [Chinese version](BitCoin/white%20paper.md)
--   [Mastering BitCoin](https://github.com/bitcoinbook/bitcoinbook) / [Chinese version](http://book.8btc.com/books/6/masterbitcoin2cn/_book/) / [pdf download](http://book.8btc.com/master_bitcoin?export=pdf)
--   [More](./BitCoin/awesome.md)
-
-### Ethereum
-
-[<img src="https://github.com/yjjnls/Notes/blob/master/img/ethereum.png" align="right" width="80">](https://www.hyperledger.org/projects/fabric)
-
--   [Ethereum white paper](https://github.com/ethereum/wiki/wiki/White-Paper) / [以太坊白皮书](./Ethereum/white%20paper.md)
--   [Ethereum wiki](https://github.com/ethereum/wiki/wiki)
--   [Ethereum problems](https://github.com/ethereum/wiki/wiki/Problems)
-
-### Consortium Blockchain
--   [Is consortium blockchain better?](http://www.infoq.com/cn/news/2018/10/is-consortium-blockchain-better)   
--   [5 consortium blockchain comparison](http://www.infoq.com/cn/articles/5-consortium-blockchain-comparison)    
--   [FISCO BCOS vs Fabric](http://www.infoq.com/cn/news/2018/09/uncover-consortium-blockchain)   
-
-#### Fabric
-
-[<img src="https://www.hyperledger.org/wp-content/uploads/2018/03/Hyperledger_Fabric_Logo_Color.png" align="right" width="120">](https://www.hyperledger.org/projects/fabric)
-
-#### [FISCO-BCOS](https://github.com/FISCO-BCOS/Wiki)
-
-## Releated Tools
-
-### Solidity
-
-### truffle
-
-### web3.js
-
-## Projects and Applications
-
-### Monero
-
-### IOTA
-
-### EOS
-
-<!-- [<img src="https://avatars2.githubusercontent.com/u/10536621?s=200&v=4" align="right" width="40">](https://github.com/ipfs/ipfs) -->
-
-### IFPS
-
-<!-- [<img src="https://avatars3.githubusercontent.com/u/22163706?s=200&v=4" align="right" width="40">](https://github.com/mvs-org/metaverse)
-### Metaverse
-元界链
-
-
-[<img src="https://avatars0.githubusercontent.com/u/28505705?s=200&v=4" align="right" width="40">](https://github.com/Bytom/bytom)
-### BYTOM 
-比原链 -->
 
 ## Contribute
 
