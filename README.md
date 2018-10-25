@@ -16,6 +16,7 @@ The blockchain is an incorruptible digital ledger of economic transactions that 
     - [Basic Introduction](#basic-introduction)
         - [Encryption knowledge](#encryption-knowledge)
         - [Consensus](#consensus)
+        - [Account and transaction model](#account-and-transaction-model)
         - [Exchange](#exchange)
         - [Applications](#applications)
         - [Capacity expansion and chain governance](#capacity-expansion-and-chain-governance)
@@ -55,6 +56,7 @@ The blockchain is an incorruptible digital ledger of economic transactions that 
 A: A blockchain is a distributed database with a list (that is, chain) of records (that is, blocks) linked and secured by
 digital fingerprints (that is, crypto hashes).
 Example from [`blockchain.rb`](https://github.com/openblockchains/awesome-blockchains/blob/master/blockchain.rb/blockchain.rb):
+
 ```ruby
 [#<Block:0x1eed2a0
     @timestamp     = 1637-09-15 20:52:38,
@@ -73,6 +75,7 @@ Example from [`blockchain.rb`](https://github.com/openblockchains/awesome-blockc
     @hash          = "be50017ee4bbcb33844b3dc2b7c4e476d46569b5df5762d14ceba9355f0a85f4">,
     ...
 ```
+
 ![](Basic/img/blockchain-jesus.png)
 
 **Q: What's a Hash? What's a (One-Way) Crypto(graphic) Hash Digest Checksum**?
@@ -120,19 +123,39 @@ A: Yes, every branch in the git repo is a blockchain.
 The "classic" Satoshi-blockchain is like a git repo with a single master branch (only).
 
 ## Basic Introduction
+<!--    
+### Encryption knowledge
+   -->
+-   **[Encryption knowledge](./Basic/crypto.md)**  
 
-### [Encryption knowledge](./Basic/crypto.md)  
-
+<!--   
 ### Consensus
-
+   -->
+-   **Consensus**
+<!--    
+### Account and transaction model
+   -->
+-   **Account and transaction model**
+<!-- 
 ### Exchange
-
+    -->
+-   **Exchange**
+<!-- 
 ### Applications
--   [Do You Need a Blockchain?](https://spectrum.ieee.org/computing/networks/do-you-need-a-blockchain)   
--   [What can't blockchain do?](https://www.jianshu.com/p/70f6a29a6296)   
--   [More](./Extension/application.md)  
+    -->
+-   **Applications**
+    -   [Do You Need a Blockchain?](https://spectrum.ieee.org/computing/networks/do-you-need-a-blockchain)   
+    -   [What can't blockchain do?](https://www.jianshu.com/p/70f6a29a6296)   
+    -   [More](./Extension/application.md) 
+<!--     
+### Capacity expansion and chain governance
+    -->
+-   **[Capacity expansion and chain governance](https://github.com/yfeng125/blockchain-tutorial/blob/master/doc/%E2%80%8B25.%E6%AF%94%E7%89%B9%E5%B8%81%EF%BC%9A%E6%89%A9%E5%AE%B9%E4%B9%8B%E4%BA%89%E3%80%81IFO%E4%B8%8E%E9%93%BE%E4%B8%8A%E6%B2%BB%E7%90%86.md)**
+<!--     
+### Digital currency ranking
+    -->
+-   **[Digital currency ranking](https://coinmarketcap.com/)**
 
-### [Capacity expansion and chain governance](https://github.com/yfeng125/blockchain-tutorial/blob/master/doc/%E2%80%8B25.%E6%AF%94%E7%89%B9%E5%B8%81%EF%BC%9A%E6%89%A9%E5%AE%B9%E4%B9%8B%E4%BA%89%E3%80%81IFO%E4%B8%8E%E9%93%BE%E4%B8%8A%E6%B2%BB%E7%90%86.md)
 <!-- -   [ ] [Consensus](<>)  
 -   [Account and transaction model](./Basic/account.md)  
 -   [ ] [Bitcoin basics](<>)  
@@ -140,8 +163,6 @@ The "classic" Satoshi-blockchain is like a git repo with a single master branch 
     - [ ] []()链上治理
 -   [ ] [Exchange](<>)  
 -   [Applications](./Extension/application.md)  -->
-### [Digital currency ranking](https://coinmarketcap.com/)  
-
 
 ## Development Tutorial
 
@@ -162,6 +183,7 @@ The "classic" Satoshi-blockchain is like a git repo with a single master branch 
 -   [Ethereum problems](https://github.com/ethereum/wiki/wiki/Problems)
 
 ### Consortium Blockchain
+
 -   [Is consortium blockchain better?](http://www.infoq.com/cn/news/2018/10/is-consortium-blockchain-better)   
 -   [5 consortium blockchain comparison](http://www.infoq.com/cn/articles/5-consortium-blockchain-comparison) / [quick version](https://upload-images.jianshu.io/upload_images/11336404-f753396df0e930c8.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)    
 -   [FISCO BCOS vs Fabric](http://www.infoq.com/cn/news/2018/09/uncover-consortium-blockchain)   
@@ -192,13 +214,12 @@ The "classic" Satoshi-blockchain is like a git repo with a single master branch 
 
 ### IFPS
 
-
 ## Further Extension
 
 ### Books
 
 -   [区块链技术指南](https://yeasy.gitbooks.io/blockchain_guide/content/) by Baohua Yang, 2017
-<!-- -   [区块链原理、设计与应用](https://github.com/yjjnls/books/blob/master/block%20chain/%E5%8C%BA%E5%9D%97%E9%93%BE%E5%8E%9F%E7%90%86%E3%80%81%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%BA%94%E7%94%A8.pdf) -->
+    <!-- -   [区块链原理、设计与应用](https://github.com/yjjnls/books/blob/master/block%20chain/%E5%8C%BA%E5%9D%97%E9%93%BE%E5%8E%9F%E7%90%86%E3%80%81%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%BA%94%E7%94%A8.pdf) -->
 -   [**Blockchain: from Digital Currency to Credit Society**](https://github.com/yjjnls/books/blob/master/block%20chain/%E5%8C%BA%E5%9D%97%E9%93%BE%20%E4%BB%8E%E6%95%B0%E5%AD%97%E8%B4%A7%E5%B8%81%E5%88%B0%E4%BF%A1%E7%94%A8%E7%A4%BE%E4%BC%9A.pdf)
 -   [**Attack of the 50 Foot Blockchain: Bitcoin, Blockchain, Ethereum & Smart Contracts**](https://davidgerard.co.uk/blockchain/table-of-contents/) by David Gerard, London, 2017 --
     _What is a bitcoin? ++
@@ -386,6 +407,7 @@ The "classic" Satoshi-blockchain is like a git repo with a single master branch 
 -   [ImpactPPA](https://impactppa.com) - Reinvesting of power generated under Power Purchase Agreement in more PPAs.
 
 #### Media and Journalism
+
 -   [Steem](https://steem.io) - Decentralized social network which incentivises content creation and curation.
 -   [PopChest](https://popchest.com) - Incentivized distributed video platform.
 -   [Civil](https://joincivil.com) - Decentralized newsmaking platform. 
