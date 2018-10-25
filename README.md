@@ -126,35 +126,36 @@ The "classic" Satoshi-blockchain is like a git repo with a single master branch 
 <!--    
 ### Encryption knowledge
    -->
--   **[Encryption knowledge](./Basic/crypto.md)**  
-
+**Encryption knowledge**    
+*   [Introduction](./Basic/crypto.md)
+*   Encryption in blockchain
 <!--   
 ### Consensus
    -->
--   **Consensus**
+**Consensus**  
 <!--    
 ### Account and transaction model
    -->
--   **Account and transaction model**
+**Account and transaction model**  
 <!-- 
 ### Exchange
     -->
--   **Exchange**
+**Exchange**  
 <!-- 
 ### Applications
     -->
--   **Applications**
-    -   [Do You Need a Blockchain?](https://spectrum.ieee.org/computing/networks/do-you-need-a-blockchain)   
-    -   [What can't blockchain do?](https://www.jianshu.com/p/70f6a29a6296)   
-    -   [More](./Extension/application.md) 
+**Applications**  
+-   [Do You Need a Blockchain?](https://spectrum.ieee.org/computing/networks/do-you-need-a-blockchain)   
+-   [What can't blockchain do?](https://www.jianshu.com/p/70f6a29a6296)   
+-   [More](./Extension/application.md) 
 <!--     
 ### Capacity expansion and chain governance
     -->
--   **[Capacity expansion and chain governance](https://github.com/yfeng125/blockchain-tutorial/blob/master/doc/%E2%80%8B25.%E6%AF%94%E7%89%B9%E5%B8%81%EF%BC%9A%E6%89%A9%E5%AE%B9%E4%B9%8B%E4%BA%89%E3%80%81IFO%E4%B8%8E%E9%93%BE%E4%B8%8A%E6%B2%BB%E7%90%86.md)**
+**[Capacity expansion and chain governance](https://github.com/yfeng125/blockchain-tutorial/blob/master/doc/%E2%80%8B25.%E6%AF%94%E7%89%B9%E5%B8%81%EF%BC%9A%E6%89%A9%E5%AE%B9%E4%B9%8B%E4%BA%89%E3%80%81IFO%E4%B8%8E%E9%93%BE%E4%B8%8A%E6%B2%BB%E7%90%86.md)**   
 <!--     
 ### Digital currency ranking
     -->
--   **[Digital currency ranking](https://coinmarketcap.com/)**
+**[Digital currency ranking](https://coinmarketcap.com/)**   
 
 <!-- -   [ ] [Consensus](<>)  
 -   [Account and transaction model](./Basic/account.md)  
