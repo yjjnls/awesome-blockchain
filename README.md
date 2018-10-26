@@ -38,7 +38,7 @@ The blockchain is an incorruptible digital ledger of economic transactions that 
         - [IFPS](#ifps)
     - [Further Extension](#further-extension)
         - [Books](#books)
-        - [Applications](#applications-1)
+        - [Applications](#applications)
             - [Identity Applications](#identity-applications)
                 - [Public Blockchain Identity](#public-blockchain-identity)
                 - [Blockchain as a collateral](#blockchain-as-a-collateral)
@@ -127,9 +127,11 @@ The "classic" Satoshi-blockchain is like a git repo with a single master branch 
 ### Encryption knowledge
    -->
 -   **Encryption knowledge**    
-    *   [Introduction](./Basic/crypto.md)
-    *   Merkle tree in blockchain
-    *   [Merkle dag ](http://www.sohu.com/a/247540268_100222281)
+    *   [Asymmetric encryption](./Basic/crypto.md#%E9%9D%9E%E5%AF%B9%E7%A7%B0%E5%8A%A0%E5%AF%86)
+    *   [Digital signature & certificate](./Basic/crypto.md#%E6%95%B0%E5%AD%97%E7%AD%BE%E5%90%8D)
+    *   [Merkle tree](./Basic/crypto.md#merkle-tree)
+    *   [Merkle tree in blockchain](./Basic/merkle_tree_in_blockchain.md)
+    *   [Merkle DAG](http://www.sohu.com/a/247540268_100222281)
 <!--   
 ### Consensus
    -->

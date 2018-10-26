@@ -7,7 +7,7 @@
 -   [Blockchains: How They Work and Why They’ll Change the World](https://spectrum.ieee.org/computing/networks/blockchains-how-they-work-and-why-theyll-change-the-world)
 
 
-
+---
 -   [你需要区块链么？](https://spectrum.ieee.org/computing/networks/do-you-need-a-blockchain)
 -   [区块链不能做什么？](https://www.jianshu.com/p/70f6a29a6296)
 -   [6个简单的问题就可以识别空气币项目](https://www.jianshu.com/p/f079a90f2148)
@@ -25,10 +25,10 @@
 
 -   [区块链在金融风险数据共享中的应用实践](https://www.jianshu.com/p/ca569196dff6)
 
--   [将日常生活集成到区块链，物联网改革的四种解决方案]()
+-   [将日常生活集成到区块链，物联网改革的四种解决方案](https://www.jianshu.com/p/fc271206bb7b)
 
 -   [区块链技术在版权保护中的应用实践](https://www.jianshu.com/p/f82436325fc6)
--   [区块链在溯源方面的落地探究]()
+-   [区块链在溯源方面的落地探究](https://www.jianshu.com/p/5cbf6fbaec79)
 
 -   [央行“国家队”发布首个区块链平台](https://www.jianshu.com/p/72e9f92b3a5d)
 -   [Blockchain Registry Open Platform](./BROP.md)
