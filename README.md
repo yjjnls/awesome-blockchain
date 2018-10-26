@@ -206,8 +206,8 @@ The "classic" Satoshi-blockchain is like a git repo with a single master branch 
 
 ### Monero
 
-### IOTA  
 [<img src="https://avatars0.githubusercontent.com/u/20126597?s=200&v=4" align="right" width="80">](https://github.com/iotaledger)  
+### IOTA  
 
 **Q: What is IOTA?**
 
