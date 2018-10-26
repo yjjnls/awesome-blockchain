@@ -15,12 +15,6 @@ The blockchain is an incorruptible digital ledger of economic transactions that 
     - [Frequently Asked Questions (F.A.Q.s) & Answers](#frequently-asked-questions-faqs--answers)
     - [Basic Introduction](#basic-introduction)
         - [Encryption knowledge](#encryption-knowledge)
-        - [Consensus](#consensus)
-        - [Account and transaction model](#account-and-transaction-model)
-        - [Exchange](#exchange)
-        - [Applications](#applications)
-        - [Capacity expansion and chain governance](#capacity-expansion-and-chain-governance)
-        - [Digital currency ranking](#digital-currency-ranking)
     - [Development Tutorial](#development-tutorial)
         - [BitCoin](#bitcoin)
         - [Ethereum](#ethereum)
@@ -123,41 +117,43 @@ A: Yes, every branch in the git repo is a blockchain.
 The "classic" Satoshi-blockchain is like a git repo with a single master branch (only).
 
 ## Basic Introduction
+
 <!--    
 ### Encryption knowledge
    -->
--   **Encryption knowledge**    
-    *   [Asymmetric encryption](./Basic/crypto.md#%E9%9D%9E%E5%AF%B9%E7%A7%B0%E5%8A%A0%E5%AF%86)
-    *   [Digital signature & certificate](./Basic/crypto.md#%E6%95%B0%E5%AD%97%E7%AD%BE%E5%90%8D)
-    *   [Merkle tree](./Basic/crypto.md#merkle-tree)
-    *   [Merkle tree in blockchain](./Basic/merkle_tree_in_blockchain.md)
-    *   [Merkle DAG](http://www.sohu.com/a/247540268_100222281)
-<!--   
-### Consensus
-   -->
+
+-   **Encryption knowledge**  
+        _   [Asymmetric encryption](./Basic/crypto.md#%E9%9D%9E%E5%AF%B9%E7%A7%B0%E5%8A%A0%E5%AF%86)
+        _   [Digital signature & certificate](./Basic/crypto.md#%E6%95%B0%E5%AD%97%E7%AD%BE%E5%90%8D)
+        _   [Merkle tree](./Basic/crypto.md#merkle-tree)
+        _   [Merkle tree in blockchain](./Basic/merkle_tree_in_blockchain.md)
+        \*   [Merkle DAG](http://www.sohu.com/a/247540268_100222281)
+    <!--   
+    ### Consensus
+       -->
 -   **Consensus**  
-<!--    
-### Account and transaction model
-   -->
+    <!--    
+    ### Account and transaction model
+       -->
 -   **Account and transaction model**  
-<!-- 
-### Exchange
-    -->
+    <!-- 
+    ### Exchange
+        -->
 -   **Exchange**  
-<!-- 
-### Applications
-    -->
+    <!-- 
+    ### Applications
+        -->
 -   **Applications**  
-    -   [Do You Need a Blockchain?](https://spectrum.ieee.org/computing/networks/do-you-need-a-blockchain)   
-    -   [What can't blockchain do?](https://www.jianshu.com/p/70f6a29a6296)   
-    -   [More](./Extension/application.md) 
-<!--     
-### Capacity expansion and chain governance
-    -->
+        -   [Do You Need a Blockchain?](https://spectrum.ieee.org/computing/networks/do-you-need-a-blockchain)  
+        -   [What can't blockchain do?](https://www.jianshu.com/p/70f6a29a6296)  
+        -   [More](./Extension/application.md) 
+    <!--     
+    ### Capacity expansion and chain governance
+        -->
 -   **[Capacity expansion and chain governance](https://github.com/yfeng125/blockchain-tutorial/blob/master/doc/%E2%80%8B25.%E6%AF%94%E7%89%B9%E5%B8%81%EF%BC%9A%E6%89%A9%E5%AE%B9%E4%B9%8B%E4%BA%89%E3%80%81IFO%E4%B8%8E%E9%93%BE%E4%B8%8A%E6%B2%BB%E7%90%86.md)**   
-<!--     
-### Digital currency ranking
-    -->
+    <!--     
+    ### Digital currency ranking
+        -->
 -   **[Digital currency ranking](https://coinmarketcap.com/)**   
 
 <!-- -   [ ] [Consensus](<>)  
@@ -211,6 +207,27 @@ The "classic" Satoshi-blockchain is like a git repo with a single master branch 
 ### Monero
 
 ### IOTA
+
+**Q: What is IOTA?**
+
+**IOTA** is a revolutionary new transactional settlement and data integrity layer for the Internet of Things. It’s based on a new distributed ledger architecture, the **Tangle**, which overcomes the inefficiencies of current **Blockchain** designs and introduces a new way of reaching consensus in a **decentralized peer-to-peer system**. For the first time ever, through IOTA people can transfer money without any fees. This means that even infinitesimally small nanopayments can be made through IOTA.
+
+**IOTA** is the missing puzzle piece for **the Machine Economy** to fully emerge and reach its desired potential. We envision IOTA to be the public, permissionless backbone for the Internet of Things that enables true interoperability between all devices.
+
+-   [IOTA](https://iota.org) - Next Generation Blockchain
+-   [Whitepaper](https://iota.org/IOTA_Whitepaper.pdf) - The Tangle
+-   [Wikipedia](https://en.wikipedia.org/wiki/IOTA_(Distributed_Ledger_Technology))
+-   [A Primer on IOTA](https://blog.iota.org/a-primer-on-iota-with-presentation-e0a6eb2cc621) - A Primer on IOTA (with Presentation)
+-   [IOTA China](http://iotachina.com/) - IOTA China 首页
+-   [IOTA Italia](http://iotaitalia.com/) - IOTA Italia
+-   [IOTA Korea](http://blog.naver.com/iotakorea) - IOTA 한국
+-   [IOTA Japan](http://lhj.hatenablog.jp/entry/iota) - IOTA 日本
+-   [IOTA on Reddit](https://www.reddit.com/r/Iota/)
+
+
++   [**How to get started**](https://github.com/iotaledger/iri#how-to-get-started)   
++   [**More resouces**](<>)  
+
 
 ### EOS
 
