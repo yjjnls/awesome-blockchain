@@ -123,11 +123,11 @@ The "classic" Satoshi-blockchain is like a git repo with a single master branch 
    -->
 
 -   **Encryption knowledge**  
-        _   [Asymmetric encryption](./Basic/crypto.md#%E9%9D%9E%E5%AF%B9%E7%A7%B0%E5%8A%A0%E5%AF%86)
-        _   [Digital signature & certificate](./Basic/crypto.md#%E6%95%B0%E5%AD%97%E7%AD%BE%E5%90%8D)
-        _   [Merkle tree](./Basic/crypto.md#merkle-tree)
-        _   [Merkle tree in blockchain](./Basic/merkle_tree_in_blockchain.md)
-        \*   [Merkle DAG](http://www.sohu.com/a/247540268_100222281)
+    * [Asymmetric encryption](./Basic/crypto.md#%E9%9D%9E%E5%AF%B9%E7%A7%B0%E5%8A%A0%E5%AF%86)  
+    * [Digital signature & certificate](./Basic/crypto.md#%E6%95%B0%E5%AD%97%E7%AD%BE%E5%90%8D)  
+    * [Merkle tree](./Basic/crypto.md#merkle-tree)  
+    * [Merkle tree in blockchain](./Basic/merkle_tree_in_blockchain.md)  
+    * [Merkle DAG](http://www.sohu.com/a/247540268_100222281)   
     <!--   
     ### Consensus
        -->
@@ -144,9 +144,9 @@ The "classic" Satoshi-blockchain is like a git repo with a single master branch 
     ### Applications
         -->
 -   **Applications**  
-        -   [Do You Need a Blockchain?](https://spectrum.ieee.org/computing/networks/do-you-need-a-blockchain)  
-        -   [What can't blockchain do?](https://www.jianshu.com/p/70f6a29a6296)  
-        -   [More](./Extension/application.md) 
+    * [Do You Need a Blockchain?](https://spectrum.ieee.org/computing/networks/do-you-need-a-blockchain)  
+    * [What can't blockchain do?](https://www.jianshu.com/p/70f6a29a6296)  
+    * [More](./Extension/application.md) 
     <!--     
     ### Capacity expansion and chain governance
         -->
