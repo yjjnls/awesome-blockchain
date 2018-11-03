@@ -181,9 +181,9 @@ The "classic" Satoshi-blockchain is like a git repo with a single master branch 
 -   [Ethereum white paper](https://github.com/ethereum/wiki/wiki/White-Paper) / [Chinese version](./Ethereum/white%20paper.md)
 -   [Mastering Ethereum](https://github.com/ethereumbook/ethereumbook)
 -   [Ethereum wiki](https://github.com/ethereum/wiki/wiki)
--   [Ethereum problems](https://github.com/ethereum/wiki/wiki/Problems)
--   [Sharding roadmap](https://github.com/ethereum/wiki/wiki/Sharding-roadmap)
--   [Ethereum flavored WebAssembly (ewasm)](https://github.com/ewasm)
+    -   [Ethereum problems](https://github.com/ethereum/wiki/wiki/Problems)
+    -   [Sharding roadmap](https://github.com/ethereum/wiki/wiki/Sharding-roadmap)
+    -   [Ethereum flavored WebAssembly (ewasm)](https://github.com/ewasm)
 
 ### Consortium Blockchain
 *   **Theory**
