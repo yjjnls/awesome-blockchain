@@ -166,9 +166,9 @@ The "classic" Satoshi-blockchain is like a git repo with a single master branch 
 
 ## Development Tutorial
 
-### [BitCoin](https://github.com/bitcoin/bitcoin)
+### BitCoin
 
-[<img src="https://bitcoin.org/img/icons/logotop.svg" align="right" width="120">](https://bitcoin.org/zh_CN/)
+[<img src="https://bitcoin.org/img/icons/logotop.svg" align="right" width="120">](https://github.com/bitcoin/bitcoin)
 
 -   [BitCoin white paper](https://bitcoin.org/bitcoin.pdf) / [Chinese version](BitCoin/white%20paper.md)
 -   [Mastering BitCoin](https://github.com/bitcoinbook/bitcoinbook) / [Chinese version](http://book.8btc.com/books/6/masterbitcoin2cn/_book/) / [pdf download](http://book.8btc.com/master_bitcoin?export=pdf)
@@ -176,11 +176,14 @@ The "classic" Satoshi-blockchain is like a git repo with a single master branch 
 
 ### Ethereum
 
-[<img src="https://github.com/yjjnls/Notes/blob/master/img/ethereum.png" align="right" width="80">](https://www.hyperledger.org/projects/fabric)
+[<img src="https://github.com/yjjnls/Notes/blob/master/img/ethereum.png" align="right" width="80">](https://github.com/ethereum)
 
--   [Ethereum white paper](https://github.com/ethereum/wiki/wiki/White-Paper) / [以太坊白皮书](./Ethereum/white%20paper.md)
+-   [Ethereum white paper](https://github.com/ethereum/wiki/wiki/White-Paper) / [Chinese version](./Ethereum/white%20paper.md)
+-   [Mastering Ethereum](https://github.com/ethereumbook/ethereumbook)
 -   [Ethereum wiki](https://github.com/ethereum/wiki/wiki)
 -   [Ethereum problems](https://github.com/ethereum/wiki/wiki/Problems)
+-   [Sharding roadmap](https://github.com/ethereum/wiki/wiki/Sharding-roadmap)
+-   [Ethereum flavored WebAssembly (ewasm)](https://github.com/ewasm)
 
 ### Consortium Blockchain
 *   **Theory**
