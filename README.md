@@ -166,17 +166,24 @@ The "classic" Satoshi-blockchain is like a git repo with a single master branch 
 
 ## Development Tutorial
 
-### BitCoin
+### [BitCoin](https://github.com/bitcoin/bitcoin)
 
-[<img src="https://bitcoin.org/img/icons/logotop.svg" align="right" width="120">](https://github.com/bitcoin/bitcoin)
+[<img src="https://bitcoin.org/img/icons/logotop.svg" align="right" width="120">](https://bitcoincore.org)
+
+**Bitcoin** is an experimental digital currency that enables instant payments to anyone, anywhere in the world. Bitcoin uses **peer-to-peer** technology to **operate with no central authority**: managing transactions and issuing money are carried out collectively by the network. 
 
 -   [BitCoin white paper](https://bitcoin.org/bitcoin.pdf) / [Chinese version](BitCoin/white%20paper.md)
 -   [Mastering BitCoin](https://github.com/bitcoinbook/bitcoinbook) / [Chinese version](http://book.8btc.com/books/6/masterbitcoin2cn/_book/) / [pdf download](http://book.8btc.com/master_bitcoin?export=pdf)
 -   [More](./BitCoin/awesome.md)
 
-### Ethereum
+### [Ethereum](https://github.com/ethereum)
 
-[<img src="https://github.com/yjjnls/Notes/blob/master/img/ethereum.png" align="right" width="80">](https://github.com/ethereum)
+[<img src="https://github.com/yjjnls/Notes/blob/master/img/ethereum.png" align="right" width="80">](https://www.ethereum.org/)
+
+**Ethereum** is a **decentralized platform that runs smart contracts**: applications that run exactly as programmed without any possibility of downtime, censorship, fraud or third-party interference.
+
+These apps run on a custom built **blockchain, an enormously powerful shared global infrastructure that can move value around and represent the ownership of property.**
+
 
 -   [Ethereum white paper](https://github.com/ethereum/wiki/wiki/White-Paper) / [Chinese version](./Ethereum/white%20paper.md)
 -   [Mastering Ethereum](https://github.com/ethereumbook/ethereumbook)
