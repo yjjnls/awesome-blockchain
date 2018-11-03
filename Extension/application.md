@@ -22,11 +22,13 @@
 
 -   [一个可供参考的解决“三医问题”的区块链大卫生平台设计构想](https://www.jianshu.com/p/a81194479b67)
 -   [区块链在健康保险行业的落地探索](https://mp.weixin.qq.com/s/Sm8i-hsHX9lCnNHE0PcnmA)
+-   [blockchain in health insurance](https://mp.weixin.qq.com/s/Sm8i-hsHX9lCnNHE0PcnmA)
 
 -   [区块链在金融风险数据共享中的应用实践](https://www.jianshu.com/p/ca569196dff6)
 
 -   [将日常生活集成到区块链，物联网改革的四种解决方案](https://www.jianshu.com/p/fc271206bb7b)
 
+-   [blockchain in copyright protection](https://www.jianshu.com/p/f82436325fc6)
 -   [区块链技术在版权保护中的应用实践](https://www.jianshu.com/p/f82436325fc6)
 -   [区块链在溯源方面的落地探究](https://www.jianshu.com/p/5cbf6fbaec79)
 
@@ -35,3 +37,4 @@
 
 
 -   [50万色情资源，3种Token经济系统，稳定运行10年的区块链色情网站](https://mp.weixin.qq.com/s/ItWYqQDRqTg7X8d1eBvJdA)
+-   [hip hop by consortium blockchain](http://www.infoq.com/cn/news/2018/10/hip-hop-by-consortium-blockchain?utm_source=notification_web&utm_campaign=notifications&utm_medium=link&utm_content=content_in_followed_topic)
