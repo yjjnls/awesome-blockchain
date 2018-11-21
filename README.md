@@ -116,6 +116,11 @@ Note: Git uses merkelized dag (directed acyclic graph)s for its blockchains.
 A: Yes, every branch in the git repo is a blockchain.
 The "classic" Satoshi-blockchain is like a git repo with a single master branch (only).
 
+**More Q&A**
+- [Blockchain Interview Questions](https://mindmajix.com/blockchain-interview-questions)
+- [10 Essential Blockchain Interview Questions](https://www.toptal.com/blockchain/interview-questions)
+- [Top 36 Blockchain Job Interview Questions & Answers](https://blockchainsfactory.com/blockchain-interview-questions/)
+
 ## Basic Introduction
 
 <!--    
@@ -191,6 +196,8 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
     -   [Ethereum problems](https://github.com/ethereum/wiki/wiki/Problems)
     -   [Sharding roadmap](https://github.com/ethereum/wiki/wiki/Sharding-roadmap)
     -   [Ethereum flavored WebAssembly (ewasm)](https://github.com/ewasm)
+-   [Accounts, Transactions, Gas, and Block Gas Limits in Ethereum](https://hudsonjameson.com/2017-06-27-accounts-transactions-gas-ethereum/)
+
 
 ### Consortium Blockchain
 *   **Theory**
