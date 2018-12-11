@@ -235,7 +235,6 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 [<img src="https://avatars0.githubusercontent.com/u/20126597?s=200&v=4" align="right" width="80">](https://github.com/iotaledger)  
 ### IOTA  
 
-**Q: What is IOTA?**
 
 **IOTA** is a revolutionary new transactional settlement and data integrity layer for the Internet of Things. It’s based on a new distributed ledger architecture, the **Tangle**, which overcomes the inefficiencies of current **Blockchain** designs and introduces a new way of reaching consensus in a **decentralized peer-to-peer system**. For the first time ever, through IOTA people can transfer money without any fees. This means that even infinitesimally small nanopayments can be made through IOTA.
 
@@ -256,9 +255,20 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 +   [**More resouces**](./Extension/iota.md)  
 
 
+[<img src="https://static.eos.io/images/Landing/SectionTokenSale/eos_spinning_logo.gif" align="right" width="80">](https://github.com/EOSIO/eos)  
 ### EOS
 
-<!-- [<img src="https://avatars2.githubusercontent.com/u/10536621?s=200&v=4" align="right" width="40">](https://github.com/ipfs/ipfs) -->
+**EOSIO** is software that introduces a blockchain architecture designed to enable vertical and horizontal scaling of decentralized applications (the “EOSIO Software”). This is achieved through an operating system-like construct upon which applications can be built. The software provides accounts, authentication, databases, asynchronous communication and the scheduling of applications across multiple CPU cores and/or clusters. The resulting technology is a blockchain architecture that has the potential to scale to millions of transactions per second, eliminates user fees and allows for quick and easy deployment of decentralized applications. For more information, please read the [EOS.IO Technical White Paper](https://github.com/EOSIO/Documentation/blob/master/TechnicalWhitePaper.md).
+
+- [EOS Wiki](https://github.com/EOSIO/eos/wiki) - High Level EOS Software Overview
+- [Technical White Paper](https://github.com/EOSIO/Documentation/blob/master/TechnicalWhitePaper.md) - EOS.IO Technical White Paper v2
+- [EOS: An Introduction - Black Edition](http://iang.org/papers/EOS_An_Introduction-BLACK-EDITION.pdf) - Ian Grigg's Whitepaper
+- [EOSIO Developer Portal](https://developers.eos.io/) - Official EOSIO developer portal, with docs, APIs etc.
+
++ [**How to get started**](https://developers.eos.io/eosio-home)
++ [**Roadmap**](https://github.com/EOSIO/Documentation/blob/master/Roadmap.md)
++ [**Tools**](./Extension/eos.md)  
+
 
 ### IFPS
 
