@@ -1,4 +1,19 @@
 # IOTA
+- [IOTA](#iota)
+    - [Blogs & Sites](#blogs--sites)
+    - [Articles](#articles)
+    - [Videos](#videos)
+    - [Wallets](#wallets)
+    - [Tools](#tools)
+    - [Developers](#developers)
+        - [Official by the IOTA Foundation](#official-by-the-iota-foundation)
+        - [Non Official](#non-official)
+            - [Libraries](#libraries)
+            - [Managment](#managment)
+            - [Payment](#payment)
+            - [Deployment](#deployment)
+            - [Other](#other)
+
 
 ## Blogs & Sites
 

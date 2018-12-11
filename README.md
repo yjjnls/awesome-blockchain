@@ -179,7 +179,7 @@ The "classic" Satoshi-blockchain is like a git repo with a single master branch 
 
 -   [BitCoin white paper: A Peer-to-Peer Electronic Cash System](https://bitcoin.org/bitcoin.pdf) / [Chinese version](BitCoin/white%20paper.md)
 -   [Mastering BitCoin](https://github.com/bitcoinbook/bitcoinbook) / [Chinese version](http://book.8btc.com/books/6/masterbitcoin2cn/_book/) / [pdf download](http://book.8btc.com/master_bitcoin?export=pdf)
--   [Bitcoin Improvement Proposals](https://github.com/bitcoin/bips/)
+-   [Bitcoin Improvement Proposals (BIP)](https://github.com/bitcoin/bips/)
 -   [More](./BitCoin/awesome.md)
 
 ### [Ethereum](https://github.com/ethereum)
@@ -196,7 +196,7 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 -   [Ethereum wiki](https://github.com/ethereum/wiki/wiki)
     -   [Ethereum problems](https://github.com/ethereum/wiki/wiki/Problems)
     -   [Sharding roadmap](https://github.com/ethereum/wiki/wiki/Sharding-roadmap)
-    -   [Ethereum flavored WebAssembly (ewasm)](https://github.com/ewasm)
+    -   [**Ethereum flavored WebAssembly (ewasm)**](https://github.com/ewasm)
 -   [Accounts, Transactions, Gas, and Block Gas Limits in Ethereum](https://hudsonjameson.com/2017-06-27-accounts-transactions-gas-ethereum/)
 
 
@@ -252,13 +252,14 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 
 
 +   [**How to get started**](https://github.com/iotaledger/iri#how-to-get-started)   
++   [**Roadmap**](https://www.iota.org/research/roadmap)
 +   [**More resouces**](./Extension/iota.md)  
 
 
 [<img src="https://static.eos.io/images/Landing/SectionTokenSale/eos_spinning_logo.gif" align="right" width="80">](https://github.com/EOSIO/eos)  
 ### EOS
 
-**EOSIO** is software that introduces a blockchain architecture designed to enable vertical and horizontal scaling of decentralized applications (the “EOSIO Software”). This is achieved through an operating system-like construct upon which applications can be built. The software provides accounts, authentication, databases, asynchronous communication and the scheduling of applications across multiple CPU cores and/or clusters. The resulting technology is a blockchain architecture that has the potential to scale to millions of transactions per second, eliminates user fees and allows for quick and easy deployment of decentralized applications. For more information, please read the [EOS.IO Technical White Paper](https://github.com/EOSIO/Documentation/blob/master/TechnicalWhitePaper.md).
+**EOSIO** is software that introduces a blockchain architecture designed to enable vertical and horizontal scaling of decentralized applications (the “EOSIO Software”). This is achieved through an operating system-like construct upon which applications can be built. The software provides accounts, authentication, databases, asynchronous communication and the scheduling of applications across multiple CPU cores and/or clusters. The resulting technology is a blockchain architecture that has the potential to scale to **millions of transactions per second**, eliminates user fees and allows for quick and easy deployment of decentralized applications. For more information, please read the [EOS.IO Technical White Paper](https://github.com/EOSIO/Documentation/blob/master/TechnicalWhitePaper.md).
 
 - [EOS Wiki](https://github.com/EOSIO/eos/wiki) - High Level EOS Software Overview
 - [Technical White Paper](https://github.com/EOSIO/Documentation/blob/master/TechnicalWhitePaper.md) - EOS.IO Technical White Paper v2
@@ -267,7 +268,8 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 
 + [**How to get started**](https://developers.eos.io/eosio-home)
 + [**Roadmap**](https://github.com/EOSIO/Documentation/blob/master/Roadmap.md)
-+ [**Tools**](./Extension/eos.md)  
++ [**Tools**](https://github.com/yjjnls/awesome-blockchain/blob/master/Extension/eos.md#tools)  
++ [**Language Support**](https://github.com/yjjnls/awesome-blockchain/blob/master/Extension/eos.md#language-support)  
 
 
 ### IFPS
