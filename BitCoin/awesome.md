@@ -1,20 +1,20 @@
 # Bitcoin
 - [Bitcoin](#bitcoin)
-    - [Utilities](#utilities)
-    - [Blockchain API and Web services](#blockchain-api-and-web-services)
-    - [Wallets API](#wallets-api)
-    - [Open Source Wallets](#open-source-wallets)
-    - [Blockchain Explorers](#blockchain-explorers)
-    - [C++ Libraries](#c-libraries)
-    - [JavaScript Libraries](#javascript-libraries)
-    - [PHP Libraries](#php-libraries)
-    - [Ruby Libraries](#ruby-libraries)
-    - [Python Libraries](#python-libraries)
-    - [Java Libraries](#java-libraries)
-    - [.Net Libraries](#net-libraries)
-    - [Playgrounds](#playgrounds)
-    - [Blockchain dump](#blockchain-dump)
-    - [Full nodes](#full-nodes)
+  - [Utilities](#utilities)
+  - [Blockchain API and Web services](#blockchain-api-and-web-services)
+  - [Wallets API](#wallets-api)
+  - [Open Source Wallets](#open-source-wallets)
+  - [Blockchain Explorers](#blockchain-explorers)
+  - [C++ Libraries](#c-libraries)
+  - [JavaScript Libraries](#javascript-libraries)
+  - [PHP Libraries](#php-libraries)
+  - [Ruby Libraries](#ruby-libraries)
+  - [Python Libraries](#python-libraries)
+  - [Java Libraries](#java-libraries)
+  - [.Net Libraries](#net-libraries)
+  - [Playgrounds](#playgrounds)
+  - [Blockchain dump](#blockchain-dump)
+  - [Full nodes](#full-nodes)
 
 
 ## Utilities
@@ -115,6 +115,7 @@
 -   [Bitcore Playground](https://bitcore.io/playground/)
 -   [Mnemonic Code generator](https://dcpos.github.io/bip39/)
 -   [blockchain-demo](https://github.com/anders94/blockchain-demo/) A web-based demonstration of blockchain concepts
+-   [Bitcoin Script Debugger](https://github.com/liuhongchao/bitcoin4s) Visualize Bitcoin script execution for real transactions
 
 ## Blockchain dump
 
