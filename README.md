@@ -121,6 +121,7 @@ The "classic" Satoshi-blockchain is like a git repo with a single master branch 
 - [10 Essential Blockchain Interview Questions](https://www.toptal.com/blockchain/interview-questions)
 - [Top 36 Blockchain Job Interview Questions & Answers](https://blockchainsfactory.com/blockchain-interview-questions/)
 
+---
 ## Basic Introduction
 
 <!--    
@@ -169,6 +170,7 @@ The "classic" Satoshi-blockchain is like a git repo with a single master branch 
 -   [ ] [Exchange](<>)  
 -   [Applications](./Extension/application.md)  -->
 
+---
 ## Development Tutorial
 
 ### [BitCoin](https://github.com/bitcoin/bitcoin)
@@ -228,6 +230,7 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 
 ### web3.js
 
+---
 ## Projects and Applications
 
 [<img src="https://avatars3.githubusercontent.com/u/7450663?s=460&v=4" align="right" width="80">](https://github.com/monero-project/monero)  
@@ -295,8 +298,28 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 + [**Language Support**](https://github.com/yjjnls/awesome-blockchain/blob/master/Extension/eos.md#language-support)  
 
 
+[<img src="https://avatars2.githubusercontent.com/u/10536621?s=200&v=4" align="right" width="80">](https://github.com/ipfs)  
 ### IFPS
+**IPFS** ([the InterPlanetary File System](https://github.com/ipfs/faq/issues/76)) is a new hypermedia distribution protocol, addressed by content and identities. IPFS enables the creation of completely distributed applications. It aims to make the web faster, safer, and more open.
 
+**IPFS** is a distributed file system that seeks to connect all computing devices with the same system of files. In some ways, this is similar to the original aims of the Web, but IPFS is actually more similar to a single bittorrent swarm exchanging git objects. You can read more about its origins in the paper [IPFS - Content Addressed, Versioned, P2P File System](https://github.com/ipfs/ipfs/blob/master/papers/ipfs-cap2pfs/ipfs-p2p-file-system.pdf?raw=true).
+
+**IPFS** is becoming a new major subsystem of the internet. If built right, it could complement or replace HTTP. It could complement or replace even more. It sounds crazy. It _is_ crazy.
+
+- [Papers](papers) - Academic papers on IPFS
+- [Specs](https://github.com/ipfs/specs) - Specifications on the IPFS protocol
+- [Notes](https://github.com/ipfs/notes) - Various relevant notes and discussions (that do not fit elsewhere)
+<img src="https://camo.githubusercontent.com/651f7045071c78042fec7f5b9f015e12589af6d5/68747470733a2f2f697066732e696f2f697066732f516d514a363850464d4464417367435a76413155567a7a6e3138617356636637485676434467706a695343417365" align="right" width="200">
+- [Reading-list](https://github.com/ipfs/reading-list) - Papers to read to understand IPFS
+- [Protocol Implementations](https://github.com/ipfs/ipfs#protocol-implementations)
+- [HTTP Client Libraries](https://github.com/ipfs/ipfs#http-client-libraries)
+![]()
+
++ [**Roadmap**](https://github.com/ipfs/roadmap)
++ [**More resouces**](./Extension/ipfs.md)  
+
+
+---
 ## Further Extension
 
 ### Books
@@ -496,6 +519,7 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 -   [PopChest](https://popchest.com) - Incentivized distributed video platform.
 -   [Civil](https://joincivil.com) - Decentralized newsmaking platform. 
 
+---
 ## Contribute
 
 Contributions welcome! 

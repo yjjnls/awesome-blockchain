@@ -1,4 +1,10 @@
 # Monero
+- [Monero](#monero)
+  - [Wallets](#wallets)
+  - [Mining](#mining)
+  - [Related Projects](#related-projects)
+
+
 ## Wallets
 - [Official GUI]()
 - [Mymonero.com](https://mymonero.com) - Web wallet of fluffypony, core dev of Monero
