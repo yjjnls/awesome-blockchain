@@ -11,37 +11,37 @@ The blockchain is an incorruptible digital ledger of economic transactions that 
 ## Contents
 
 - [Awesome Blockchain](#awesome-blockchain)
-    - [Contents](#contents)
-    - [Frequently Asked Questions (F.A.Q.s) & Answers](#frequently-asked-questions-faqs--answers)
-    - [Basic Introduction](#basic-introduction)
-        - [Encryption knowledge](#encryption-knowledge)
-    - [Development Tutorial](#development-tutorial)
-        - [BitCoin](#bitcoin)
-        - [Ethereum](#ethereum)
-        - [Consortium Blockchain](#consortium-blockchain)
-            - [Fabric](#fabric)
-            - [FISCO-BCOS](#fisco-bcos)
-    - [Releated Tools](#releated-tools)
-        - [Solidity](#solidity)
-        - [truffle](#truffle)
-        - [web3.js](#web3js)
-    - [Projects and Applications](#projects-and-applications)
-        - [Monero](#monero)
-        - [IOTA](#iota)
-        - [EOS](#eos)
-        - [IFPS](#ifps)
-    - [Further Extension](#further-extension)
-        - [Books](#books)
-        - [Applications](#applications)
-            - [Identity Applications](#identity-applications)
-                - [Public Blockchain Identity](#public-blockchain-identity)
-                - [Blockchain as a collateral](#blockchain-as-a-collateral)
-                - [Unclear](#unclear)
-                - [Guidance](#guidance)
-            - [Internet of Things Applications](#internet-of-things-applications)
-            - [Energy Applications](#energy-applications)
-            - [Media and Journalism](#media-and-journalism)
-    - [Contribute](#contribute)
+  - [Contents](#contents)
+  - [Frequently Asked Questions (F.A.Q.s) & Answers](#frequently-asked-questions-faqs--answers)
+  - [Basic Introduction](#basic-introduction)
+    - [Encryption knowledge](#encryption-knowledge)
+  - [Development Tutorial](#development-tutorial)
+    - [BitCoin](#bitcoin)
+    - [Ethereum](#ethereum)
+    - [Consortium Blockchain](#consortium-blockchain)
+      - [Fabric](#fabric)
+      - [FISCO-BCOS](#fisco-bcos)
+  - [Releated Tools](#releated-tools)
+    - [Solidity](#solidity)
+    - [truffle](#truffle)
+    - [web3.js](#web3js)
+  - [Projects and Applications](#projects-and-applications)
+    - [Monero](#monero)
+    - [IOTA](#iota)
+    - [EOS](#eos)
+    - [IFPS](#ifps)
+  - [Further Extension](#further-extension)
+    - [Books](#books)
+    - [Applications](#applications)
+      - [Identity Applications](#identity-applications)
+        - [Public Blockchain Identity](#public-blockchain-identity)
+        - [Blockchain as a collateral](#blockchain-as-a-collateral)
+        - [Unclear](#unclear)
+        - [Guidance](#guidance)
+      - [Internet of Things Applications](#internet-of-things-applications)
+      - [Energy Applications](#energy-applications)
+      - [Media and Journalism](#media-and-journalism)
+  - [Contribute](#contribute)
 
 ## Frequently Asked Questions (F.A.Q.s) & Answers
 
@@ -230,7 +230,30 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 
 ## Projects and Applications
 
+[<img src="https://avatars3.githubusercontent.com/u/7450663?s=460&v=4" align="right" width="80">](https://github.com/monero-project/monero)  
 ### Monero
+**Monero** is a private, secure, untraceable, decentralised digital currency. You are your bank, you control your funds, and nobody can trace your transfers unless you allow them to do so.
+
+**Privacy**: Monero uses a cryptographically sound system to allow you to send and receive funds without your transactions being easily revealed on the blockchain (the ledger of transactions that everyone has). This ensures that your purchases, receipts, and all transfers remain absolutely private by default.
+
+**Security**: Using the power of a distributed peer-to-peer consensus network, every transaction on the network is cryptographically secured. Individual wallets have a 25 word mnemonic seed that is only displayed once, and can be written down to backup the wallet. Wallet files are encrypted with a passphrase to ensure they are useless if stolen.
+
+**Untraceability**: By taking advantage of ring signatures, a special property of a certain type of cryptography, Monero is able to ensure that transactions are not only untraceable, but have an optional measure of ambiguity that ensures that transactions cannot easily be tied back to an individual user or computer.
+
+- [Getmonero.org](https://getmonero.org) - The official Monero website
+- [Lab.getmonero.org](https://lab.getmonero.org) - The official research group of Monero
+- [RPC documentation](https://getmonero.org/resources/developer-guides/daemon-rpc.html) - RPC documentation of the Monero daemon
+- [Wallet documentation](https://getmonero.org/resources/developer-guides/wallet-rpc.html) - Wallet documentation of the Monero daemon
+- [Cryptonote Whitepaper](https://cryptonote.org/whitepaper.pdf) - White paper of cryptonote, the family of crypto-currencies of Monero
+- [Review of the Cryptonote White Paper](https://downloads.getmonero.org/whitepaper_review.pdf) - By the research lab of Monero
+- [Cryptonote Standards](https://cryptonote.org/cns) - The 10 Cryptonote standards (equivalent to BIPs for Bitcoin)
+
+
++ [**How to get started**](https://github.com/monero-project/monero#compiling-monero-from-source)
++ [**Roadmap**](https://www.getmonero.org/resources/roadmap/)
++ [**More resouces**](./Extension/monero.md)
+
+
 
 [<img src="https://avatars0.githubusercontent.com/u/20126597?s=200&v=4" align="right" width="80">](https://github.com/iotaledger)  
 ### IOTA  
