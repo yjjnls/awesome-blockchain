@@ -309,7 +309,7 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 - [Papers](papers) - Academic papers on IPFS
 - [Specs](https://github.com/ipfs/specs) - Specifications on the IPFS protocol
 - [Notes](https://github.com/ipfs/notes) - Various relevant notes and discussions (that do not fit elsewhere)
-<img src="https://camo.githubusercontent.com/651f7045071c78042fec7f5b9f015e12589af6d5/68747470733a2f2f697066732e696f2f697066732f516d514a363850464d4464417367435a76413155567a7a6e3138617356636637485676434467706a695343417365" align="right" width="200">
+[<img src="https://camo.githubusercontent.com/651f7045071c78042fec7f5b9f015e12589af6d5/68747470733a2f2f697066732e696f2f697066732f516d514a363850464d4464417367435a76413155567a7a6e3138617356636637485676434467706a695343417365" align="right" width="200">](https://github.com/ipfs)  
 - [Reading-list](https://github.com/ipfs/reading-list) - Papers to read to understand IPFS
 - [Protocol Implementations](https://github.com/ipfs/ipfs#protocol-implementations)
 - [HTTP Client Libraries](https://github.com/ipfs/ipfs#http-client-libraries)
