@@ -313,7 +313,7 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 - [Reading-list](https://github.com/ipfs/reading-list) - Papers to read to understand IPFS
 - [Protocol Implementations](https://github.com/ipfs/ipfs#protocol-implementations)
 - [HTTP Client Libraries](https://github.com/ipfs/ipfs#http-client-libraries)
-![]()
+![]()   
 
 + [**Roadmap**](https://github.com/ipfs/roadmap)
 + [**More resouces**](./Extension/ipfs.md)  
