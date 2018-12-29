@@ -1,11 +1,12 @@
 # 数字加密相关知识
 - [数字加密相关知识](#%E6%95%B0%E5%AD%97%E5%8A%A0%E5%AF%86%E7%9B%B8%E5%85%B3%E7%9F%A5%E8%AF%86)
-    - [非对称加密](#%E9%9D%9E%E5%AF%B9%E7%A7%B0%E5%8A%A0%E5%AF%86)
-        - [椭圆曲线加密](#%E6%A4%AD%E5%9C%86%E6%9B%B2%E7%BA%BF%E5%8A%A0%E5%AF%86)
-    - [公钥与私钥](#%E5%85%AC%E9%92%A5%E4%B8%8E%E7%A7%81%E9%92%A5)
-    - [数字签名](#%E6%95%B0%E5%AD%97%E7%AD%BE%E5%90%8D)
-    - [数字证书](#%E6%95%B0%E5%AD%97%E8%AF%81%E4%B9%A6)
-    - [Merkle Tree](#merkle-tree)
+  - [非对称加密](#%E9%9D%9E%E5%AF%B9%E7%A7%B0%E5%8A%A0%E5%AF%86)
+    - [椭圆曲线加密](#%E6%A4%AD%E5%9C%86%E6%9B%B2%E7%BA%BF%E5%8A%A0%E5%AF%86)
+  - [公钥与私钥](#%E5%85%AC%E9%92%A5%E4%B8%8E%E7%A7%81%E9%92%A5)
+  - [数字签名](#%E6%95%B0%E5%AD%97%E7%AD%BE%E5%90%8D)
+  - [数字证书](#%E6%95%B0%E5%AD%97%E8%AF%81%E4%B9%A6)
+  - [Merkle Tree](#merkle-tree)
+  - [盲签名](#%E7%9B%B2%E7%AD%BE%E5%90%8D)
 - [Reference](#reference)
 
 
@@ -95,6 +96,43 @@ B可以每次都到CA的网站上（或者什么别的官方途径）获得CA的
 1\.  快速比较数据，两个默克尔树的根节点相同，那么其所代表的数据必然相同  
 2\.  快速定位修改，比如上面D1数据被修改，可通过root->N4->N1，快速定位到发生改变的D1  
 3\.  零知识证明，比如要证明某个数据中包含D0，那就构造一个默克尔树，公开root、N4、N1、N0，D0拥有者可以检测到D0存在，但不知道其他内容。（D0拥有者可以看到hash值，但看不到完整的数据内容）（比如用户可以查找自己的money是否在交易所的总备用金中，而不必知道其余用户的money信息；或者p2p下载中，文件切片成小块，下载一个分支后就可以验证该分支的数据是否正确，定位错误数据块重新下载或者继续下载下一个分支数据。）
+
+## 盲签名
+前文说到了数字签名，但如果A想要B来对消息签名，但是又不想让B知道该消息的内容，该如何做呢？这里就需要用到盲签名了。
+
+盲签名具有以下特点：
+1.  签名者对其所签署的消息是不可见的，即签名者不知道他所签署消息的具体内容。
+2.  签名消息不可追踪，即当签名消息被公布后，签名者无法知道这是他哪次的签署的。
+
+传统RSA加解密的结局方案为：
+
+1.  加密: ![](http://upload-images.jianshu.io/upload_images/11336404-be53f4cdd8eff0f1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+2.  解密:![](http://upload-images.jianshu.io/upload_images/11336404-0c87f6ebf1f4b7b8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+而盲签名则按照如下步骤来进行：
+1.  接收者首先将待签数据进行盲变换，把变换后的盲数据发给签名者。  
+![](http://upload-images.jianshu.io/upload_images/11336404-c22f3f330c202a4d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)  
+这里一般用对称加密，所以：  
+![](http://upload-images.jianshu.io/upload_images/11336404-e2f7a82497d99ebf.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+2.  经签名者签名后再发给接收者。  
+![](http://upload-images.jianshu.io/upload_images/11336404-e858b0db3ba78057.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)  
+
+3.  接收者对签名再作去盲变换，得出的便是签名者对原数据的盲签名。   
+![](http://upload-images.jianshu.io/upload_images/11336404-717c9c59aaf9e53a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)   
+![](http://upload-images.jianshu.io/upload_images/11336404-074b0968d84944d8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
+流程如下：  
+![](http://upload-images.jianshu.io/upload_images/11336404-1c5466a4f060888b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+在这个过程中，B无法得知MSG是什么，B也不知道自己什么时候对MSG做了签名，即若B进行了多次签名，当公布出某一具体的MSG-signature时，B并不知道这个签名是自己在那一次进行签署的。
+
+
+背景：
+一般的签名，签名者对自己发出的签名，必须是记得的，比如，在何时何地对谁发的，他自己可以记下来。但是，如果把签名看作是电子现金的话，就涉及到一个匿名性的问题用实际钞票的时候，钞票上有没有写你的名字？当然没有。那我也不希望，银行通过追踪自己发出签名，来获得用户的消费情况。于是就设计出盲签名。
+
 
 
 # Reference
