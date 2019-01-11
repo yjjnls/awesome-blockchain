@@ -260,6 +260,7 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 
 + [**How to get started**](https://github.com/monero-project/monero#compiling-monero-from-source)
 + [**Roadmap**](https://www.getmonero.org/resources/roadmap/)
++ [**What is Monero? Most Comprehensive Guide**](https://blockgeeks.com/guides/monero/) / [Chinese version](https://github.com/liuchengxu/blockchain-tutorial/blob/master/content/monero/what-is-monero.md)
 + [**More resouces**](./Extension/monero.md)
 
 
