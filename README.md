@@ -15,6 +15,12 @@ The blockchain is an incorruptible digital ledger of economic transactions that 
   - [Frequently Asked Questions (F.A.Q.s) & Answers](#frequently-asked-questions-faqs--answers)
   - [Basic Introduction](#basic-introduction)
     - [Encryption knowledge](#encryption-knowledge)
+    - [Consensus](#consensus)
+    - [Account and transaction model](#account-and-transaction-model)
+    - [Exchange](#exchange)
+    - [Applications](#applications)
+    - [Governance](#governance)
+    - [Digital currency ranking](#digital-currency-ranking)
   - [Development Tutorial](#development-tutorial)
     - [BitCoin](#bitcoin)
     - [Ethereum](#ethereum)
@@ -32,7 +38,7 @@ The blockchain is an incorruptible digital ledger of economic transactions that 
     - [IFPS](#ifps)
   - [Further Extension](#further-extension)
     - [Books](#books)
-    - [Applications](#applications)
+    - [Applications](#applications-1)
       - [Identity Applications](#identity-applications)
         - [Public Blockchain Identity](#public-blockchain-identity)
         - [Blockchain as a collateral](#blockchain-as-a-collateral)
@@ -135,41 +141,37 @@ The "classic" Satoshi-blockchain is like a git repo with a single master branch 
     * [Merkle tree in blockchain](./Basic/merkle_tree_in_blockchain.md)  
     * [Merkle DAG](http://www.sohu.com/a/247540268_100222281)   
     * [**CryptoNote v2.0**](https://cryptonote.org/whitepaper.pdf) - Untraceable Transactions and Egalitarian Proof-of-work
-    <!--   
-    ### Consensus
-       -->
+<!--   
+### Consensus
+    -->
 -   **Consensus**  
-    <!--    
-    ### Account and transaction model
-       -->
+<!--    
+### Account and transaction model
+    -->
 -   **Account and transaction model**  
-    <!-- 
-    ### Exchange
-        -->
+<!-- 
+### Exchange
+    -->
 -   **Exchange**  
-    <!-- 
-    ### Applications
-        -->
+<!-- 
+### Applications
+    -->
 -   **Applications**  
     * [Do You Need a Blockchain?](https://spectrum.ieee.org/computing/networks/do-you-need-a-blockchain)  
     * [What can't blockchain do?](https://www.jianshu.com/p/70f6a29a6296)  
     * [More](./Extension/application.md) 
-    <!--     
-    ### Capacity expansion and chain governance
-        -->
--   **[Capacity expansion and chain governance](https://github.com/yfeng125/blockchain-tutorial/blob/master/doc/%E2%80%8B25.%E6%AF%94%E7%89%B9%E5%B8%81%EF%BC%9A%E6%89%A9%E5%AE%B9%E4%B9%8B%E4%BA%89%E3%80%81IFO%E4%B8%8E%E9%93%BE%E4%B8%8A%E6%B2%BB%E7%90%86.md)**   
-    <!--     
-    ### Digital currency ranking
-        -->
--   **[Digital currency ranking](https://coinmarketcap.com/)**   
+<!--     
+### Governance
+    -->
+-   **Governance**
+    * [Blockchains should not be democracies](https://haseebq.com/blockchains-should-not-be-democracies/)                                       
+<!-- * [](https://github.com/yfeng125/blockchain-tutorial/blob/master/doc/%E2%80%8B25.%E6%AF%94%E7%89%B9%E5%B8%81%EF%BC%9A%E6%89%A9%E5%AE%B9%E4%B9%8B%E4%BA%89%E3%80%81IFO%E4%B8%8E%E9%93%BE%E4%B8%8A%E6%B2%BB%E7%90%86.md)   -->
 
-<!-- -   [ ] [Consensus](<>)  
--   [Account and transaction model](./Basic/account.md)  
--   [ ] [Bitcoin basics](<>)  
--   [ ] [Ethereum basics](<>)  
-    - [ ] []()链上治理
--   [ ] [Exchange](<>)  
--   [Applications](./Extension/application.md)  -->
+
+<!--     
+### Digital currency ranking
+    -->
+-   **[Digital currency ranking](https://coinmarketcap.com/)**   
 
 ---
 ## Development Tutorial

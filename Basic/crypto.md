@@ -282,10 +282,11 @@ for i in range(size):
 
 # Reference
 1. [数字签名是什么？](http://www.ruanyifeng.com/blog/2011/08/what_is_a_digital_signature.html)
-2. [比特币背后的密码学原理](https://www.jianshu.com/p/225ff9439132)
-3. [《区块链原理设计与应用》第5章：密码学与安全技术](https://github.com/yjjnls/books/blob/master/block%20chain/%E5%8C%BA%E5%9D%97%E9%93%BE%E5%8E%9F%E7%90%86%E3%80%81%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%BA%94%E7%94%A8.pdf)
-4. [Secure Hash Algorithms](https://en.wikipedia.org/wiki/Secure_Hash_Algorithms)
-5. [Digital Signature Algorithm](https://en.wikipedia.org/wiki/Digital_Signature_Algorithm)
-6. [用实例给新手讲解RSA加密算法](https://www.cnblogs.com/jiftle/p/7903762.html)
-7. [用Go语言实现环签名的签名和验证（一）](https://blog.csdn.net/qq_38200023/article/details/79902049)
-8. [用Go语言实现环签名的签名和验证（二）](https://blog.csdn.net/qq_38200023/article/details/79912530)
+2. [Digital Signatures](http://learnmeabitcoin.com/guide/digital_signatures)
+3. [比特币背后的密码学原理](https://www.jianshu.com/p/225ff9439132)
+4. [《区块链原理设计与应用》第5章：密码学与安全技术](https://github.com/yjjnls/books/blob/master/block%20chain/%E5%8C%BA%E5%9D%97%E9%93%BE%E5%8E%9F%E7%90%86%E3%80%81%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%BA%94%E7%94%A8.pdf)
+5. [Secure Hash Algorithms](https://en.wikipedia.org/wiki/Secure_Hash_Algorithms)
+6. [Digital Signature Algorithm](https://en.wikipedia.org/wiki/Digital_Signature_Algorithm)
+7. [用实例给新手讲解RSA加密算法](https://www.cnblogs.com/jiftle/p/7903762.html)
+8. [用Go语言实现环签名的签名和验证（一）](https://blog.csdn.net/qq_38200023/article/details/79902049)
+9. [用Go语言实现环签名的签名和验证（二）](https://blog.csdn.net/qq_38200023/article/details/79912530)
