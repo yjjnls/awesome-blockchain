@@ -145,6 +145,8 @@ The "classic" Satoshi-blockchain is like a git repo with a single master branch 
 ### Consensus
     -->
 -   **Consensus**  
+    * [Proof of Stake FAQs](https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQs) / [Chinese version](https://ethfans.org/posts/Proof-of-Stake-FAQ-new-2018-3-15)
+
 <!--    
 ### Account and transaction model
     -->
