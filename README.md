@@ -188,13 +188,12 @@ The "classic" Satoshi-blockchain is like a git repo with a single master branch 
 -   [Mastering BitCoin](https://github.com/bitcoinbook/bitcoinbook) / [Chinese version](http://book.8btc.com/books/6/masterbitcoin2cn/_book/) / [pdf download](http://book.8btc.com/master_bitcoin?export=pdf)
 -   [Bitcoin Improvement Proposals (BIPs)](https://github.com/bitcoin/bips/)
 
-+   [More](./BitCoin/awesome.md) 
-    +   [Mining visualization](http://www.yogh.io/#mine:last)
-    +   [Wallets](./BitCoin/awesome.md#Wallets%20API)
-    +   Explorers
-    +   Libraries
-    +   Web services
-    +   Full nodes
++   [Mining visualization](http://www.yogh.io/#mine:last)
++   [Wallets](./BitCoin/awesome.md#wallets-api)
++   [Explorers](./BitCoin/awesome.md#blockchain-explorers)
++   [Libraries](./BitCoin/awesome.md#libraries)
++   [Web services](./BitCoin/awesome.md#blockchain-api-and-web-services)
++   [Full nodes](./BitCoin/awesome.md#full-nodes)
 
 ### [Ethereum](https://github.com/ethereum)
 
