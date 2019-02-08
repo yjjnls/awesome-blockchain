@@ -191,9 +191,10 @@ The "classic" Satoshi-blockchain is like a git repo with a single master branch 
 +   [Mining visualization](http://www.yogh.io/#mine:last)
 +   [Wallets](./BitCoin/awesome.md#wallets-api)
 +   [Explorers](./BitCoin/awesome.md#blockchain-explorers)
-+   [Libraries](./BitCoin/awesome.md#libraries)
++   [Libraries](./BitCoin/awesome.md#libraries) - C++, JavaScript, PHP, Ruby, Python, Java, .Net
 +   [Web services](./BitCoin/awesome.md#blockchain-api-and-web-services)
 +   [Full nodes](./BitCoin/awesome.md#full-nodes)
++   [More](./BitCoin/awesome.md) 
 
 ### [Ethereum](https://github.com/ethereum)
 
