@@ -1,0 +1,20 @@
+{
+    "name": "js",
+    "version": "1.0.0",
+    "description": "",
+    "main": "node.js",
+    "dependencies": {
+        "babel-eslint": "^10.0.1",
+        "bluebird": "^3.5.3",
+        "ed25519": "0.0.4",
+        "eslint": "^5.13.0",
+        "eslint-plugin-html": "^5.0.0",
+        "js-sha256": "^0.9.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+}

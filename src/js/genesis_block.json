@@ -1,0 +1,12 @@
+{
+    "version": 0,
+    "height": 1,
+    "previous_hash": null,
+    "timestamp": 1550049140488,
+    "merkle_hash": null,
+    "generator_publickey": "18941c80a77f2150107cdde99486ba672b5279ddd469eeefed308540fbd46983",
+    "hash": "d611edb9fd86ee234cdc08d9bf382330d6ccc721cd5e59cf2a01b0a2a8decfff",
+    "block_signature": "603b61b14348fb7eb087fe3267e28abacadf3932f0e33958fb016ab60f825e3124bfe6c7198d38f8c91b0a3b1f928919190680e44fbe7289a4202039ffbb2109",
+    "consensus_data": {},
+    "transcations": []
+}
