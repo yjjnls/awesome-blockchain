@@ -3,7 +3,7 @@
 var MessageType = {
     Connection: 0,
     Block: 1,
-    Transcation: 2,
+    Transaction: 2,
     PrePrepare: 3,
     Prepare: 4,
     Commit: 5

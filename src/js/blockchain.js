@@ -4,7 +4,7 @@ var Block = require("./block");
 const genesis_block = require("./genesis_block.json");
 var Node = require("./network");
 var Account = require("./account");
-var Transcation = require("./transcation");
+var Transaction = require("./transaction");
 var Msg = require("./message");
 var MessageType = require("./message").type;
 var Promise = require("bluebird");
@@ -158,7 +158,7 @@ class BlockChain {
         let tx = block.transcations;
         for (var i = 0; i < tx.length; ++i) {
             // todo (check tx is exist and valid)
-            if (!Transcation.verify(tx[i]))
+            if (!Transaction.verify(tx[i]))
                 return false;
         }
         return true;
@@ -192,7 +192,7 @@ class BlockChain {
                     this.broadcast(msg);
                 }
                 break;
-            case MessageType.Transcation:
+            case MessageType.Transaction:
                 {
                     // check if exist(pending or in chain) verify, store(into pending) and broadcast
                 }

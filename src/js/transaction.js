@@ -1,6 +1,6 @@
 'use strict';
 
-class Transcation {
+class Transaction {
     constructor() {
 
     }
@@ -10,4 +10,4 @@ class Transcation {
     }
 }
 
-module.exports = Transcation;
+module.exports = Transaction;
