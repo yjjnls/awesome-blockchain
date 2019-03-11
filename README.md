@@ -9,6 +9,7 @@ The blockchain is an incorruptible digital ledger of economic transactions that 
 <font color=#0099ff size=3>**This is not a simple collection of Internet resources, but verified and organized data ensuring it's really suitable for your learning process and useful for your development and application.**</font> 
 
 ## Contents
+<details><summary>Click to expand</summary>
 
 - [Awesome Blockchain](#awesome-blockchain)
   - [Contents](#contents)
@@ -48,6 +49,8 @@ The blockchain is an incorruptible digital ledger of economic transactions that 
       - [Energy Applications](#energy-applications)
       - [Media and Journalism](#media-and-journalism)
   - [Contribute](#contribute)
+
+</details>
 
 ## Frequently Asked Questions (F.A.Q.s) & Answers
 
