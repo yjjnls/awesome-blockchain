@@ -4,17 +4,22 @@ var Block = require("./block");
 const genesis_block = require("./genesis_block.json");
 var Node = require("./network");
 var Account = require("./account");
-var Transaction = require("./transaction");
+var Transaction = require("./transaction").Transaction;
+var TxInput = require("./transaction").TxInput;
+var TxOutput = require("./transaction").TxOutput;
 var Msg = require("./message");
 var MessageType = require("./message").type;
 var Promise = require("bluebird");
+var level = require("level");
+var Crypto = require("./crypto");
 
 var Pbft = require("./consensus/pbft");
-let pbft = true;
+let pbft = false;
 class BlockChain {
     constructor(Consensus, keypair, id, is_bad = false) {
         // todo
         this.pending_block_ = {};
+        this.tx_pool = {};
         this.chain_ = [];
 
         this.is_bad_ = is_bad;
@@ -22,14 +27,26 @@ class BlockChain {
 
         // ///////////////////////////////////////
         this.genesis_block_ = genesis_block;
-        this.last_block_ = genesis_block;
-        this.save_last_block();
+
 
         this.account_ = new Account(keypair, id);
         this.consensus_ = new Consensus(this);
         this.node_ = null;
     }
-    start() {
+    async start() {
+        this.db_ = level(`/tmp/data_${this.get_account_id()}`);
+        try {
+            // load blocks
+            let last = await this.db_.get("last_block");
+            this.last_block_ = JSON.parse(last);
+            console.log(`node: ${this.get_account_id()} last block: ${this.last_block_.height}`);
+        } catch (err) {
+            // empty chain
+            this.last_block_ = genesis_block;
+            this.save_last_block();
+            console.log(`node: ${this.get_account_id()} empty`);
+        }
+
         this.node_ = new Node(this.get_account_id());
         this.node_.on("message", this.on_data.bind(this));
         this.node_.start();
@@ -57,18 +74,40 @@ class BlockChain {
         cb();
     }
 
-    save_last_block() {
+    async save_last_block() {
         // query from db via hash
         // if not exist, write into db, else do nothing
-        // todo（tx is also need to store?）
         if (this.pending_block_[this.last_block_.hash]) {
             delete this.pending_block_[this.last_block_.hash];
         }
-        this.chain_.push(this.last_block_);
+        await this.db_.put(this.last_block_.hash, JSON.stringify(this.last_block_));
+        await this.db_.put("last_block", JSON.stringify(this.last_block_));
+        // console.log(`save block: ${this.last_block_.hash} to db`);
+
+        // tx
+        if (!this.last_block_.transactions) {
+            return;
+        }
+        for (var i = 0; i < this.last_block_.transactions.length; ++i) {
+            let tx = this.last_block_.transactions[i];
+            if (this.tx_pool[tx.id]) {
+                delete this.tx_pool[tx.id];
+                // console.log(`node ${this.get_account_id()} delete tx ${tx.id}`);
+            }
+            await this.db_.put(tx.id, JSON.stringify(tx));
+        }
     }
     generate_block(keypair, cb) {
-        // load transcations
-        var tx = [];
+        // load transactions
+        var tx = [this.create_coinbase()];
+        var i = 0;
+        for (let key in this.tx_pool) {
+            if (i == 10)
+                break;
+            tx.push(this.tx_pool[key]);
+            i++;
+            console.log(`node ${this.get_account_id()} load tx ${key}`);
+        }
         // create block
         let block = new Block({
             "keypair": keypair,
@@ -79,7 +118,7 @@ class BlockChain {
         let self = this;
         block.on('block completed', (data) => {
             if (data.height == self.last_block_.height + 1) {
-                console.log("block completed");
+                // console.log("block completed");
                 self.commit_block(data);
 
                 self.broadcast(Msg.block(data));
@@ -113,15 +152,32 @@ class BlockChain {
     get_height() {
         return this.last_block_.height;
     }
-    get_block(hash) {
+    async get_from_db(hash) {
         // query block with hash value
-        // todo
-        for (var i = 0; i < this.chain_.length; ++i) {
-            if (this.chain_[i] == hash) {
-                return this.chain_[i];
-            }
+        try {
+            let block_data = await this.db_.get(hash);
+            let block = JSON.parse(block_data);
+            return block;
+        } catch (err) {
+            return null;
         }
-        return null;
+    }
+    async iterator_back(cb, hash) {
+        if (!hash) {
+            return;
+        }
+        let block = await this.get_from_db(hash);
+        let res = cb(block);
+        if (res)
+            await this.iterator_back(cb, block.previous_hash);
+    }
+    async iterator_forward(cb, hash) {
+        if (!hash) {
+            return;
+        }
+        let block = await this.get_from_db(hash);
+        await this.iterator_forward(cb, block.previous_hash);
+        cb(block);
     }
     get_last_block() {
         return this.last_block_;
@@ -140,41 +196,89 @@ class BlockChain {
     get_account_keypair() {
         return this.account_.get_key();
     }
+    get_public_key() {
+        return this.get_account_keypair().publicKey.toString('hex');
+    }
     broadcast(data) {
         this.node_.broadcast(data);
     }
     list_peers() {
         return this.node_.list_peers();
     }
+    async verify_transaction(tx) {
+        let input_amount = 0;
+        for (var i = 0; i < tx.input.length; ++i) {
+            let input = tx.input[i];
+            // coinbase
+            if (input.id == null) {
+                // todo check milestone
+                if (tx.output[0].amount == 50) {
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+            let vout = null;
+            if (this.tx_pool[input.id]) {
+                vout = this.tx.tx_pool[input.id];
+            } else {
+                vout = await this.get_from_db(input.id);
+            }
+            if (!vout) {
+                // invalid vout
+                return false;
+            }
+            vout = vout.output[input.index];
+            let res = Crypto.verify_signature(JSON.stringify(vout), input.ScriptSig, vout.ScriptPubKey);
+            if (!res) {
+                return false;
+            }
+            input_amount += vout.amount;
+        }
+        let output_amount = 0;
+        for (i = 0; i < tx.output.length; ++i) {
+            output_amount += tx.output[i].amount;
+        }
+        if (input_amount < output_amount) {
+            return false;
+        }
+        return true;
+    }
     // verify the block is valid
-    verify(block) {
+    async verify(block) {
         // verify the block signature
         if (!Block.verify_signature(block))
             return false;
         // verify consensus
         if (!this.consensus_.verify(block))
             return false;
-        // verify transcations
-        let tx = block.transcations;
-        for (var i = 0; i < tx.length; ++i) {
-            // todo (check tx is exist and valid)
-            if (!Transaction.verify(tx[i]))
-                return false;
+        // verify transactions
+        let tx = block.transactions;
+        if (tx) {
+            for (var i = 0; i < tx.length; ++i) {
+                if (!await this.verify_transaction(tx[i]))
+                    return false;
+            }
         }
         return true;
     }
-    on_data(msg) {
+    async on_data(msg) {
         switch (msg.type) {
             case MessageType.Block:
                 {
                     let block = msg.data;
                     // console.log(`node: ${this.get_account_id()} receive block: height ${block.height}`);
                     // check if exist
-                    if (this.pending_block_[block.hash] || this.get_block(block.hash))
+                    let query = await this.get_from_db(block.hash);
+                    if (this.pending_block_[block.hash] || query) {
+                        // console.log("block already exists");
                         return;
+                    }
                     // verify
-                    if (!this.verify(block))
+                    if (!await this.verify(block)) {
+                        // console.log("verify failed");
                         return;
+                    }
 
                     this.pending_block_[block.hash] = block;
 
@@ -195,6 +299,22 @@ class BlockChain {
             case MessageType.Transaction:
                 {
                     // check if exist(pending or in chain) verify, store(into pending) and broadcast
+                    let tx = msg.data;
+                    if (this.tx_pool[tx.id]) {
+                        // already exists
+                        return;
+                    }
+                    this.tx_pool[tx.id] = tx;
+                    // verify transaction
+                    let res = await this.verify_transaction(tx);
+                    if (!res) {
+                        delete this.tx_pool[tx.id];
+                    } else {
+                        // console.log(`node ${this.get_account_id()} store tx ${tx.id}`);
+                    }
+
+                    // broadcast
+                    this.broadcast(msg);
                 }
                 break;
             default:
@@ -218,7 +338,7 @@ class BlockChain {
     }
     async fork() {
         console.log('----------fork----------');
-        // load transcations
+        // load transactions
         var tx1 = [{
             amount: 1000,
             recipient: 'bob',
@@ -242,7 +362,7 @@ class BlockChain {
             });
         });
 
-        // load transcations
+        // load transactions
         var tx2 = [{
             amount: 1000,
             recipient: 'cracker',
@@ -278,6 +398,91 @@ class BlockChain {
         }
         console.log("fork");
         this.commit_block(block_data1);
+    }
+    create_coinbase() {
+        let input = new TxInput(null, -1, `${new Date()} node: ${this.get_account_id()} coinbase tx`);
+        let output = new TxOutput(50, this.get_public_key());
+        let tx = new Transaction([input], [output]);
+        return tx;
+    }
+
+    async get_utxo(cb) {
+        let publicKey = this.get_public_key();
+        let spentTXOs = {};
+        await this.iterator_back((block) => {
+            let txs = block.transactions;
+            // tx
+            for (var i = 0; i < txs.length; ++i) {
+                let tx = txs[i];
+                let transaction_id = tx.id;
+                // output
+                for (var j = 0; j < tx.output.length; ++j) {
+                    let output = tx.output[j];
+                    // owns
+                    if (output.ScriptPubKey == publicKey) {
+                        // not spent
+                        if (spentTXOs.hasOwnProperty(transaction_id) &&
+                            spentTXOs[transaction_id].hasOwnProperty(j)) {
+                            continue;
+                        } else {
+                            if (!cb(transaction_id, j, output)) return false;
+                        }
+                    }
+                }
+                // input
+                for (j = 0; j < tx.input.length; ++j) {
+                    let input = tx.input[j];
+                    // not coinbase
+                    if (input.id != null && input.index != -1) {
+                        if (!spentTXOs[input.id]) {
+                            spentTXOs[input.id] = [];
+                        }
+                        spentTXOs[input.id].push(input.index);
+                    }
+                }
+            }
+            return true;
+        },
+        this.get_last_block().hash);
+    }
+    async get_balance() {
+        let value = 0;
+        await this.get_utxo((transaction_id, index, vout) => {
+            value += vout.amount;
+            return true;
+        });
+        return value;
+    }
+    async create_transaction(to, amount) {
+        let value = 0;
+        let input = [];
+        let output = [];
+        let self = this;
+        let tx = null;
+        await this.get_utxo((transaction_id, index, vout) => {
+            value += vout.amount;
+            let signature = Crypto.sign(self.get_account_keypair(), JSON.stringify(vout));
+            input.push(new TxInput(transaction_id, index, signature));
+            if (value >= amount) {
+                output.push(new TxOutput(amount, to));
+                if (value > amount)
+                    output.push(new TxOutput(value - amount, self.get_public_key()));
+                tx = new Transaction(input, output);
+                // stop
+                return false;
+            }
+            return true;
+        });
+        if (value < amount) {
+            throw new Error("amount is not enough!");
+        }
+        if (tx == null) {
+            throw new Error("create transaction failed!");
+        }
+        this.tx_pool[tx.id] = tx;
+        this.broadcast(Msg.transaction(tx));
+
+        return tx;
     }
 }
 

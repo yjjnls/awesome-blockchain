@@ -18,12 +18,12 @@ let genesis = {
     "hash": null,
     "block_signature": null,
     "consensus_data": {},
-    "transcations": []
+    "transactions": []
 };
 
 function prepare_data() {
     let tx = "";
-    genesis.transcations.forEach(val => {
+    genesis.transactions.forEach(val => {
         tx += val.toString('utf8');
     });
     let data = genesis.version.toString()

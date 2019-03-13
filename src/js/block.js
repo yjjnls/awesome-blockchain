@@ -1,14 +1,14 @@
 'use strict';
 
 var EventEmitter = require('events').EventEmitter;
-var crypto = require("crypto");
-var ed = require("ed25519");
+var Crypto = require("./crypto");
+
 
 class Block extends EventEmitter {
     constructor(data, consensus) {
         super();
         // body
-        this.transcations_ = data ? data.transactions : [];
+        this.transactions_ = data ? data.transactions : [];
         // header
         this.version_ = 0;
         this.height_ = data ? data.previous_block.height + 1 : -1;
@@ -37,7 +37,7 @@ class Block extends EventEmitter {
     get_timestamp() { return this.timestamp_; }
     get_signature() { return this.block_signature_; }
     get_publickey() { return this.generator_publickey_; }
-    get_transcations() { return this.transcations_; }
+    get_transactions() { return this.transactions_; }
     get_consensus_data() { return this.consensus_data_; }
     set_consensus_data(data) { this.consensus_data_ = data; }
     toObject() {
@@ -51,7 +51,7 @@ class Block extends EventEmitter {
             "hash": this.hash_,
             "block_signature": this.block_signature_,
             "consensus_data": this.consensus_data_,
-            "transcations": this.transcations_
+            "transactions": this.transactions_
         };
         return block;
     }
@@ -65,23 +65,20 @@ class Block extends EventEmitter {
         this.hash_ = data.hash;
         this.block_signature_ = data.block_signature;
         this.consensus_data_ = data.consensus_data;
-        this.transcations_ = data.transactions;
+        this.transactions_ = data.transactions;
     }
 
-    calc_hash(data) {
-        return crypto.createHash('sha256').update(data).digest('hex');
-    }
     calc_merkle_hash() {
-        // calc merkle root hash according to the transcations in the block
+        // calc merkle root hash according to the transactions in the block
         var hashes = [];
-        for (var i = 0; i < this.transcations_.length; ++i) {
-            hashes.push(this.calc_hash(this.transcations_.toString('utf-8')));
+        for (var i = 0; i < this.transactions_.length; ++i) {
+            hashes.push(Crypto.calc_hash(this.transactions_.toString('utf-8')));
         }
         while (hashes.length > 1) {
             var tmp = [];
             for (var i = 0; i < hashes.length / 2; ++i) {
                 let data = hashes[i * 2] + hashes[i * 2 + 1];
-                tmp.push(this.calc_hash(data));
+                tmp.push(Crypto.calc_hash(data));
             }
             if (hashes.length % 2 === 1) {
                 tmp.push(hashes[hashes.length - 1]);
@@ -93,8 +90,8 @@ class Block extends EventEmitter {
 
     prepare_data() {
         let tx = "";
-        for (var i = 0; i < this.transcations_.length; ++i) {
-            tx += this.transcations_[i].toString('utf-8');
+        for (var i = 0; i < this.transactions_.length; ++i) {
+            tx += this.transactions_[i].toString('utf-8');
         }
         let data = this.version_.toString()
             + this.height_.toString()
@@ -109,11 +106,11 @@ class Block extends EventEmitter {
     }
     // calc the hash of the block
     calc_block_hash() {
-        return this.calc_hash(this.prepare_data());
+        return Crypto.calc_hash(this.prepare_data());
     }
     sign(keypair) {
         var hash = this.calc_block_hash();
-        return ed.Sign(Buffer.from(hash, 'utf-8'), keypair).toString('hex');
+        return Crypto.sign(keypair, hash);
     }
     make_proof(consensus, keypair) {
         let self = this;
@@ -128,13 +125,7 @@ class Block extends EventEmitter {
 
     static verify_signature(block) {
         var hash = block.hash;
-        var res = ed.Verify(Buffer.from(hash, 'utf8'), Buffer.from(block.block_signature, 'hex'), Buffer.from(block.generator_publickey, 'hex'));
-        return res;
-
-    }
-
-    static get_address_by_publickey(publicKey) {
-
+        return Crypto.verify_signature(hash, block.block_signature, block.generator_publickey);
     }
 
 }

@@ -15,5 +15,6 @@ module.exports = {
     block: (data) => { return { type: MessageType.Block, data: data }; },
     preprepare: (data) => { return { type: MessageType.PrePrepare, data: data }; },
     prepare: (data) => { return { type: MessageType.Prepare, data: data }; },
-    commit: (data) => { return { type: MessageType.Commit, data: data }; }
+    commit: (data) => { return { type: MessageType.Commit, data: data }; },
+    transaction: (data)=>{return { type: MessageType.Transaction, data: data }; }
 };
