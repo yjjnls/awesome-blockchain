@@ -76,7 +76,7 @@ class Block extends EventEmitter {
         }
         while (hashes.length > 1) {
             var tmp = [];
-            for (var i = 0; i < hashes.length / 2; ++i) {
+            for (i = 0; i < hashes.length / 2; ++i) {
                 let data = hashes[i * 2] + hashes[i * 2 + 1];
                 tmp.push(Crypto.calc_hash(data));
             }

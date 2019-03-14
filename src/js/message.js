@@ -6,7 +6,9 @@ var MessageType = {
     Transaction: 2,
     PrePrepare: 3,
     Prepare: 4,
-    Commit: 5
+    Commit: 5,
+    Sync: 6,
+    SyncBlock: 7
 };
 
 module.exports = {
@@ -16,5 +18,7 @@ module.exports = {
     preprepare: (data) => { return { type: MessageType.PrePrepare, data: data }; },
     prepare: (data) => { return { type: MessageType.Prepare, data: data }; },
     commit: (data) => { return { type: MessageType.Commit, data: data }; },
-    transaction: (data)=>{return { type: MessageType.Transaction, data: data }; }
+    transaction: (data) => { return { type: MessageType.Transaction, data: data }; },
+    sync: (data) => { return { type: MessageType.Sync, data: data }; },
+    sync_block: (data) => { return { type: MessageType.SyncBlock, data: data }; }
 };

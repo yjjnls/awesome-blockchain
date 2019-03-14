@@ -4,7 +4,7 @@ Basic implementation for blockchain in node.js, supporting pow, pos, pbft, dpos 
 
 Persistence is on top of leveldb.
 
-Support UTXO transactions.
+Support UTXO transactions and block syncing.
 
 Tests passed on Ubuntu and MAC.
 

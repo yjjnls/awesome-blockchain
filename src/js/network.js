@@ -33,6 +33,11 @@ class Node extends EventEmitter {
                     socket.on('connect', () => {
                         resolve();
                     });
+                    socket.on('error', function (e) {
+                        resolve();
+                    });
+                    socket.setEncoding('utf8');
+                    socket.on('data', (data) => { self.on_data(data, socket); });
                 });
                 // console.log(`id: ${self.id_} connected to remote_id: ${remote_id}`);
                 let data = Msg.connection(self.id_);
@@ -72,6 +77,9 @@ class Node extends EventEmitter {
 
     }
     send(socket, data) {
+        if (typeof socket === 'number') {
+            socket = this.peers_[socket];
+        }
         if (typeof data === 'object') {
             data = JSON.stringify(data);
         }
