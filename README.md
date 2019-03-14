@@ -211,6 +211,7 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 -   [Ethereum white paper](https://github.com/ethereum/wiki/wiki/White-Paper) / [Chinese version](./Ethereum/white%20paper.md)
 -   [Mastering Ethereum](https://github.com/ethereumbook/ethereumbook) / [Chinese version](https://github.com/inoutcode/ethereum_book)
 -   [Ethereum wiki](https://github.com/ethereum/wiki/wiki)
+    -   [Ethereum Design Rationale](https://github.com/ethereum/wiki/wiki/Design-Rationale) / [Chinese version](https://ethfans.org/posts/510)
     -   [Ethereum problems](https://github.com/ethereum/wiki/wiki/Problems)
     -   [Sharding roadmap](https://github.com/ethereum/wiki/wiki/Sharding-roadmap)
     -   [**Ethereum flavored WebAssembly (ewasm)**](https://github.com/ewasm)
