@@ -210,11 +210,16 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 
 -   [Ethereum white paper](https://github.com/ethereum/wiki/wiki/White-Paper) / [Chinese version](./Ethereum/white%20paper.md)
 -   [Mastering Ethereum](https://github.com/ethereumbook/ethereumbook) / [Chinese version](https://github.com/inoutcode/ethereum_book)
+-   [Ethereum Yellow Paper](https://ethereum.github.io/yellowpaper/paper.pdf)
 -   [Ethereum wiki](https://github.com/ethereum/wiki/wiki)
     -   [Ethereum Design Rationale](https://github.com/ethereum/wiki/wiki/Design-Rationale) / [Chinese version](https://ethfans.org/posts/510)
     -   [Ethereum problems](https://github.com/ethereum/wiki/wiki/Problems)
     -   [Sharding roadmap](https://github.com/ethereum/wiki/wiki/Sharding-roadmap)
     -   [**Ethereum flavored WebAssembly (ewasm)**](https://github.com/ewasm)
+    -   [ÐΞVp2p Wire Protocol](https://github.com/ethereum/wiki/wiki/%C3%90%CE%9EVp2p-Wire-Protocol)
+    -   [EVM-Awesome-List](https://github.com/ethereum/wiki/wiki/Ethereum-Virtual-Machine-(EVM)-Awesome-List)
+    -   [Patricia Tree](https://github.com/ethereum/wiki/wiki/Patricia-Tree)
+    -   [Ethash](https://github.com/ethereum/wiki/wiki/Ethash)
 -   [Accounts, Transactions, Gas, and Block Gas Limits in Ethereum](https://hudsonjameson.com/2017-06-27-accounts-transactions-gas-ethereum/)
 
 
