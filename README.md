@@ -221,6 +221,12 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
     -   [Patricia Tree](https://github.com/ethereum/wiki/wiki/Patricia-Tree)
     -   [Ethash](https://github.com/ethereum/wiki/wiki/Ethash)
 -   [Accounts, Transactions, Gas, and Block Gas Limits in Ethereum](https://hudsonjameson.com/2017-06-27-accounts-transactions-gas-ethereum/)
+-   Security
+    -   [Ethereum Smart Contract Security Best Practices](https://consensys.github.io/smart-contract-best-practices/) / [Chinese version](https://github.com/ConsenSys/smart-contract-best-practices/blob/master/README-zh.md)
+    -   [Onward with Ethereum Smart Contract Security](https://blog.zeppelin.solutions/onward-with-ethereum-smart-contract-security-97a827e47702)
+    -   [The Hitchhiker’s Guide to Smart Contracts in Ethereum](https://blog.zeppelin.solutions/the-hitchhikers-guide-to-smart-contracts-in-ethereum-848f08001f05)
+    -   [**OpenZeppelin**](https://openzeppelin.org/)
+    -   [**ZeppelinOS**](https://zeppelinos.org/)
 
 
 +   [Ethereum Blockchain Explorer](https://etherscan.io/)
