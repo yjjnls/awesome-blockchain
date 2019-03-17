@@ -219,14 +219,26 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
     -   [ÐΞVp2p Wire Protocol](https://github.com/ethereum/wiki/wiki/%C3%90%CE%9EVp2p-Wire-Protocol)
     -   [EVM-Awesome-List](https://github.com/ethereum/wiki/wiki/Ethereum-Virtual-Machine-(EVM)-Awesome-List)
     -   [Patricia Tree](https://github.com/ethereum/wiki/wiki/Patricia-Tree)
-    -   [Ethash](https://github.com/ethereum/wiki/wiki/Ethash)
+    -   Consensus
+        -   [Ethash](https://github.com/ethereum/wiki/wiki/Ethash)
+        -   [Ethash-DAG](https://github.com/ethereum/wiki/wiki/Ethash-DAG)
+        -   [Ethash Specification](https://github.com/ethereum/wiki/wiki/Ethash)
+        -   [Mining Ethash DAG](https://github.com/ethereum/wiki/wiki/Mining#ethash-dag)
+        -   [Dagger-Hashimoto Algorithm](https://github.com/ethereum/wiki/blob/master/Dagger-Hashimoto.md)
+        -   [DAG Explanation and Images](https://ethereum.stackexchange.com/questions/1993/what-actually-is-a-dag)
+        -   [Ethash in Ethereum Yellowpaper](https://ethereum.github.io/yellowpaper/paper.pdf#appendix.J)
+        -   [Ethash C API Example Usage](https://github.com/ethereum/wiki/wiki/Ethash-C-API)
 -   [Accounts, Transactions, Gas, and Block Gas Limits in Ethereum](https://hudsonjameson.com/2017-06-27-accounts-transactions-gas-ethereum/)
+-   [Ethereum Improvement Proposals](https://eips.ethereum.org/)
+-   [Important EIPs and ERCs](https://github.com/ethereumbook/ethereumbook/blob/develop/appdx-standards-eip-erc.asciidoc#table-of-most-important-eips-and-ercs)
 -   Security
     -   [Ethereum Smart Contract Security Best Practices](https://consensys.github.io/smart-contract-best-practices/) / [Chinese version](https://github.com/ConsenSys/smart-contract-best-practices/blob/master/README-zh.md)
     -   [Onward with Ethereum Smart Contract Security](https://blog.zeppelin.solutions/onward-with-ethereum-smart-contract-security-97a827e47702)
     -   [The Hitchhiker’s Guide to Smart Contracts in Ethereum](https://blog.zeppelin.solutions/the-hitchhikers-guide-to-smart-contracts-in-ethereum-848f08001f05)
     -   [**OpenZeppelin**](https://openzeppelin.org/)
     -   [**ZeppelinOS**](https://zeppelinos.org/)
+-   Token
+    -   [ERC20](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md)
 
 
 +   [Ethereum Blockchain Explorer](https://etherscan.io/)
