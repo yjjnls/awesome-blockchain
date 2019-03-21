@@ -1,15 +1,20 @@
 # BlockChain for Node.js
 
-Basic implementation for blockchain in node.js, supporting pow, pos, pbft, dpos and pbft+dpos.
+Basic implementation for blockchain in node.js
 
-Persistence is on top of leveldb.
+- [x] Block structure
+- [x] Blockchain structure
+- [x] Consensus
+  - [x] PoW
+  - [x] PoS
+  - [x] DPoS
+  - [x] Pbft
+  - [x] DPoS + Pbft
+- [x] Network
+- [x] Persistence
+- [x] Transaction UTXO
+- [x] Sync
 
-Support UTXO transactions and block syncing.
+Tests on Ubuntu and MAC.
 
-Tests passed on Ubuntu and MAC.
 
-```
-npm install
-
-node test/xxx.js
-```
