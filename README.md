@@ -58,53 +58,45 @@ The blockchain is an incorruptible digital ledger of economic transactions that 
 
 A: A blockchain is a distributed database with a list (that is, chain) of records (that is, blocks) linked and secured by
 digital fingerprints (that is, crypto hashes).
-Example from [`blockchain.rb`](https://github.com/openblockchains/awesome-blockchains/blob/master/blockchain.rb/blockchain.rb):
+Example from [`genesis_block.json`](https://github.com/yjjnls/awesome-blockchain/tree/master/src/js/genesis_block.json):
 
-```ruby
-[#<Block:0x1eed2a0
-    @timestamp     = 1637-09-15 20:52:38,
-    @data          = "Genesis",
-    @previous_hash = "0000000000000000000000000000000000000000000000000000000000000000",
-    @hash          = "edbd4e11e69bc399a9ccd8faaea44fb27410fe8e3023bb9462450a0a9c4caa1b">,
-    #<Block:0x1eec9a0
-    @timestamp     = 1637-09-15 21:02:38,
-    @data          = "Transaction Data...",
-    @previous_hash = "edbd4e11e69bc399a9ccd8faaea44fb27410fe8e3023bb9462450a0a9c4caa1b",
-    @hash          = "eb8ecbf6d5870763ae246e37539d82e37052cb32f88bb8c59971f9978e437743">,
-    #<Block:0x1eec838
-    @timestamp     = 1637-09-15 21:12:38,
-    @data          = "Transaction Data......",
-    @previous_hash = "eb8ecbf6d5870763ae246e37539d82e37052cb32f88bb8c59971f9978e437743",
-    @hash          = "be50017ee4bbcb33844b3dc2b7c4e476d46569b5df5762d14ceba9355f0a85f4">,
-    ...
+```js
+{
+    "version": 0,
+    "height": 1,
+    "previous_hash": null,
+    "timestamp": 1550049140488,
+    "merkle_hash": null,
+    "generator_publickey": "18941c80a77f2150107cdde99486ba672b5279ddd469eeefed308540fbd46983",
+    "hash": "d611edb9fd86ee234cdc08d9bf382330d6ccc721cd5e59cf2a01b0a2a8decfff",
+    "block_signature": "603b61b14348fb7eb087fe3267e28abacadf3932f0e33958fb016ab60f825e3124bfe6c7198d38f8c91b0a3b1f928919190680e44fbe7289a4202039ffbb2109",
+    "consensus_data": {},
+    "transactions": []
+}
 ```
 
 ![](Basic/img/blockchain-jesus.png)
 
 **Q: What's a Hash? What's a (One-Way) Crypto(graphic) Hash Digest Checksum**?
 
-A: A hash e.g. `eb8ecbf6d5870763ae246e37539d82e37052cb32f88bb8c59971f9978e437743`
+A: A hash e.g. `d611edb9fd86ee234cdc08d9bf382330d6ccc721cd5e59cf2a01b0a2a8decfff`
 is a small digest checksum calculated
 with a one-way crypto(graphic) hash digest checksum function
 e.g. SHA256 (Secure Hash Algorithm 256 Bits)
-from the data. Example from [`blockchain.rb`](blockchain.rb/blockchain.rb):
+from the data. Example from [`crypto.js`](https://github.com/yjjnls/awesome-blockchain/blob/master/src/js/crypto.js):
 
-```ruby
-def calc_hash
-  sha = Digest::SHA256.new
-  sha.update( @timestamp.to_s + @previous_hash + @data )
-  sha.hexdigest   ## returns "eb8ecbf6d5870763ae246e37539d82e37052cb32f88bb8c59971f9978e437743"
-end
+```js
+function calc_hash(data) {
+    return crypto.createHash('sha256').update(data).digest('hex');
+}
 ```
 
 A blockchain uses
 
--   the block timestamp (e.g. `1637-09-15 20:52:38`) and
--   the hash from the previous block (e.g. `edbd4e11e69bc399a9ccd8faaea44fb27410fe8e3023bb9462450a0a9c4caa1b`) and finally
+-   the block header (e.g. `Version`, `TimeStamp`, `Previous Hash...` )and
 -   the block data (e.g. `Transaction Data...`)
 
-to calculate the new hash digest checksum, that is, the hash
-e.g. `be50017ee4bbcb33844b3dc2b7c4e476d46569b5df5762d14ceba9355f0a85f4`.
+to calculate the new hash digest checksum.
 
 **Q: What's a Merkle Tree?**
 
