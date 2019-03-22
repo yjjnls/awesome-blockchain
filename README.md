@@ -266,6 +266,7 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 ### truffle
 
 ### web3.js
+-   [doc](https://web3js.readthedocs.io/en/1.0/)
 
 ---
 ## Projects and Applications
