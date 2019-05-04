@@ -257,6 +257,8 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 
 [<img src="https://www.hyperledger.org/wp-content/uploads/2018/03/Hyperledger_Fabric_Logo_Color.png" align="right" width="120">](https://www.hyperledger.org/projects/fabric)
 
+[doc](https://hyperledger-fabric-docs-zh-cn.readthedocs.io/zh_CN/latest/)
+
 #### [FISCO-BCOS](https://github.com/FISCO-BCOS/Wiki)
 
 ## Releated Tools
