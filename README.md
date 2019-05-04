@@ -39,6 +39,7 @@ The blockchain is an incorruptible digital ledger of economic transactions that 
     - [IFPS](#ifps)
       - [Filecoin](#filecoin)
       - [BigchainDB](#bigchaindb)
+    - [BitShares](#bitshares)
   - [Further Extension](#further-extension)
     - [Books](#books)
     - [Applications](#applications-1)
@@ -367,6 +368,9 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 
 #### [BigchainDB](https://www.bigchaindb.com/)
 - [White paper](https://www.bigchaindb.com/whitepaper) / [Chinese version](http://blog.csdn.net/fengqing79/article/details/70154076)
+
+### BitShares
+- [White paper]() / [Chinese version](https://www.8btc.com/article/3369)
 
 ---
 ## Further Extension
