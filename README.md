@@ -306,7 +306,7 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 **IOTA** is the missing puzzle piece for **the Machine Economy** to fully emerge and reach its desired potential. We envision IOTA to be the public, permissionless backbone for the Internet of Things that enables true interoperability between all devices.
 
 -   [IOTA](https://iota.org) - Next Generation Blockchain
--   [Whitepaper](https://iota.org/IOTA_Whitepaper.pdf) - The Tangle
+-   [Whitepaper](https://iota.org/IOTA_Whitepaper.pdf) - The Tangle / [Chinese version](http://www.iotachina.com/wp-content/uploads/2016/11/2016112902003453.pdf)
 -   [Wikipedia](https://en.wikipedia.org/wiki/IOTA_(Distributed_Ledger_Technology))
 -   [A Primer on IOTA](https://blog.iota.org/a-primer-on-iota-with-presentation-e0a6eb2cc621) - A Primer on IOTA (with Presentation)
 -   [IOTA China](http://iotachina.com/) - IOTA China 首页
@@ -346,7 +346,7 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 
 **IPFS** is becoming a new major subsystem of the internet. If built right, it could complement or replace HTTP. It could complement or replace even more. It sounds crazy. It _is_ crazy.
 
-- [Papers](papers) - Academic papers on IPFS
+- [White Paper](https://github.com/ipfs/papers/raw/master/ipfs-cap2pfs/ipfs-p2p-file-system.pdf) - Academic papers on IPFS / [Chinese version](https://gguoss.github.io/2017/05/28/ipfs/)
 - [Specs](https://github.com/ipfs/specs) - Specifications on the IPFS protocol
 - [Notes](https://github.com/ipfs/notes) - Various relevant notes and discussions (that do not fit elsewhere)
 [<img src="https://camo.githubusercontent.com/651f7045071c78042fec7f5b9f015e12589af6d5/68747470733a2f2f697066732e696f2f697066732f516d514a363850464d4464417367435a76413155567a7a6e3138617356636637485676434467706a695343417365" align="right" width="200">](https://github.com/ipfs)  
