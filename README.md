@@ -37,6 +37,8 @@ The blockchain is an incorruptible digital ledger of economic transactions that 
     - [IOTA](#iota)
     - [EOS](#eos)
     - [IFPS](#ifps)
+      - [Filecoin](#filecoin)
+      - [BigchainDB](#bigchaindb)
   - [Further Extension](#further-extension)
     - [Books](#books)
     - [Applications](#applications-1)
@@ -360,6 +362,11 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 + [**Roadmap**](https://github.com/ipfs/roadmap)
 + [**More resouces**](./Extension/ipfs.md)  
 
+#### [Filecoin](https://filecoin.io/)
+- [White paper](https://filecoin.io/filecoin.pdf) / [Chinese version](http://chainx.org/paper/index/index/id/13.html)
+
+#### [BigchainDB](https://www.bigchaindb.com/)
+- [White paper](https://www.bigchaindb.com/whitepaper) / [Chinese version](http://blog.csdn.net/fengqing79/article/details/70154076)
 
 ---
 ## Further Extension
