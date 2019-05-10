@@ -134,22 +134,27 @@ The "classic" Satoshi-blockchain is like a git repo with a single master branch 
    -->
 
 -   **Encryption knowledge**  
-    * [Basic concepts](./Basic/crypto.md#%E6%95%B0%E5%AD%97%E5%8A%A0%E5%AF%86%E7%9B%B8%E5%85%B3%E7%9F%A5%E8%AF%86) - Asymmetric encryption, Digital signature, Certificate  
-    * [Digital signature extension](./Basic/crypto.md#%E6%95%B0%E5%AD%97%E7%AD%BE%E5%90%8D%E6%89%A9%E5%B1%95)  - Multi-signature, Blind signature, Group signature, Ring signature
-    * [Merkle tree](./Basic/crypto.md#merkle-tree)  
-    * [Merkle tree in blockchain](./Basic/merkle_tree_in_blockchain.md)  
+    * [Basic concepts](https://www.jianshu.com/p/a044b303f7d5) - Asymmetric encryption, Digital signature, Certificate  
+    * [Digital signature extension](https://www.jianshu.com/p/410e77ec23fa)  - Multi-signature, Blind signature, Group signature, Ring signature
+    * [Merkle tree](https://www.jianshu.com/p/a044b303f7d5)  
+    <!-- * [Merkle tree in blockchain](./Basic/merkle_tree_in_blockchain.md)   -->
     * [Merkle DAG](http://www.sohu.com/a/247540268_100222281)   
     * [**CryptoNote v2.0**](https://cryptonote.org/whitepaper.pdf) - Untraceable Transactions and Egalitarian Proof-of-work
 <!--   
 ### Consensus
     -->
 -   **Consensus**  
+    * [Proof of Work](https://www.jianshu.com/p/3462f2ed74d7)
+    * [Proof of Stake](https://www.jianshu.com/p/2fd3bce523b0)
     * [Proof of Stake FAQs](https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQs) / [Chinese version](https://ethfans.org/posts/Proof-of-Stake-FAQ-new-2018-3-15)
+    * [Delegated Proof of Stake](https://www.jianshu.com/p/ccc3fff7a60d)
+    * [Practical Byzantine Fault Tolerance](https://www.jianshu.com/p/e991c1385f9f)
 
 <!--    
 ### Account and transaction model
     -->
 -   **Account and transaction model**  
+    * [UTXO model](https://www.jianshu.com/p/2f4e75dbc2e4)
 <!-- 
 ### Exchange
     -->
