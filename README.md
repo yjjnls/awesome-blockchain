@@ -32,6 +32,7 @@ The blockchain is an incorruptible digital ledger of economic transactions that 
     - [Solidity](#solidity)
     - [truffle](#truffle)
     - [web3.js](#web3js)
+  - [Implementation of Blockchain](#implementation-of-blockchain)
   - [Projects and Applications](#projects-and-applications)
     - [Monero](#monero)
     - [IOTA](#iota)
@@ -229,7 +230,7 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 -   Security
     -   [Ethereum Smart Contract Security Best Practices](https://consensys.github.io/smart-contract-best-practices/) / [Chinese version](https://github.com/ConsenSys/smart-contract-best-practices/blob/master/README-zh.md)
     -   [Onward with Ethereum Smart Contract Security](https://blog.zeppelin.solutions/onward-with-ethereum-smart-contract-security-97a827e47702)
-    -   [The Hitchhiker’s Guide to Smart Contracts in Ethereum](https://blog.zeppelin.solutions/the-hitchhikers-guide-to-smart-contracts-in-ethereum-848f08001f05)
+    -   [The Hitchhiker's Guide to Smart Contracts in Ethereum](https://blog.zeppelin.solutions/the-hitchhikers-guide-to-smart-contracts-in-ethereum-848f08001f05)
     -   [**OpenZeppelin**](https://openzeppelin.org/)
     -   [**ZeppelinOS**](https://zeppelinos.org/)
 -   Token
@@ -260,18 +261,77 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 
 [<img src="https://www.hyperledger.org/wp-content/uploads/2018/03/Hyperledger_Fabric_Logo_Color.png" align="right" width="120">](https://www.hyperledger.org/projects/fabric)
 
-[doc](https://hyperledger-fabric-docs-zh-cn.readthedocs.io/zh_CN/latest/)
+-   [doc](https://hyperledger-fabric-docs-zh-cn.readthedocs.io/zh_CN/latest/)
 
 #### [FISCO-BCOS](https://github.com/FISCO-BCOS/Wiki)
 
 ## Releated Tools
 
 ### Solidity
+-   [doc](https://solidity.readthedocs.io/en/develop/index.html) / [Chinese version](https://solidity-cn.readthedocs.io/zh/develop/)
 
 ### truffle
 
 ### web3.js
 -   [doc](https://web3js.readthedocs.io/en/1.0/)
+
+## Implementation of Blockchain
+-   [**ATS**: _Functional Blockchain_](https://beta.observablehq.com/@galletti94/functional-blockchain)
+-   [**C#**: _Programming The Blockchain in C#_](https://programmingblockchain.gitbooks.io/programmingblockchain/)
+-   [**Crystal**: _Write your own blockchain and PoW algorithm using Crystal_](https://medium.com/@bradford_hamilton/write-your-own-blockchain-and-pow-algorithm-using-crystal-d53d5d9d0c52)
+-   [**C++**: _Blockchain from Scratch_](https://github.com/openblockchains/awesome-blockchains/tree/master/blockchain.cpp)
+-   [**Go: _Building Blockchain in Go_**](https://github.com/Jeiwan/blockchain_go) / [Chinese version 1](https://github.com/liuchengxu/blockchain-tutorial/blob/master/content/part-1/basic-prototype.md) / [Chinese version 2](https://zhangli1.gitbooks.io/dummies-for-blockchain/content/)
+    -   [_Part 1: Basic Prototype_](https://jeiwan.cc/posts/building-blockchain-in-go-part-1/)
+    -   [_Part 2: Proof-of-Work_](https://jeiwan.cc/posts/building-blockchain-in-go-part-2/)
+    -   [_Part 3: Persistence and CLI_](https://jeiwan.cc/posts/building-blockchain-in-go-part-3/)
+    -   [_Part 4: Transactions 1_](https://jeiwan.cc/posts/building-blockchain-in-go-part-4/)
+    -   [_Part 5: Addresses_](https://jeiwan.cc/posts/building-blockchain-in-go-part-5/)
+    -   [_Part 6: Transactions 2_](https://jeiwan.cc/posts/building-blockchain-in-go-part-6/)
+    -   [_Part 7: Network_](https://jeiwan.cc/posts/building-blockchain-in-go-part-7/)
+-   [**Go**: _Building A Simple Blockchain with Go_](https://www.codementor.io/codehakase/building-a-simple-blockchain-with-go-k7crur06v)
+-   [**Go**: _Code your own blockchain in less than 200 lines of Go_](https://medium.com/@mycoralhealth/code-your-own-blockchain-in-less-than-200-lines-of-go-e296282bcffc)
+-   [**Go**: _Code your own blockchain mining algorithm in Go_](https://medium.com/@mycoralhealth/code-your-own-blockchain-mining-algorithm-in-go-82c6a71aba1f)
+-   [**Go**: _GoCoin - A full Bitcoin solution written in Go language (golang)_](https://github.com/piotrnar/gocoin)
+-   [**Go**: _GoChain - A basic implementation of blockchain in go_](https://github.com/crisadamo/gochain)
+-   [**Go**: _Having fun implementing a blockchain using Golang_](https://github.com/izqui/blockchain)
+-   [**Go**: _NaiveChain - A naive and simple implementation of blockchains_](https://github.com/kofj/naivechain)
+-   [**Java**: _Creating Your First Blockchain with Java_](https://medium.com/programmers-blockchain/create-simple-blockchain-java-tutorial-from-scratch-6eeed3cb03fa)
+-   [**Java**: _Write a blockchain with java_](https://www.jianshu.com/p/afd8c465c91a)
+-   [**JavaScript**: _A cryptocurrency implementation in less than 1500 lines of code_](https://github.com/conradoqg/naivecoin)
+-   [**JavaScript**: _A web-based demonstration of blockchain concepts_](https://github.com/anders94/blockchain-demo/) 
+-   [**JavaScript**: _Build your own Blockchain in JavaScript_](https://github.com/nambrot/blockchain-in-js)
+-   [**JavaScript**: _Code for Blockchain Demo_](https://github.com/seanjameshan/blockchain)
+-   [**JavaScript**: _Creating a blockchain with JavaScript_](https://github.com/SavjeeTutorials/SavjeeCoin)
+-   [**JavaScript**: _How To Launch Your Own Production-Ready Cryptocurrency_](https://hackernoon.com/how-to-launch-your-own-production-ready-cryptocurrency-ab97cb773371)
+-   [**JavaScript**: _Learn & Build a JavaScript Blockchain_](https://medium.com/digital-alchemy-holdings/learn-build-a-javascript-blockchain-part-1-ca61c285821e)
+-   [**JavaScript**: _Node.js Blockchain Imlementation: BrewChain: Chain+WebSockets+HTTP Server_](http://www.darrenbeck.co.uk/blockchain/nodejs/nodejscrypto/)
+-   [**JavaScript**: _Writing a tiny blockchain in JavaScript_](https://www.savjee.be/2017/07/Writing-tiny-blockchain-in-JavaScript/)
+    -   [_Part 1: Implementing a basic blockchain_](https://www.savjee.be/2017/07/Writing-tiny-blockchain-in-JavaScript/)
+    -   [_Part 2: Implementing proof-of-work_](https://www.savjee.be/2017/09/Implementing-proof-of-work-javascript-blockchain/)
+    -   [_Part 3: Transactions & mining rewards_](https://www.savjee.be/2018/02/Transactions-and-mining-rewards/)
+    -   [_Part 4: Signing transactions_](https://www.savjee.be/2018/10/Signing-transactions-blockchain-javascript/)
+-   [**Kotlin**: _Let’s implement a cryptocurrency in Kotlin_](https://medium.com/@vasilyf/lets-implement-a-cryptocurrency-in-kotlin-part-1-blockchain-8704069f8580)
+-   [**Python**: _A Practical Introduction to Blockchain with Python_](http://adilmoujahid.com/posts/2018/03/intro-blockchain-bitcoin-python/)
+-   [**Python**: _Build your own blockchain: a Python tutorial_](http://ecomunsing.com/build-your-own-blockchain)
+-   [**Python**: _Learn Blockchains by Building One_](https://hackernoon.com/learn-blockchains-by-building-one-117428612f46)
+-   [**Python**: _Let’s Build the Tiniest Blockchain_](https://medium.com/crypto-currently/lets-build-the-tiniest-blockchain-e70965a248b)
+-   [**Python: _write-your-own-blockchain_**](https://bigishdata.com/2017/10/17/write-your-own-blockchain-part-1-creating-storing-syncing-displaying-mining-and-proving-work/)
+    -   [_Part 1 — Creating, Storing, Syncing, Displaying, Mining, and Proving Work_](https://bigishdata.com/2017/10/17/write-your-own-blockchain-part-1-creating-storing-syncing-displaying-mining-and-proving-work/)
+    -   [_Part 2 — Syncing Chains From Different Nodes_](https://bigishdata.com/2017/10/27/build-your-own-blockchain-part-2-syncing-chains-from-different-nodes/)
+    -   [_Part 3 — Nodes that Mine_](https://bigishdata.com/2017/11/02/build-your-own-blockchain-part-3-writing-nodes-that-mine/)
+    -   [_Part 4.1 — Bitcoin Proof of Work Difficulty Explained_](https://bigishdata.com/2017/11/13/how-to-build-a-blockchain-part-4-1-bitcoin-proof-of-work-difficulty-explained/)
+    -   [_Part 4.2 — Ethereum Proof of Work Difficulty Explained_](https://bigishdata.com/2017/11/21/how-to-build-your-own-blockchain-part-4-2-ethereum-proof-of-work-difficulty-explained/)
+-   [**Ruby**: _lets-build-a-blockchain_](https://github.com/Haseeb-Qureshi/lets-build-a-blockchain)
+-   [**Ruby**: _Programming Blockchains Step-by-Step (Manuscripts Book Edition)_](https://github.com/yukimotopress/programming-blockchains-step-by-step)
+-   [**Scala**: _How to build a simple actor-based blockchain_](https://medium.freecodecamp.org/how-to-build-a-simple-actor-based-blockchain-aac1e996c177)
+-   [**TypeScript**: _Naivecoin: a tutorial for building a cryptocurrency_](https://lhartikk.github.io/)
+    -   [_Minimal working blockchain_](https://lhartikk.github.io/jekyll/update/2017/07/14/chapter1.html)
+    -   [_Proof of Work_](https://lhartikk.github.io/jekyll/update/2017/07/13/chapter2.html)
+    -   [_Transactions_](https://lhartikk.github.io/jekyll/update/2017/07/12/chapter3.html)
+    -   [_Wallet_](https://lhartikk.github.io/jekyll/update/2017/07/11/chapter4.html)
+    -   [_Transaction relaying_](https://lhartikk.github.io/jekyll/update/2017/07/10/chapter5.html)
+    -   [_Wallet UI and blockchain explorer_](https://lhartikk.github.io/jekyll/update/2017/07/09/chapter6.html)
+-   [**TypeScript**: _NaivecoinStake: a tutorial for building a cryptocurrency with the Proof of Stake consensus_](https://naivecoinstake.learn.uno/)
 
 ---
 ## Projects and Applications
