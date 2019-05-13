@@ -211,7 +211,7 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 
 -   [Ethereum white paper](https://github.com/ethereum/wiki/wiki/White-Paper) / [Chinese version](./Ethereum/white%20paper.md)
 -   [Mastering Ethereum](https://github.com/ethereumbook/ethereumbook) / [Chinese version](https://github.com/inoutcode/ethereum_book)
--   [Ethereum Yellow Paper](https://ethereum.github.io/yellowpaper/paper.pdf)
+-   [Ethereum Yellow Paper](https://ethereum.github.io/yellowpaper/paper.pdf) / [Chinese version](https://github.com/yuange1024/ethereum_yellowpaper)
 -   [Ethereum wiki](https://github.com/ethereum/wiki/wiki)
     -   [Ethereum Design Rationale](https://github.com/ethereum/wiki/wiki/Design-Rationale) / [Chinese version](https://ethfans.org/posts/510)
     -   [Ethereum problems](https://github.com/ethereum/wiki/wiki/Problems)
@@ -278,7 +278,7 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 ### truffle
 
 ### web3.js
--   [doc](https://web3js.readthedocs.io/en/1.0/)
+-   [doc](https://web3js.readthedocs.io/en/1.0/) / [Chinese version](http://web3.tryblockchain.org/Web3.js-api-refrence.html)
 
 ## Implementation of Blockchain
 -   [**ATS**: _Functional Blockchain_](https://beta.observablehq.com/@galletti94/functional-blockchain)
