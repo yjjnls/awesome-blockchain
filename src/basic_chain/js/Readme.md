@@ -1,6 +1,6 @@
 # BlockChain for Node.js
 
-Basic implementation for blockchain in node.js
+Basic implementation for blockchain in Node.js
 
 - [x] Block structure
 - [x] Blockchain structure
