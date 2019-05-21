@@ -37,7 +37,7 @@ The blockchain is an incorruptible digital ledger of economic transactions that 
     - [Monero](#monero)
     - [IOTA](#iota)
     - [EOS](#eos)
-    - [IFPS](#ifps)
+    - [IPFS](#ipfs)
       - [Filecoin](#filecoin)
       - [BigchainDB](#bigchaindb)
     - [BitShares](#bitshares)
@@ -409,7 +409,7 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 
 
 [<img src="https://avatars2.githubusercontent.com/u/10536621?s=200&v=4" align="right" width="80">](https://github.com/ipfs)  
-### IFPS
+### IPFS
 **IPFS** ([the InterPlanetary File System](https://github.com/ipfs/faq/issues/76)) is a new hypermedia distribution protocol, addressed by content and identities. IPFS enables the creation of completely distributed applications. It aims to make the web faster, safer, and more open.
 
 **IPFS** is a distributed file system that seeks to connect all computing devices with the same system of files. In some ways, this is similar to the original aims of the Web, but IPFS is actually more similar to a single bittorrent swarm exchanging git objects. You can read more about its origins in the paper [IPFS - Content Addressed, Versioned, P2P File System](https://github.com/ipfs/ipfs/blob/master/papers/ipfs-cap2pfs/ipfs-p2p-file-system.pdf?raw=true).
