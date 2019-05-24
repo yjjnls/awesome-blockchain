@@ -241,11 +241,21 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 -   Token
     -   [ERC20](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md)
 
++   Utils
+    +   [Ethereum Blockchain Explorer](https://etherscan.io/)
+    +   [Eth Gas Station](https://ethgasstation.info/)
+    +   [Eth Network Status](https://ethstats.net/)
 
-+   [Ethereum Blockchain Explorer](https://etherscan.io/)
-+   [Eth Gas Station](https://ethgasstation.info/)
-+   [Eth Network Status](https://ethstats.net/)
 
+-   [**EEA** - Enterprise Ethereum: Private Blockchain For Enterprises](https://101blockchains.com/enterprise-ethereum/)
+    -   [What Is Enterprise Ethereum?](https://101blockchains.com/enterprise-ethereum/#1)
+    -   [What is The Enterprise Ethereum alliance?](https://101blockchains.com/enterprise-ethereum/#2)
+    -   [Benefits of Enterprise Ethereum](https://101blockchains.com/enterprise-ethereum/#3)
+    -   [Architecture Stack of the Enterprise Ethereum Blockchain](https://101blockchains.com/enterprise-ethereum/#4)
+    -   [What Are The Possible Enterprise Ethereum Use Cases?](https://101blockchains.com/enterprise-ethereum/#5)
+    -   [Ethereum Blockchain as a Service Providers](https://101blockchains.com/enterprise-ethereum/#6)
+    -   [Real-World Companies Using Enterprise Ethereum](https://101blockchains.com/enterprise-ethereum/#7)
+    -   [Final Words](https://101blockchains.com/enterprise-ethereum/#8)
 
 ### Consortium Blockchain
 *   **Theory**
