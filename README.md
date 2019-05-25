@@ -34,6 +34,7 @@ The blockchain is an incorruptible digital ledger of economic transactions that 
     - [web3.js](#web3js)
   - [Implementation of Blockchain](#implementation-of-blockchain)
   - [Projects and Applications](#projects-and-applications)
+    - [Quorum](#quorum)
     - [Monero](#monero)
     - [IOTA](#iota)
     - [EOS](#eos)
@@ -350,6 +351,22 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 
 ---
 ## Projects and Applications
+[<img src="https://raw.githubusercontent.com/jpmorganchase/quorum/master/logo.png" align="right" width="80">](https://github.com/jpmorganchase/quorum)  
+### Quorum
+
+**Quorum** is an Ethereum-based distributed ledger protocol with transaction/contract privacy and new consensus mechanisms.
+
+**Quorum** is a fork of [go-ethereum](https://github.com/ethereum/go-ethereum) and is updated in line with go-ethereum releases.
+
+Key enhancements over go-ethereum:
+
+*   **Privacy** - Quorum supports private transactions and private contracts through public/private state separation, and utilises peer-to-peer encrypted message exchanges (see [Constellation](https://github.com/jpmorganchase/constellation) and [Tessera](https://github.com/jpmorganchase/tessera)) for directed transfer of private data to network participants
+*   **Alternative** Consensus Mechanisms - with no need for POW/POS in a permissioned network, Quorum instead offers multiple consensus mechanisms that are more appropriate for consortium chains:
+    *   **Raft-based Consensus** - a consensus model for faster blocktimes, transaction finality, and on-demand block creation
+    *   **Istanbul BFT** - a PBFT-inspired consensus algorithm with transaction finality, by AMIS.
+*   **Peer Permissioning** - node/peer permissioning using smart contracts, ensuring only known parties can join the network
+*   **Higher Performance** - Quorum offers significantly higher performance than public geth
+
 
 [<img src="https://avatars3.githubusercontent.com/u/7450663?s=460&v=4" align="right" width="80">](https://github.com/monero-project/monero)  
 ### Monero
