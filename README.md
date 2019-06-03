@@ -605,7 +605,7 @@ Key enhancements over go-ethereum:
     Genesis block ++
     References_
     
-    -   [**Blockchain in Action**](https://www.manning.com/books/blockchain-in-action) by Bina Ramamurthy, early access --
+-   [**Blockchain in Action**](https://www.manning.com/books/blockchain-in-action) by Bina Ramamurthy, early access --
       _Learn how blockchain differs from other distributed systems ++
     Smart contract development with Ethereum and the Solidity language ++
     Web UI for decentralized apps ++
