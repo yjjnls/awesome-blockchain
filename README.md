@@ -604,7 +604,15 @@ Key enhancements over go-ethereum:
     Block format •
     Genesis block ++
     References_
-
+    
+    -   [**Blockchain in Action**](https://www.manning.com/books/blockchain-in-action) by Bina Ramamurthy, early access --
+      _Learn how blockchain differs from other distributed systems ++
+    Smart contract development with Ethereum and the Solidity language ++
+    Web UI for decentralized apps ++
+    Identity, privacy and security techniques ++
+    On-chain and off-chain data storage_
+    
+    
 ### Applications
 
 #### Identity Applications
