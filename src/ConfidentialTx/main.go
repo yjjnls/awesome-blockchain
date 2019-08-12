@@ -8,60 +8,63 @@ import (
 )
 
 func main() {
-	var (
-		zkrpX zkproofs.Bp
-		zkrpY zkproofs.Bp
-		zkrpZ zkproofs.Bp
-	)
-	// common setup
-	zkrpX.Setup(0, 4294967296)
-	zkrpY.Setup(0, 4294967296)
-	zkrpZ.Setup(0, 4294967296)
 
 	// value
 	x := new(big.Int).SetInt64(30)
 	y := new(big.Int).SetInt64(20)
 	z := new(big.Int).SetInt64(10)
 	// get blind factor, pedersen commit and zkproof
-	// 这里会更新 zkrpX，所以 zkrpX 和 proofX 都需要保存下来
-	blindFactorX, commitmentX, proofX, _ := zkrpX.Prove(x)
+	blindFactorX, tX, hX, pX, proofX, _ := zkproofs.GetZkrp().GenerateProof(x)
 
-	// zkrp, _ := zkproofs.LoadParamFromDisk("setup.dat")
+	proofDataX, _ := zkproofs.DumpProof(tX, hX, pX, &proofX)
+
+	verifier, proof, _ := zkproofs.LoadProof(proofDataX)
+
 	var ok bool
-	// proofX中包含commitmentX，如果修改了proofX.V 验证也不会通过
-	ok, err := zkrpX.Verify(proofX)
+	ok, err := verifier.Verify(*proof)
 	if !ok {
 		fmt.Println("proofX failed!!!")
 		fmt.Println(ok)
 		fmt.Println(err)
+	} else {
+		fmt.Println("proofX verified >0.")
 	}
 
-	blindFactorY, commitmentY, proofY, _ := zkrpY.Prove(y)
+	blindFactorY, tY, hY, pY, proofY, _ := zkproofs.GetZkrp().GenerateProof(y)
 
-	// zkrp, _ = zkproofs.LoadParamFromDisk("setup.dat")
-	ok, _ = zkrpY.Verify(proofY)
+	proofDataY, _ := zkproofs.DumpProof(tY, hY, pY, &proofY)
+
+	verifier, proof, _ = zkproofs.LoadProof(proofDataY)
+	ok, _ = verifier.Verify(proofY)
 	if !ok {
 		fmt.Println("proofY failed!!!")
+	} else {
+		fmt.Println("proofY verified >0.")
 	}
 
-	blindFactorZ, commitmentZ, proofZ, _ := zkrpZ.Prove(z)
-	// zkrp, _ = zkproofs.LoadParamFromDisk("setup.dat")
-	ok, err = zkrpZ.Verify(proofZ)
+	blindFactorZ, tZ, hZ, pZ, proofZ, _ := zkproofs.GetZkrp().GenerateProof(z)
+
+	proofDataZ, _ := zkproofs.DumpProof(tZ, hZ, pZ, &proofZ)
+
+	verifier, proof, _ = zkproofs.LoadProof(proofDataZ)
+	ok, _ = verifier.Verify(proofZ)
 	if !ok {
 		fmt.Println("proofZ failed!!!")
+	} else {
+		fmt.Println("proofZ verified >0.")
 	}
+
+	// 佩德森承诺检查输入之和与输出之和是否相等
 	blindOut := new(big.Int).Add(blindFactorY, blindFactorZ)
 	blindDiff := new(big.Int).Sub(blindFactorX, blindOut)
 
-	commitmentOut := commitmentY.Add(commitmentY, commitmentZ)
-	commitmentDiff := commitmentX.Add(commitmentX, commitmentOut.Neg(commitmentOut))
-
-	fmt.Printf("blind diff: %d\n", blindDiff)
-	fmt.Printf("pedersen commitment diff: ( %d , %d )\n", commitmentDiff.X, commitmentDiff.Y)
-
-	check := zkproofs.Mult(zkrpX.H, blindDiff)
-	fmt.Printf("check               diff: ( %d , %d )\n", check.X, check.Y)
-	fmt.Println(check.X.Cmp(commitmentDiff.X) == 0)
-	fmt.Println(check.Y.Cmp(commitmentDiff.Y) == 0)
+	check := zkproofs.VerifyPedersenCommitment([]*zkproofs.PedersenCommitment{proofX.V}, []*zkproofs.PedersenCommitment{proofY.V, proofZ.V}, blindDiff)
+	fmt.Println("pedersen verify result:", check)
 
 }
+
+// 最好能抽象出一个独立的 zkrp.Bp 出来，然后
+// 主要有两个 challenge值 y 和 z 应该是由 verifier 那边根据A 和 S 生成的，这边把这个交互过程省略了，所以最后应该把
+// zkrp.Zkip.Hh = hprime
+// zkrp.Zkip.Cc = tprime
+// 这两个值也放在 proof 中发过去，有个问题：G 和 H 用户是否应该知道？

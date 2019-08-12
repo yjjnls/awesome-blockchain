@@ -12,7 +12,8 @@ import (
 	"strconv"
 
 	"../byteconversion"
-	"../crypto/secp256k1"
+	"github.com/ethereum/go-ethereum/crypto/secp256k1"
+	// "../crypto/secp256k1"
 )
 
 var (
@@ -27,6 +28,7 @@ Elliptic Curve Point struct.
 type p256 struct {
 	X, Y *big.Int
 }
+type PedersenCommitment = p256
 
 /*
 IsZero returns true if and only if the elliptic curve point is the point at infinity.
@@ -67,6 +69,11 @@ func (p *p256) Add(a, b *p256) *p256 {
 		p.Y = b.Y
 		return p
 
+	}
+	if a.X.Cmp(b.X) == 0 {
+		p.X = new(big.Int)
+		p.Y = new(big.Int)
+		return p
 	}
 	resx, resy := CURVE.Add(a.X, a.Y, b.X, b.Y)
 	p.X = resx
@@ -142,6 +149,11 @@ func (p *p256) Multiply(a, b *p256) *p256 {
 		resx, resy := CURVE.Double(a.X, a.Y)
 		p.X = resx
 		p.Y = resy
+		return p
+	}
+	if a.X.Cmp(b.X) == 0 {
+		p.X = new(big.Int)
+		p.Y = new(big.Int)
 		return p
 	}
 	resx, resy := CURVE.Add(a.X, a.Y, b.X, b.Y)

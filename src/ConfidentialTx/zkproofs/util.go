@@ -18,10 +18,12 @@ package zkproofs
 
 import (
 	"crypto/sha256"
+	"encoding/json"
 	"math/big"
 
 	"../byteconversion"
-	"../crypto/bn256"
+	bn256 "github.com/ethereum/go-ethereum/crypto/bn256/google"
+	// "../crypto/bn256"
 )
 
 //Constants that are going to be used frequently, then we just need to compute them once.
@@ -114,4 +116,68 @@ func GetBigInt(value string) *big.Int {
 	i := new(big.Int)
 	i.SetString(value, 10)
 	return i
+}
+
+/*
+Get common base
+*/
+func GetZkrp() *Bp {
+	var zkrp Bp
+	zkrp.Setup(0, 4294967296)
+	return &zkrp
+}
+
+/*
+Get zkrp verifier
+*/
+func GetVerifier(t *big.Int, h []*p256, p *p256) *Bp {
+	zkrp := GetZkrp()
+	zkrp.Zkip.Cc = t
+	zkrp.Zkip.Hh = h
+	zkrp.Zkip.P = p
+	return zkrp
+}
+
+/*
+Pedersen Commitment verification, check input_sum == output_sum ?
+*/
+func VerifyPedersenCommitment(input, output []*PedersenCommitment, blindDiff *big.Int) bool {
+	inputCommitment := new(PedersenCommitment)
+	outputCommitment := new(PedersenCommitment)
+	for _, p := range input {
+		inputCommitment = inputCommitment.Add(inputCommitment, p)
+	}
+	for _, p := range output {
+		outputCommitment = outputCommitment.Add(outputCommitment, p)
+	}
+	// 计算佩德森承诺输入输出之差
+	diffCommitment := inputCommitment.Add(inputCommitment, outputCommitment.Neg(outputCommitment))
+	// 根据盲因子计算理论值
+	H, _ := MapToGroup(SEEDH)
+	checkCommitment := Mult(H, blindDiff)
+	// 比较是否相等
+	return checkCommitment.X.Cmp(diffCommitment.X) == 0 && checkCommitment.Y.Cmp(diffCommitment.Y) == 0
+
+}
+
+type ProofData struct {
+	Proof *proofBP
+	T     *big.Int
+	Hh    []*p256
+	P     *p256
+}
+
+func DumpProof(t *big.Int, h []*p256, p *p256, proof *proofBP) ([]byte, error) {
+	zkrproof := &ProofData{proof, t, h, p}
+	data, err := json.Marshal(zkrproof)
+	return data, err
+}
+
+func LoadProof(data []byte) (*Bp, *proofBP, error) {
+	var p ProofData
+	err := json.Unmarshal(data, &p)
+	if err != nil {
+		return nil, nil, err
+	}
+	return GetVerifier(p.T, p.Hh, p.P), p.Proof, nil
 }

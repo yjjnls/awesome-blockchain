@@ -31,7 +31,8 @@ import (
 	"math/big"
 	"strconv"
 
-	"../crypto/bn256"
+	bn256 "github.com/ethereum/go-ethereum/crypto/bn256/google"
+	// "../crypto/bn256"
 )
 
 /*
@@ -148,7 +149,9 @@ func ProveSet(x int64, r *big.Int, p paramsSet) (proofSet, error) {
 
 	// Initialize variables
 	proof_out.D = new(bn256.G2)
-	proof_out.D.SetInfinity()
+	// proof_out.D.SetInfinity()
+	_, _, epz, _ := proof_out.D.CurvePoints()
+	epz.SetZero()
 	proof_out.m, _ = rand.Int(rand.Reader, bn256.Order)
 
 	D := new(bn256.G2)
@@ -165,7 +168,7 @@ func ProveSet(x int64, r *big.Int, p paramsSet) (proofSet, error) {
 		proof_out.t, _ = rand.Int(rand.Reader, bn256.Order)
 		proof_out.a = bn256.Pair(G1, proof_out.V)
 		proof_out.a.ScalarMult(proof_out.a, proof_out.s)
-		proof_out.a.Invert(proof_out.a)
+		proof_out.a.Neg(proof_out.a)
 		proof_out.a.Add(proof_out.a, new(bn256.GT).ScalarMult(E, proof_out.t))
 	} else {
 		return proof_out, errors.New("Could not generate proof. Element does not belong to the interval.")
@@ -208,7 +211,9 @@ func ProveUL(x, r *big.Int, p paramsUL) (proofUL, error) {
 	proof_out.zsig = make([]*big.Int, p.l, p.l)
 	proof_out.zv = make([]*big.Int, p.l, p.l)
 	proof_out.D = new(bn256.G2)
-	proof_out.D.SetInfinity()
+	// proof_out.D.SetInfinity()
+	_, _, epz, _ := proof_out.D.CurvePoints()
+	epz.SetZero()
 	proof_out.m, _ = rand.Int(rand.Reader, bn256.Order)
 
 	// D = H^m
@@ -222,7 +227,7 @@ func ProveUL(x, r *big.Int, p paramsUL) (proofUL, error) {
 			proof_out.t[i], _ = rand.Int(rand.Reader, bn256.Order)
 			proof_out.a[i] = bn256.Pair(G1, proof_out.V[i])
 			proof_out.a[i].ScalarMult(proof_out.a[i], proof_out.s[i])
-			proof_out.a[i].Invert(proof_out.a[i])
+			proof_out.a[i].Neg(proof_out.a[i])
 			proof_out.a[i].Add(proof_out.a[i], new(bn256.GT).ScalarMult(E, proof_out.t[i]))
 
 			ui := new(big.Int).Exp(new(big.Int).SetInt64(p.u), new(big.Int).SetInt64(i), nil)
@@ -279,7 +284,7 @@ func VerifySet(proof_out *proofSet, p *paramsSet) (bool, error) {
 	p1.ScalarMult(p1, proof_out.c)
 	p2 = bn256.Pair(G1, proof_out.V)
 	p2.ScalarMult(p2, proof_out.zsig)
-	p2.Invert(p2)
+	p2.Neg(p2)
 	p1.Add(p1, p2)
 	p1.Add(p1, new(bn256.GT).ScalarMult(E, proof_out.zv))
 
@@ -321,7 +326,7 @@ func VerifyUL(proof_out *proofUL, p *paramsUL) (bool, error) {
 		p1.ScalarMult(p1, proof_out.c)
 		p2 = bn256.Pair(G1, proof_out.V[i])
 		p2.ScalarMult(p2, proof_out.zsig[i])
-		p2.Invert(p2)
+		p2.Neg(p2)
 		p1.Add(p1, p2)
 		p1.Add(p1, new(bn256.GT).ScalarMult(E, proof_out.zv[i]))
 

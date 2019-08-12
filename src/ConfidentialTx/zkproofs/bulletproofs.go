@@ -797,7 +797,7 @@ func (zkrp *Bp) Delta(y, z *big.Int) (*big.Int, error) {
 SetupPre is responsible for computing the common parameters.
 */
 func (zkrp *Bp) SetupPre(a, b int64) {
-	res, _ := LoadParamFromDisk("setup.dat")
+	res, _ := LoadParamFromDisk("setup.json")
 	zkrp = res
 	// Setup Inner Product
 	zkrp.Zkip.Setup(zkrp.H, zkrp.Gg, zkrp.Hh, new(big.Int).SetInt64(0))
@@ -826,13 +826,13 @@ func (zkrp *Bp) Setup(a, b int64) {
 
 	// Setup Inner Product
 	zkrp.Zkip.Setup(zkrp.H, zkrp.Gg, zkrp.Hh, new(big.Int).SetInt64(0))
-	// zkrp.SaveToDisk("setup.dat", nil)
+	// zkrp.SaveToDisk("setup.json", nil)
 }
 
 /*
 Prove computes the ZK proof.
 */
-func (zkrp *Bp) Prove(secret *big.Int) (*big.Int, *p256, proofBP, error) {
+func (zkrp *Bp) GenerateProof(secret *big.Int) (*big.Int, *big.Int, []*p256, *p256, proofBP, error) {
 	var (
 		i     int64
 		sL    []*big.Int
@@ -972,7 +972,7 @@ func (zkrp *Bp) Prove(secret *big.Int) (*big.Int, *p256, proofBP, error) {
 	zkrp.Zkip.Cc = tprime
 
 	commit, _ := CommitInnerProduct(zkrp.Gg, hprime, bl, br)
-	proofip, _ := zkrp.Zkip.Prove(bl, br, commit)
+	proofip, _ := zkrp.Zkip.GenerateProof(bl, br, commit)
 
 	proof.V = V
 	proof.A = A
@@ -985,8 +985,8 @@ func (zkrp *Bp) Prove(secret *big.Int) (*big.Int, *p256, proofBP, error) {
 	proof.Proofip = proofip
 	proof.Commit = commit
 
-	// zkrp.SaveToDisk("setup.dat", &proof)
-	return gamma, V, proof, nil
+	// zkrp.SaveToDisk("setup.json", &proof)
+	return gamma, tprime, hprime, zkrp.Zkip.P, proof, nil
 }
 
 /*
@@ -1191,7 +1191,7 @@ func (zkip *bip) Setup(H *p256, g, h []*p256, c *big.Int) (bip, error) {
 /*
 Prove is responsible for the generation of the Inner Product Proof.
 */
-func (zkip *bip) Prove(a, b []*big.Int, P *p256) (proofBip, error) {
+func (zkip *bip) GenerateProof(a, b []*big.Int, P *p256) (proofBip, error) {
 	var (
 		proof proofBip
 		n, m  int64
