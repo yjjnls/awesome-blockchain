@@ -280,6 +280,7 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 
 -   [doc](https://hyperledger-fabric-docs-zh-cn.readthedocs.io/zh_CN/latest/)
 -   [IBM OpenTech Hyperledger Fabric 1.4 LTS Course](https://space.bilibili.com/102734951/channel/detail?cid=69148)
+-   [edx: Introduction to Hyperledger Blockchain Technologies Free Course](https://www.edx.org/course/introduction-to-hyperledger-blockchain-technologie)
 
 #### [FISCO-BCOS](https://github.com/FISCO-BCOS/Wiki)
 
