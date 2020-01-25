@@ -25,6 +25,7 @@
 - [PocketEOS-IOS](https://github.com/OracleChain/PocketEOS-IOS) - Open source wallet for IOS.
 - [PocketEOS-Android](https://github.com/OracleChain/PocketEOS-Android) - Open source wallet for Android.
 - [EOS REACH Android](https://github.com/memtrip/eosreach) - Open source wallet for Android.
+- [Exodus](https://www.exodus.io/eos-wallet) - Popular multicurrency wallet with in-app exchange for desktop and mobile.
 
 ## Language Support
 
