@@ -8,6 +8,8 @@
 ## Wallets
 - [Official GUI]()
 - [Mymonero.com](https://mymonero.com) - Web wallet of fluffypony, core dev of Monero
+- [Exodus](https://www.exodus.io/monero-wallet/) - Popular multicurrency wallet with in-app exchange for desktop and mobile
+- [Monerujo](https://www.monerujo.io/) - Android wallet with ability to pay Bitcoin addresses using XMR.to
 - *Warning: fluffypony (core dev of Monero) is suspicious ([Link](https://monero.stackexchange.com/questions/897/does-monero-have-any-mobile-wallets-available) of those 2 wallets. Do your own research.* 
     - [Android Wallet By Freewallet](https://play.google.com/store/apps/details?id=xmr.org.freewallet.app&hl=en)
     - [IOS Wallet By Freewallet](https://itunes.apple.com/us/app/monero-wallet-by-freewallet/id1126426159?mt=8)
