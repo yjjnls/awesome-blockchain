@@ -287,6 +287,27 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 #### [XuperChain](https://github.com/xuperchain/xuperchain)
 [<img src="https://avatars3.githubusercontent.com/u/43258643?s=200&v=4" align="right" width="80">](https://xchain.baidu.com/)
 
+**XuperChain**, the first open source project of XuperChain Lab, introduces a highly flexible blockchain architecture with great transaction performance.
+
+**XuperChain** is the underlying solution for union networks with following highlight features:
+
+**High Performance**
+*   Creative XuperModel technology makes contract execution and verification run parallelly.
+*   TDPoS ensures quick consensus in a large scale network.
+*   WASM VM using AOT technology.
+
+**Solid Security**
+*   Contract account protected by multiple private keys ensures assets safety.
+*   Flexible authorization system supports weight threshold, AK sets and could be easily extended.
+
+**High Scalability**
+*   Robust P2P network supports a large scale network with thousands of nodes.
+*   Branch management on ledger makes automatic convergence consistency and supports global deployment.
+
+**Multi-Language Support**: Support pluggable multi-language contract VM using XuperBridge technology.
+
+**Flexibility**: Modular and pluggable design provides high flexibility for users to build their blockchain solutions for various business scenarios.
+
 -   [Baidu Blockchain Engine](https://cloud.baidu.com/product/bbe.html)
 -   [Homepage](https://xchain.baidu.com/)
 -   [Doc](https://xuperchain.readthedocs.io/zh/latest/index.html)
