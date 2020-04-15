@@ -26,6 +26,7 @@ The blockchain is an incorruptible digital ledger of economic transactions that 
     - [Ethereum](#ethereum)
     - [Consortium Blockchain](#consortium-blockchain)
       - [Fabric](#fabric)
+      - [XuperChain](#xuperchain)
       - [FISCO-BCOS](#fisco-bcos)
   - [Releated Tools](#releated-tools)
     - [Solidity](#solidity)
@@ -282,6 +283,21 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 -   [doc](https://hyperledger-fabric-docs-zh-cn.readthedocs.io/zh_CN/latest/)
 -   [IBM OpenTech Hyperledger Fabric 1.4 LTS Course](https://space.bilibili.com/102734951/channel/detail?cid=69148)
 -   [edx: Introduction to Hyperledger Blockchain Technologies Free Course](https://www.edx.org/course/introduction-to-hyperledger-blockchain-technologie)
+
+#### [XuperChain](https://github.com/xuperchain/xuperchain)
+[<img src="https://avatars3.githubusercontent.com/u/43258643?s=200&v=4" align="right" width="80">](https://xchain.baidu.com/)
+
+-   [Baidu Blockchain Engine](https://cloud.baidu.com/product/bbe.html)
+-   [Homepage](https://xchain.baidu.com/)
+-   [Doc](https://xuperchain.readthedocs.io/zh/latest/index.html)
+-   [Wiki](https://github.com/xuperchain/xuperchain/wiki) / [English version](https://github.com/xuperchain/xuperchain/wiki/Wiki-in-English)
+
++   [Getting start](https://github.com/xuperchain/xuperchain/wiki/3.-Getting-Started)
++   SDK
+    +   [Go SDK](https://github.com/xuperchain/xuper-java-sdk)
+    +   [Javascript SDK](https://github.com/xuperchain/xuper-sdk-js)
+    +   [Java SDK](https://github.com/xuperchain/xuper-python-sdk)
+    +   [Python SDK](https://github.com/xuperchain/xuper-python-sdk)
 
 #### [FISCO-BCOS](https://github.com/FISCO-BCOS/Wiki)
 
