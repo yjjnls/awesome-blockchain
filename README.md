@@ -293,18 +293,18 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 
 **High Performance**
 *   Creative XuperModel technology makes contract execution and verification run parallelly.
-*   TDPoS ensures quick consensus in a large scale network.
+*   [TDPoS](https://xuperchain.readthedocs.io/zh/latest/design_documents/xpos.html) ensures quick consensus in a large scale network.
 *   WASM VM using AOT technology.
 
 **Solid Security**
 *   Contract account protected by multiple private keys ensures assets safety.
-*   Flexible authorization system supports weight threshold, AK sets and could be easily extended.
+*   [Flexible authorization system](https://xuperchain.readthedocs.io/zh/latest/design_documents/permission_model.html) supports weight threshold, AK sets and could be easily extended.
 
 **High Scalability**
-*   Robust P2P network supports a large scale network with thousands of nodes.
+*   Robust [P2P](https://xuperchain.readthedocs.io/zh/latest/design_documents/p2p.html) network supports a large scale network with thousands of nodes.
 *   Branch management on ledger makes automatic convergence consistency and supports global deployment.
 
-**Multi-Language Support**: Support pluggable multi-language contract VM using XuperBridge technology.
+**Multi-Language Support**: Support pluggable multi-language contract VM using [XuperBridge](https://xuperchain.readthedocs.io/zh/latest/design_documents/XuperBridge.html) technology.
 
 **Flexibility**: Modular and pluggable design provides high flexibility for users to build their blockchain solutions for various business scenarios.
 
@@ -314,11 +314,17 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 -   [Wiki](https://github.com/xuperchain/xuperchain/wiki) / [English version](https://github.com/xuperchain/xuperchain/wiki/Wiki-in-English)
 
 +   [Getting start](https://github.com/xuperchain/xuperchain/wiki/3.-Getting-Started)
+    +   [Account operation](https://xuperchain.readthedocs.io/zh/latest/advanced_usage/contract_accounts.html)
+    +   [Multiple nodes deployment](https://xuperchain.readthedocs.io/zh/latest/advanced_usage/multi-nodes.html)
+    +   [Wasm contract](https://xuperchain.readthedocs.io/zh/latest/advanced_usage/create_contracts.html)
+    +   [Proposal](https://xuperchain.readthedocs.io/zh/latest/advanced_usage/initiate_proposals.html)
+    +   [Parallel chain](https://xuperchain.readthedocs.io/zh/latest/advanced_usage/parallel_chain.html)
 +   SDK
     +   [Go SDK](https://github.com/xuperchain/xuper-java-sdk)
     +   [Javascript SDK](https://github.com/xuperchain/xuper-sdk-js)
     +   [Java SDK](https://github.com/xuperchain/xuper-python-sdk)
     +   [Python SDK](https://github.com/xuperchain/xuper-python-sdk)
++   [Detailed FAQs](https://xuperchain.readthedocs.io/zh/latest/FAQs.html)
 
 #### [FISCO-BCOS](https://github.com/FISCO-BCOS/Wiki)
 
