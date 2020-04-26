@@ -325,6 +325,7 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
     +   [Java SDK](https://github.com/xuperchain/xuper-python-sdk)
     +   [Python SDK](https://github.com/xuperchain/xuper-python-sdk)
 +   [Detailed FAQs](https://xuperchain.readthedocs.io/zh/latest/FAQs.html)
++   [Comparation with Fabric and Ethereum](https://github.com/xuperchain/xuperchain/wiki/%E9%99%84-%E8%AF%84%E6%B5%8B%E6%95%B0%E6%8D%AE%E5%AF%B9%E6%AF%94)
 
 #### [FISCO-BCOS](https://github.com/FISCO-BCOS/Wiki)
 
