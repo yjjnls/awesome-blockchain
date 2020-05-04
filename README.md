@@ -661,7 +661,7 @@ Key enhancements over go-ethereum:
     Identity, privacy and security techniques ++
     On-chain and off-chain data storage_
     
-    -   [**Permissioned Blockchains in Action**](https://www.manning.com/books/permissioned-blockchains-in-action) by Mansoor Ahmed-Rengers & Marta Piekarska-Geater, early access --
+-   [**Permissioned Blockchains in Action**](https://www.manning.com/books/permissioned-blockchains-in-action) by Mansoor Ahmed-Rengers & Marta Piekarska-Geater, early access --
       _A guide to creating innovative applications using blockchain technology ++
     Writing smart contracts and distributed applications using Solidity ++
     Configuring DLT networks ++
