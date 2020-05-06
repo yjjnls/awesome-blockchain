@@ -660,6 +660,14 @@ Key enhancements over go-ethereum:
     Web UI for decentralized apps ++
     Identity, privacy and security techniques ++
     On-chain and off-chain data storage_
+    
+-   [**Permissioned Blockchains in Action**](https://www.manning.com/books/permissioned-blockchains-in-action) by Mansoor Ahmed-Rengers & Marta Piekarska-Geater, early access --
+      _A guide to creating innovative applications using blockchain technology ++
+    Writing smart contracts and distributed applications using Solidity ++
+    Configuring DLT networks ++
+    Designing blockchain solutions for specific use cases ++
+    Identity management in permissioned blockchains networks_
+
 
 
 ### Applications
