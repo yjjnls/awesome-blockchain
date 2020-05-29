@@ -249,6 +249,7 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
     +   [Ethereum Blockchain Explorer](https://etherscan.io/)
     +   [Eth Gas Station](https://ethgasstation.info/)
     +   [Eth Network Status](https://ethstats.net/)
+    +   [Defi Portfolio Tracker](https://debank.com/)
 
 
 -   [**EEA** - Enterprise Ethereum: Private Blockchain For Enterprises](https://101blockchains.com/enterprise-ethereum/)
