@@ -260,10 +260,6 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
     -   [Ethereum Blockchain as a Service Providers](https://101blockchains.com/enterprise-ethereum/#6)
     -   [Real-World Companies Using Enterprise Ethereum](https://101blockchains.com/enterprise-ethereum/#7)
     -   [Final Words](https://101blockchains.com/enterprise-ethereum/#8)
-### DeFi (Decentralised Finance)
-
-+   Tools
-    +   [Defi Dashboard](https://debank.com/): portfolio tracker, project lists, rankings, etc.
 
 ### Consortium Blockchain
 *   **Theory**
@@ -733,6 +729,11 @@ Key enhancements over go-ethereum:
 -   [PopChest](https://popchest.com) - Incentivized distributed video platform.
 -   [Civil](https://joincivil.com) - Decentralized newsmaking platform.
 
+#### DeFi (Decentralised Finance)
+
++   Tools
+    +   [Defi Dashboard](https://debank.com/): portfolio tracker, project lists, rankings, etc.
+    
 ---
 ## Contribute
 
