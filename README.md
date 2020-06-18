@@ -250,9 +250,6 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
     +   [Eth Gas Station](https://ethgasstation.info/)
     +   [Eth Network Status](https://ethstats.net/)
     
-+   Tools
-    +   [Defi Portfolio Tracker](https://debank.com/)
-
 
 -   [**EEA** - Enterprise Ethereum: Private Blockchain For Enterprises](https://101blockchains.com/enterprise-ethereum/)
     -   [What Is Enterprise Ethereum?](https://101blockchains.com/enterprise-ethereum/#1)
@@ -263,6 +260,10 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
     -   [Ethereum Blockchain as a Service Providers](https://101blockchains.com/enterprise-ethereum/#6)
     -   [Real-World Companies Using Enterprise Ethereum](https://101blockchains.com/enterprise-ethereum/#7)
     -   [Final Words](https://101blockchains.com/enterprise-ethereum/#8)
+### DeFi (Decentralised Finance)
+
++   Tools
+    +   [Defi Dashboard](https://debank.com/): portfolio tracker, project lists, rankings, etc.
 
 ### Consortium Blockchain
 *   **Theory**
