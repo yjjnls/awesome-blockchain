@@ -668,7 +668,7 @@ Key enhancements over go-ethereum:
     Designing blockchain solutions for specific use cases ++
     Identity management in permissioned blockchains networks_
     
-    -   [**Programming Hyperledger Fabric**](https://www.manning.com/books/programming-hyperledger-fabric) by Siddharth Jain, early access --
+-   [**Programming Hyperledger Fabric**](https://www.manning.com/books/programming-hyperledger-fabric) by Siddharth Jain, early access --
       _A guide to developing blockchain applications for enterprise use cases ++
     Where Fabric fits in to the blockchain landscape ++
     The ins and outs of deploying real-world applications ++
