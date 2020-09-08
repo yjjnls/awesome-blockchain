@@ -739,8 +739,13 @@ Key enhancements over go-ethereum:
 
 #### DeFi (Decentralised Finance)
 
+-   [Uniswap](https://uniswap.org) - Decentralized exchange powered by the Automated Market Maker model (AMM).
+-   [Compound](https://compound.finance) - Decentralized lending and borrowing.
+-   [1inch Exchange](https://1inch.exchange) - Get the best rates among multiple DEXes.
+
 +   Tools
     +   [Defi Dashboard](https://debank.com/): portfolio tracker, project lists, rankings, etc.
+    +   [Zapper](https://zapper.fi/): dashboard for viewing and managing your DeFi investments.
     
 ---
 ## Contribute
