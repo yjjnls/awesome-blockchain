@@ -19,7 +19,7 @@ The blockchain is an incorruptible digital ledger of economic transactions that 
     - [BitCoin](#bitcoin)
     - [Ethereum](#ethereum)
     - [Consortium Blockchain](#consortium-blockchain)
-      - [Fabric](#fabric)
+      - [Hyperledger](#hyperledger)
       - [XuperChain](#xuperchain)
       - [FISCO-BCOS](#fisco-bcos)
   - [Releated Tools](#releated-tools)
@@ -48,6 +48,7 @@ The blockchain is an incorruptible digital ledger of economic transactions that 
       - [Internet of Things Applications](#internet-of-things-applications)
       - [Energy Applications](#energy-applications)
       - [Media and Journalism](#media-and-journalism)
+      - [DeFi (Decentralised Finance)](#defi-decentralised-finance)
   - [Contribute](#contribute)
 
 </details>
@@ -270,9 +271,17 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
     -   [How to Set Up a Private Ethereum Blockchain in 20 Minutes](https://arctouch.com/blog/how-to-set-up-ethereum-blockchain/)
 
 
-#### Fabric
+#### Hyperledger
 
 [<img src="https://www.hyperledger.org/wp-content/uploads/2018/03/Hyperledger_Fabric_Logo_Color.png" align="right" width="120">](https://www.hyperledger.org/projects/fabric)
+
+-   [Hyperledger Org](https://wiki.hyperledger.org/)
+-   [Fabric Org](https://wiki.hyperledger.org/display/Fabric)
+-   [Fabric Design Documents](https://wiki.hyperledger.org/display/fabric/Design+Documents)
+-   [Fabric Wiki](https://hyperledger-fabric.readthedocs.io/en/latest/)
+    -   1.4 [En](https://hyperledger-fabric.readthedocs.io/en/release-1.4/) / [Zn](https://hyperledger-fabric.readthedocs.io/zh_CN/release-1.4/)
+    -   2.2 [En](https://hyperledger-fabric.readthedocs.io/en/release-2.2/) / [Zn](https://hyperledger-fabric.readthedocs.io/zh_CN/release-2.2/)
+
 
 -   [doc](https://hyperledger-fabric-docs-zh-cn.readthedocs.io/zh_CN/latest/)
 -   [IBM OpenTech Hyperledger Fabric 1.4 LTS Course](https://space.bilibili.com/102734951/channel/detail?cid=69148)
