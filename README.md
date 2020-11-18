@@ -36,6 +36,7 @@ The blockchain is an incorruptible digital ledger of economic transactions that 
       - [Filecoin](#filecoin)
       - [BigchainDB](#bigchaindb)
     - [BitShares](#bitshares)
+    - [ArcBlock](#arcblock)
   - [Further Extension](#further-extension)
     - [Papers](#papers)
     - [Books](#books)
@@ -517,6 +518,9 @@ Key enhancements over go-ethereum:
 
 ### BitShares
 - [White paper]() / [Chinese version](https://www.8btc.com/article/3369)
+
+### ArcBlock
+- [Blockchain Developer Platform](https://www.arcblock.io) / [White Paper](https://www.arcblock.io/en/whitepaper/latest)
 
 ---
 ## Further Extension
