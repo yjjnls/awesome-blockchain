@@ -277,19 +277,22 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 [<img src="https://www.hyperledger.org/wp-content/uploads/2018/03/Hyperledger_Fabric_Logo_Color.png" align="right" width="120">](https://www.hyperledger.org/projects/fabric)
 
 -   [Hyperledger Org](https://wiki.hyperledger.org/)
--   [Fabric Org](https://wiki.hyperledger.org/display/Fabric)
--   [Fabric Design Documents](https://wiki.hyperledger.org/display/fabric/Design+Documents)
--   [Fabric Wiki](https://hyperledger-fabric.readthedocs.io/en/latest/)
-    -   1.4 [En](https://hyperledger-fabric.readthedocs.io/en/release-1.4/) / [Zn](https://hyperledger-fabric.readthedocs.io/zh_CN/release-1.4/)
-    -   2.2 [En](https://hyperledger-fabric.readthedocs.io/en/release-2.2/) / [Zn](https://hyperledger-fabric.readthedocs.io/zh_CN/release-2.2/)
+-   Fabric
+    -   [Fabric Org](https://wiki.hyperledger.org/display/Fabric)
+    -   [Fabric Design Documents](https://wiki.hyperledger.org/display/fabric/Design+Documents)
+    -   [Fabric Wiki](https://hyperledger-fabric.readthedocs.io/en/latest/)
+        -   1.4 [En](https://hyperledger-fabric.readthedocs.io/en/release-1.4/) / [Zn](https://hyperledger-fabric.readthedocs.io/zh_CN/release-1.4/) / [Release](https://hyperledger-fabric.readthedocs.io/_/downloads/en/release-1.4/pdf/)
+        -   2.2 [En](https://hyperledger-fabric.readthedocs.io/en/release-2.2/) / [Zn](https://hyperledger-fabric.readthedocs.io/zh_CN/release-2.2/)
+    -   [Fabric Source Code Analyse](https://yeasy.gitbook.io/hyperledger_code_fabric/overview)
+    -   [A Kafka-based Ordering Service for Fabric](https://docs.google.com/document/d/19JihmW-8blTzN99lAubOfseLUZqdrB6sBR0HsRgCAnY/edit)
 
+-   Explorer
+    -   [Explorer Proposal](https://docs.google.com/document/d/1GuVNHZ5Jqq-gTVKflnZ1YiJfEoozvugqenC6QEQFQj4/edit)
+    -   [Explorer doc](https://blockchain-explorer.readthedocs.io/en/master/architecture/index.html)
 
--   [doc](https://hyperledger-fabric-docs-zh-cn.readthedocs.io/zh_CN/latest/)
 -   [IBM OpenTech Hyperledger Fabric 1.4 LTS Course](https://space.bilibili.com/102734951/channel/detail?cid=69148)
 -   [edx: Introduction to Hyperledger Blockchain Technologies Free Course](https://www.edx.org/course/introduction-to-hyperledger-blockchain-technologie)
 
--   [Explorer Proposal](https://docs.google.com/document/d/1GuVNHZ5Jqq-gTVKflnZ1YiJfEoozvugqenC6QEQFQj4/edit)
--   [Explorer doc](https://blockchain-explorer.readthedocs.io/en/master/architecture/index.html)
 
 #### [XuperChain](https://github.com/xuperchain/xuperchain)
 [<img src="https://avatars3.githubusercontent.com/u/43258643?s=200&v=4" align="right" width="80">](https://xchain.baidu.com/)
