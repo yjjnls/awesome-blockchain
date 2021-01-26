@@ -190,6 +190,7 @@ The "classic" Satoshi-blockchain is like a git repo with a single master branch 
 -   [Mastering BitCoin](https://github.com/bitcoinbook/bitcoinbook) / [Chinese version](http://book.8btc.com/books/6/masterbitcoin2cn/_book/) / [pdf download](http://book.8btc.com/master_bitcoin?export=pdf)
 -   [Bitcoin Improvement Proposals (BIPs)](https://github.com/bitcoin/bips/)
 
++   [But how does bitcoin actually work?](https://www.youtube.com/watch?v=bBC-nXj3Ng4)
 +   [Mining visualization](http://www.yogh.io/#mine:last)
 +   [Wallets](./BitCoin/awesome.md#wallets-api)
 +   [Explorers](./BitCoin/awesome.md#blockchain-explorers)
