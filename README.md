@@ -689,6 +689,12 @@ Key enhancements over go-ethereum:
     Developing smart contracts and client applications in Node ++
     Debugging and troubleshooting ++
     Securing production applications_
+    
+-   [**Self-Sovereign Identity**](https://www.manning.com/books/self-sovereign-identity) by Alex Preukschat and Drummond Reed, --
+      _In Self-Sovereign Identity: Decentralized digital identity and verifiable credentials++
+      you’ll learn how SSI empowers us to receive digitally-signed credentials++
+      store them in private wallets++
+      and securely prove our online identities._
 
 
 
