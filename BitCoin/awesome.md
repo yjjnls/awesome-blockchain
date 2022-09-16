@@ -62,8 +62,8 @@
 -   [BlockTrail](https://www.blocktrail.com/BTC) 
 -   [Bitcoin Transaction Explorer](https://github.com/JornC/bitcoin-transaction-explorer)
 -   [Blockexplorer.com](https://blockexplorer.com)
--   [Smartbit](https://www.smartbit.com.au)
--   [Bitkit](https://bitkit.live) - Real time transaction updates
+-   [Blockonomics](https://www.blockonomics.co)
+
 
 ## Libraries
 
