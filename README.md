@@ -776,11 +776,12 @@ Key enhancements over go-ethereum:
     +   [Zapper](https://zapper.fi/): dashboard for viewing and managing your DeFi investments.
     +   [Furucombo](https://furucombo.app/): easily create flashloans without writing a single line of code.
     +   [Covalent](https://www.covalenthq.com/): an unified API bringing visibility to billions of blockchain data points.
----
 
 ### Roadmaps
 
 -   [**Blockchain Developer Roadmap**](https://roadmap.sh/blockchain) by @kamranahmedse -- Roadmap to become a Blockchain Developer.
+
+---
 
 ## Contribute
 
