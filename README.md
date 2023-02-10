@@ -779,7 +779,7 @@ Key enhancements over go-ethereum:
 
 ### Roadmaps
 
--   [**Blockchain Developer Roadmap**](https://roadmap.sh/blockchain) by @kamranahmedse -- Roadmap to become a Blockchain Developer.
+-   [**Blockchain Developer Roadmap**](https://roadmap.sh/blockchain) -- Roadmap to become a Blockchain Developer.
 
 ---
 
