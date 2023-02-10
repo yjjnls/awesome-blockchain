@@ -50,7 +50,7 @@ The blockchain is an incorruptible digital ledger of economic transactions that 
       - [Energy Applications](#energy-applications)
       - [Media and Journalism](#media-and-journalism)
       - [DeFi (Decentralised Finance)](#defi-decentralised-finance)
-    - [Roadmaps](#roadmap)
+    - [Roadmaps](#roadmaps)
   - [Contribute](#contribute)
 
 </details>
