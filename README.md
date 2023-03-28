@@ -519,6 +519,9 @@ Key enhancements over go-ethereum:
 #### [Filecoin](https://filecoin.io/)
 - [White paper](https://filecoin.io/filecoin.pdf) / [Chinese version](http://chainx.org/paper/index/index/id/13.html)
 
+#### [Polybase](https://polybase.xyz)
+- [White paper](https://framerusercontent.com/modules/assets/GRv4t0d6jQOJbIO7ZOFgonnXqM~f7GLGr1YpwfK85uVr8su7Mxe_3b6VkIZW94sRev8jj4.pdf) / [Docs](https://github.com/polybase/docs)
+
 #### [BigchainDB](https://www.bigchaindb.com/)
 - [White paper](https://www.bigchaindb.com/whitepaper) / [Chinese version](http://blog.csdn.net/fengqing79/article/details/70154076)
 
