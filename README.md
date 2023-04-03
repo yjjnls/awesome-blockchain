@@ -714,6 +714,7 @@ Key enhancements over go-ethereum:
 
 ##### Public Blockchain Identity
 
+-   [Awesome Name Services](https://github.com/scio-labs/awesome-name-services/) – Awesome list curating all decentralized domain name services (DNS).
 -   [Blockstack](https://blockstack.org) - Platform for decentralized, server-less apps where users control their data. Identity included.
 -   [Evernym](http://www.evernym.com) - Self-Sovereign identity built on top of open source permissioned blockchain.
 -   [Jolocom](https://jolocom.com) - Self-sovereing identity wallet.
