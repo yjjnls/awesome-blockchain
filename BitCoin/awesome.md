@@ -31,8 +31,10 @@
 
 ## Blockchain API and Web services
 
+-   [3xpl.com](https://3xpl.com/data/json-api/docs) - Public JSON API for block, transaction and address data by [@3xplcom](https://github.com/3xplcom)
 -   [block.io](https://block.io)
 -   [BlockCypher](http://www.blockcypher.com)
+-   [Blockchair.com](https://blockchair.com/api/docs#link_001) - Public API with common and blockchain-specific data and analytical queries support by [@Blockchair](https://github.com/Blockchair)
 -   [Gem.co](https://gem.co)
 -   [Insight](https://insight.is)
 -   [Chain.com](https://chain.com)
@@ -57,8 +59,10 @@
 
 ## Blockchain Explorers
 
+-   [3xpl.com](https://3xpl.com/bitcoin) - Fastest ad-free block explorer by [@3xplcom](https://github.com/3xplcom)
 -   [Chain.so](http://chain.so)
 -   [Blockchain.info](https://blockchain.info)
+-   [Blockchair.com](https://blockchair.com/bitcoin) - Universal blockchain explorer and search engine by [@Blockchair](https://github.com/Blockchair)
 -   [BlockTrail](https://www.blocktrail.com/BTC) 
 -   [Bitcoin Transaction Explorer](https://github.com/JornC/bitcoin-transaction-explorer)
 -   [Blockexplorer.com](https://blockexplorer.com)
