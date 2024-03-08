@@ -538,7 +538,7 @@ Key enhancements over go-ethereum:
 
 [<img src="https://www.astrakode.tech/wp-content/themes/astrakode/img/astra-logo.svg" align="right" width="100">](https://www.astrakode.tech/)
 ### [AstraKode Blockchain (AKB)](https://www.astrakode.tech/)
-- [AstraKode Blockchain (AKB)](https://www.astrakode.tech/), a web-based, no-code platform that simplifies the design, development, testing, and deployment of enterprise blockchain solutions and smart contracts. 
+[AstraKode Blockchain (AKB)](https://www.astrakode.tech/), a web-based, no-code platform that simplifies the design, development, testing, and deployment of enterprise blockchain solutions and smart contracts. 
 *   **Technology offered** - Hyperledger Fabric, Solidity.
 *   Freemium with downloadable open source code.
 *   Configurable [Prebuilt Solutions](https://www.astrakode.tech/pre-built-solutions/)
