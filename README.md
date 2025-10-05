@@ -726,6 +726,10 @@ Key enhancements over go-ethereum:
 -   [ShoCard](https://shocard.com) - Proprietary digital identity service, uses blockchain for time-stamping and secure documents exchange.
 -   [Tradle](https://tradle.io/) - Makes a bank on blockchain, identity as a collateral.
 
+##### Layer-1 Blockchains
+
+- [Tezos](https://tezos.com) - Decentralized, self-amending Layer-1 blockchain with on-chain governance and upgradeability.
+
 ##### Unclear
 
 -   [KYC Chain](http://kyc-chain.com) - Secure platform for sharing verifiable identity claims, data or documents among financial institutions.
