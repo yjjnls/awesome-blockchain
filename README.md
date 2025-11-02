@@ -746,6 +746,7 @@ Key enhancements over go-ethereum:
 -   [IOTA](http://www.iotatoken.com) - Decentralized Internet of Things token on blockless blockchain.
 -   [Machinomy](http://machinomy.com) - Distributed platform for IoT micropayments.
 -   [Project Oaken](https://www.projectoaken.com) - IoT blockchain platform.
+-   [x402](https://github.com/xpaysh/awesome-x402) - Internet-native payment protocol using HTTP 402 status code for blockchain payments.
 -   [Slock.it](https://slock.it) - Ethereum-based platform for building Shared Things.
 
 #### Energy Applications
