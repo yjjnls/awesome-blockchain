@@ -779,6 +779,7 @@ Key enhancements over go-ethereum:
     +   [Defi Dashboard](https://debank.com/): portfolio tracker, project lists, rankings, etc.
     +   [Zapper](https://zapper.fi/): dashboard for viewing and managing your DeFi investments.
     +   [Furucombo](https://furucombo.app/): easily create flashloans without writing a single line of code.
+    +   [Codex](https://www.codex.io): Real-time, enriched, blockchain data API indexing 60 million+ tokens and 400M wallets across 80+ networks.
     +   [Covalent](https://www.covalenthq.com/): an unified API bringing visibility to billions of blockchain data points.
 
 ### Roadmaps
