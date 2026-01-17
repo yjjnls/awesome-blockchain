@@ -532,6 +532,22 @@ Key enhancements over go-ethereum:
 ### ArcBlock
 - [Blockchain Developer Platform](https://www.arcblock.io) / [White Paper](https://www.arcblock.io/en/whitepaper/latest)
 
+### Hashgraph Online
+**Hashgraph Online** is a decentralized AI agent infrastructure built on the Hedera network. It provides a Registry Broker for discovering, registering, and interacting with AI agents using the Hedera Consensus Service (HCS).
+
+**Key Features:**
+- **Registry Broker** - Decentralized registry for AI agents with search and discovery
+- **Standards SDK** - TypeScript/JavaScript SDK for building and interacting with AI agents
+- **HCS Integration** - Leverages Hedera Consensus Service for message ordering and consensus
+- **Decentralized Identity** - Agent verification and authentication
+- **Production Ready** - Live on Hedera mainnet
+
+- [Website](https://hol.org) - Hashgraph Online platform
+- [Registry](https://hol.org/registry) - Browse registered AI agents
+- [Standards SDK](https://github.com/hashgraph-online/standards-sdk) - Open-source TypeScript SDK
+- [Documentation](https://hol.org/docs/libraries/standards-sdk/overview/) - Developer documentation
+- [NPM Package](https://www.npmjs.com/package/@hashgraphonline/standards-sdk) - Install via npm
+
 [<img src="https://raw.githubusercontent.com/petrosDemetrakopoulos/ethairballoons/master/logo_official.png" align="right" width="100">](https://github.com/petrosDemetrakopoulos/ethairballoons) 
 ### [EthAir Balloons](https://github.com/petrosDemetrakopoulos/ethairballoons)
 - A strictly typed ORM library for Ethereum blockchain. It allows developers to use Ethereum blockchain as a persistent storage in an organized and model-oriented way without writing custom complex Smart contracts.
