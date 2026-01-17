@@ -31,6 +31,7 @@ The blockchain is an incorruptible digital ledger of economic transactions that 
     - [Quorum](#quorum)
     - [Monero](#monero)
     - [IOTA](#iota)
+    - [Hiero](#hiero)
     - [EOS](#eos)
     - [IPFS](#ipfs)
       - [Filecoin](#filecoin)
@@ -479,6 +480,20 @@ Key enhancements over go-ethereum:
 +   [**Roadmap**](https://www.iota.org/research/roadmap)
 +   [**IOTA Transactions, Confirmation and Consensus**](https://github.com/noneymous/iota-consensus-presentation) / [Chinese version](https://github.com/liuchengxu/blockchain-tutorial/blob/master/content/iota/iota_consensus_v1.0.md)
 +   [**More resouces**](./Extension/iota.md)  
+
+
+### Hiero
+
+**Hiero** is the open-source distributed ledger technology project under the Linux Foundation that powers the Hedera network. It uses the Hashgraph consensus algorithm, an asynchronous Byzantine Fault Tolerant (aBFT) consensus mechanism that achieves high throughput, low latency, and fair ordering without traditional blockchain mining.
+
+-   [Hiero](https://hiero.org) - Open-source DLT under Linux Foundation
+-   [Hiero Documentation](https://docs.hiero.org/) - Official developer documentation
+-   [Hiero Consensus Standards](https://github.com/hiero-ledger/hiero-consensus-specifications) - Open specifications for file storage, registries, NFT inscriptions (Hashinals), AI agent communication, and more
+-   [Standards Documentation](https://hol.org/docs/standards/) - HCS standards reference documentation
+-   [Hedera](https://hedera.com) - The public network powered by Hiero
+
++   [**How to get started**](https://docs.hiero.org/)
++   [**Standards SDK**](https://hol.org/docs/libraries/standards-sdk/overview) - Reference implementation of HCS standards
 
 
 [<img src="https://static.eos.io/images/Landing/SectionTokenSale/eos_spinning_logo.gif" align="right" width="80">](https://github.com/EOSIO/eos)  
