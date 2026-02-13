@@ -37,6 +37,7 @@ The blockchain is an incorruptible digital ledger of economic transactions that 
       - [BigchainDB](#bigchaindb)
     - [BitShares](#bitshares)
     - [ArcBlock](#arcblock)
+    - [RustChain](#rustchain)
   - [Further Extension](#further-extension)
     - [Papers](#papers)
     - [Books](#books)
@@ -536,6 +537,14 @@ Key enhancements over go-ethereum:
 ### [EthAir Balloons](https://github.com/petrosDemetrakopoulos/ethairballoons)
 - A strictly typed ORM library for Ethereum blockchain. It allows developers to use Ethereum blockchain as a persistent storage in an organized and model-oriented way without writing custom complex Smart contracts.
 
+
+### RustChain
+
+**RustChain** is a Proof of Antiquity blockchain that rewards mining on vintage and retro hardware. PowerPC G4 Macs earn a 2.5x reward multiplier, G5 earns 2.0x, and IBM POWER8 earns 2.0x. Features hardware fingerprinting to prevent emulation fraud, Ergo blockchain anchoring, and a wRTC token tradeable on Solana/Raydium.
+
+- [GitHub](https://github.com/Scottcjn/Rustchain) - Source code and documentation
+- [PyPI Miner](https://pypi.org/project/clawrtc/) - Install the miner with `pip install clawrtc`
+- [Block Explorer](http://50.28.86.131:8070/) - Live network explorer
 ---
 ## Further Extension
 ### [Papers](https://github.com/decrypto-org/blockchain-papers)
