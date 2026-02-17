@@ -161,9 +161,10 @@ The "classic" Satoshi-blockchain is like a git repo with a single master branch 
 <!--
 ### Applications
     -->
--   **Applications**  
-    * [Do You Need a Blockchain?](https://spectrum.ieee.org/computing/networks/do-you-need-a-blockchain)  
-    * [What can't blockchain do?](https://www.jianshu.com/p/70f6a29a6296)  
+-   **Applications**
+    * [Do You Need a Blockchain?](https://spectrum.ieee.org/computing/networks/do-you-need-a-blockchain)
+    * [What can't blockchain do?](https://www.jianshu.com/p/70f6a29a6296)
+    * [x402 Payment Protocol](https://github.com/xpaysh/awesome-x402) - HTTP 402-based payment protocol for machine-to-machine USDC transactions on EVM chains
     * [More](./Extension/application.md)
 <!--     
 ### Governance
