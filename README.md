@@ -780,6 +780,7 @@ Key enhancements over go-ethereum:
     +   [Zapper](https://zapper.fi/): dashboard for viewing and managing your DeFi investments.
     +   [Furucombo](https://furucombo.app/): easily create flashloans without writing a single line of code.
     +   [Covalent](https://www.covalenthq.com/): an unified API bringing visibility to billions of blockchain data points.
+    +   [NanoStack](https://api.nano-labs.io): permissionless cross-chain execution API — native asset settlement across 46 chains, 8-15 bps, no wrapping.
 
 ### Roadmaps
 
