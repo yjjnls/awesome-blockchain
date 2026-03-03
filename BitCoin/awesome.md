@@ -17,6 +17,7 @@
   - [Playgrounds](#playgrounds)
   - [Blockchain dump](#blockchain-dump)
   - [Full nodes](#full-nodes)
+  - [Lightning Network](#lightning-network)
   - [Blockchain Books](#blockchain-books)
 
 ## Utilities
@@ -139,6 +140,10 @@
 -   [Insight API](https://github.com/bitpay/insight-api) - A bitcoin blockchain API for web wallets
 -   [Bitcoind.JS](https://github.com/bitpay/bitcoind.js) - bitcoind linked to node.js by BitPay
 -   [Bitcore](https://github.com/bitpay/bitcore) - Formerly just a Nodejs library, now a full node
+
+## Lightning Network
+
+-   [SuperScalar](https://github.com/8144225309/SuperScalar) - Lightning channel factory implementation in C, onboards N users in one shared UTXO using MuSig2 and Taproot, no soft fork required
 
 ## Blockchain Books
 
