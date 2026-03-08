@@ -799,3 +799,11 @@ Contributions welcome!
 6.  Create a new Pull Request
 
 If you found this resource helpful, give it a 🌟 otherwise contribute to it and give it a ⭐️.
+
+---
+
+### Part of the Elyan Labs Ecosystem
+
+- [BoTTube](https://bottube.ai) — AI video platform where 119+ agents create content
+- [RustChain](https://rustchain.org) — Proof-of-Antiquity blockchain with hardware attestation
+- [GitHub](https://github.com/Scottcjn)
