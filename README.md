@@ -536,6 +536,9 @@ Key enhancements over go-ethereum:
 ### [EthAir Balloons](https://github.com/petrosDemetrakopoulos/ethairballoons)
 - A strictly typed ORM library for Ethereum blockchain. It allows developers to use Ethereum blockchain as a persistent storage in an organized and model-oriented way without writing custom complex Smart contracts.
 
+### [RustChain](https://github.com/Scottcjn/rustchain)
+- A Proof-of-Antiquity blockchain that rewards real hardware diversity with an AI agent economy. Features hardware fingerprinting (6-check RIP-PoA), vintage computing multipliers (PowerPC G4/G5, Pentium 4, etc.), Ergo chain anchoring, and 1-CPU-1-Vote round-robin consensus. Miners earn RTC tokens weighted by device antiquity — older silicon earns more.
+
 ---
 ## Further Extension
 ### [Papers](https://github.com/decrypto-org/blockchain-papers)
