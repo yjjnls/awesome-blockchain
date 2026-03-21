@@ -774,6 +774,7 @@ Key enhancements over go-ethereum:
 -   [Compound](https://compound.finance) - Decentralized lending and borrowing.
 -   [1inch Exchange](https://1inch.exchange) - Get the best rates among multiple DEXes.
 -   [Synthetix](https://synthetix.io/) - Protocol for synthetic assets.
+-   [FlashArb API](https://github.com/JacobMazelin/flasharb-api) - Real-time DEX arbitrage opportunities on Base L2. Free tier available. [$10 lifetime access](https://buy.stripe.com/aFa00j3S3bFY7sK2Tl7AI0e).
 
 +   Tools
     +   [Defi Dashboard](https://debank.com/): portfolio tracker, project lists, rankings, etc.
