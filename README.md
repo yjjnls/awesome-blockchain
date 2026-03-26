@@ -532,6 +532,12 @@ Key enhancements over go-ethereum:
 ### ArcBlock
 - [Blockchain Developer Platform](https://www.arcblock.io) / [White Paper](https://www.arcblock.io/en/whitepaper/latest)
 
+### [RustChain](https://github.com/Scottcjn/rustchain)
+- **RustChain** is a Proof-of-Antiquity blockchain where vintage hardware (PowerPC G4, POWER8, Nintendo 64) earns more than modern servers. 22+ miners across 4 attestation nodes. Features hardware fingerprinting (RIP-PoA), time-aged multipliers for vintage silicon, and Ergo blockchain anchoring.
+- [RustChain Website](https://rustchain.org) - Official website and block explorer
+- [RIP-200 Consensus](https://github.com/Scottcjn/rustchain/blob/main/rip_200_round_robin_1cpu1vote.py) - Round-robin 1-CPU-1-Vote with antiquity weighting
+- [Legend of Elya](https://github.com/Scottcjn/legend-of-elya-n64) - World's first LLM on N64, integrated with RustChain mining
+
 [<img src="https://raw.githubusercontent.com/petrosDemetrakopoulos/ethairballoons/master/logo_official.png" align="right" width="100">](https://github.com/petrosDemetrakopoulos/ethairballoons) 
 ### [EthAir Balloons](https://github.com/petrosDemetrakopoulos/ethairballoons)
 - A strictly typed ORM library for Ethereum blockchain. It allows developers to use Ethereum blockchain as a persistent storage in an organized and model-oriented way without writing custom complex Smart contracts.
