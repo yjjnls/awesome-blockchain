@@ -148,6 +148,7 @@ The "classic" Satoshi-blockchain is like a git repo with a single master branch 
     * [Proof of Stake FAQs](https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQs) / [Chinese version](https://ethfans.org/posts/Proof-of-Stake-FAQ-new-2018-3-15)
     * [Delegated Proof of Stake](https://www.jianshu.com/p/ccc3fff7a60d)
     * [Practical Byzantine Fault Tolerance](https://www.jianshu.com/p/e991c1385f9f)
+    * [RustChain — Proof-of-Antiquity (RIP-302)](https://github.com/Scottcjn/rustchain-bounties) — Novel consensus rewarding physical hardware uptime and antiquity; runs on Apple Silicon, x86, PowerPC G4/G5
 
 <!--    
 ### Account and transaction model
