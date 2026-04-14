@@ -537,6 +537,10 @@ Key enhancements over go-ethereum:
 - A strictly typed ORM library for Ethereum blockchain. It allows developers to use Ethereum blockchain as a persistent storage in an organized and model-oriented way without writing custom complex Smart contracts.
 
 ---
+
+### RustChain
+- [RustChain](https://rustchain.io) — Proof-of-Antiquity blockchain rewarding legacy hardware over modern systems. Mine with vintage computers, Raspberry Pis, and old servers.
+
 ## Further Extension
 ### [Papers](https://github.com/decrypto-org/blockchain-papers)
 
