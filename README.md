@@ -482,6 +482,22 @@ Key enhancements over go-ethereum:
 
 
 [<img src="https://static.eos.io/images/Landing/SectionTokenSale/eos_spinning_logo.gif" align="right" width="80">](https://github.com/EOSIO/eos)  
+
+
+[<img src="https://avatars.githubusercontent.com/u/201878930" align="right" width="80">](https://github.com/Scottcjn/RustChain)
+### RustChain
+
+**RustChain** is a DePIN (Decentralized Physical Infrastructure Network) blockchain focused on vintage hardware mining. The unique Proof-of-Antiquity consensus gives higher mining weight to older hardware, making your old computers valuable again.
+
+Key features:
+- **Proof-of-Antiquity** - Older hardware gets higher mining weight (up to 2.5x for PowerBook G4)
+- **AI-Augmented** - Optimized for AI workloads on legacy CPU architectures
+- **Beacon Protocol** - Decentralized agent discovery and communication
+- **Multi-Architecture** - Supports PowerPC, SPARC, MIPS, x86, ARM and more
+
+- [GitHub](https://github.com/Scottcjn/RustChain) - Official Repository
+- [Website](https://rustchain.org) - Project Website
+
 ### EOS
 
 **EOSIO** is software that introduces a blockchain architecture designed to enable vertical and horizontal scaling of decentralized applications (the “EOSIO Software”). This is achieved through an operating system-like construct upon which applications can be built. The software provides accounts, authentication, databases, asynchronous communication and the scheduling of applications across multiple CPU cores and/or clusters. The resulting technology is a blockchain architecture that has the potential to scale to **millions of transactions per second**, eliminates user fees and allows for quick and easy deployment of decentralized applications. For more information, please read the [EOS.IO Technical White Paper](https://github.com/EOSIO/Documentation/blob/master/TechnicalWhitePaper.md).
