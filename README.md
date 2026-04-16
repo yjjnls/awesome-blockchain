@@ -746,6 +746,7 @@ Key enhancements over go-ethereum:
 -   [IOTA](http://www.iotatoken.com) - Decentralized Internet of Things token on blockless blockchain.
 -   [Machinomy](http://machinomy.com) - Distributed platform for IoT micropayments.
 -   [Project Oaken](https://www.projectoaken.com) - IoT blockchain platform.
+-   [RustChain](https://github.com/Scottcjn/Rustchain) - Proof-of-Antiquity blockchain that rewards vintage hardware (PowerPC, SPARC, 68K). Old computers earn higher mining multipliers than modern machines.
 -   [Slock.it](https://slock.it) - Ethereum-based platform for building Shared Things.
 
 #### Energy Applications
