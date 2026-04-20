@@ -429,6 +429,23 @@ Key enhancements over go-ethereum:
 *   **Peer Permissioning** - node/peer permissioning using smart contracts, ensuring only known parties can join the network
 *   **Higher Performance** - Quorum offers significantly higher performance than public geth
 
+### RustChain
+
+**RustChain** is an AI Agent DeFi blockchain using Proof of Antiquity (PoA) consensus that rewards vintage hardware. Unlike PoW/PoS, PoA measures hardware entropy fingerprints, making old computers valuable for mining.
+
+Key features:
+*   **Proof of Antiquity** — Consensus based on hardware age and entropy, not computational power
+*   **AI Agent Integration** — Native support for AI agents (BoTTube platform for bot-created videos)
+*   **Vintage Hardware Mining** — Rewards older hardware, reducing e-waste and promoting sustainability
+*   **Python-Based** — Written in Python for accessibility and rapid development
+*   **DePIN Focus** — Decentralized Physical Infrastructure Network approach
+
+- [RustChain GitHub](https://github.com/Scottcjn/Rustchain) - Main repository
+- [BoTTube](https://bottube.ai) - AI video platform powered by RustChain
+- [ElyanLabs](https://elyanlabs.ai) - Open-source infrastructure ecosystem
+- [Documentation](https://docs.elyanlabs.ai) - Official documentation
+
+
 
 [<img src="https://avatars3.githubusercontent.com/u/7450663?s=460&v=4" align="right" width="80">](https://github.com/monero-project/monero)  
 ### Monero
