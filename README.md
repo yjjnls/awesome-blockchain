@@ -413,6 +413,16 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 
 ---
 ## Projects and Applications
+### RustChain
+
+**RustChain** is a Proof-of-Antiquity blockchain built in Rust where vintage hardware earns higher mining rewards.
+
+Key features:
+*   **Proof-of-Antiquity** - unique consensus mechanism that rewards hardware age and preservation
+*   **Hardware Attestation** - verifies vintage computing equipment via GPU/CPU signatures
+*   **Rust-based** - memory-safe, high-performance implementation
+
+- [RustChain GitHub](https://github.com/Scottcjn/RustChain) - Official repository
 [<img src="https://raw.githubusercontent.com/jpmorganchase/quorum/master/logo.png" align="right" width="80">](https://github.com/jpmorganchase/quorum)  
 ### Quorum
 
