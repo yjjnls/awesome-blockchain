@@ -809,3 +809,5 @@ Contributions welcome!
 6.  Create a new Pull Request
 
 If you found this resource helpful, give it a 🌟 otherwise contribute to it and give it a ⭐️.
+
+- [RustChain](https://github.com/Scottcjn/RustChain) - Proof-of-Antiquity blockchain where vintage hardware earns higher mining rewards.
