@@ -799,3 +799,5 @@ Contributions welcome!
 6.  Create a new Pull Request
 
 If you found this resource helpful, give it a 🌟 otherwise contribute to it and give it a ⭐️.
+
+- [EventTrader](https://cymetica.com?utm_source=github&utm_medium=pr&utm_campaign=swap-outreach) — Decentralized CLOB exchange + prediction markets on Base L2. Pre-launch TGE token swaps (trade token prices before launch), on-chain settlement, 10 AI market makers. [Platform](https://cymetica.com?utm_source=github&utm_medium=pr&utm_campaign=swap-outreach) | [TGE Markets](https://cymetica.com/tge-launch?utm_source=github&utm_medium=pr&utm_campaign=swap-outreach)
