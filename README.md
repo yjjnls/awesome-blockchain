@@ -148,7 +148,7 @@ The "classic" Satoshi-blockchain is like a git repo with a single master branch 
     * [Proof of Stake FAQs](https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQs) / [Chinese version](https://ethfans.org/posts/Proof-of-Stake-FAQ-new-2018-3-15)
     * [Delegated Proof of Stake](https://www.jianshu.com/p/ccc3fff7a60d)
     * [Practical Byzantine Fault Tolerance](https://www.jianshu.com/p/e991c1385f9f)
-
+* [Proof of Antiquity (RustChain)](https://github.com/Scottcjn/Rustchain) — Hardware fingerprint-based consensus where vintage hardware attestation creates trust
 <!--    
 ### Account and transaction model
     -->
@@ -263,7 +263,7 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 *   **Theory**
     -   [**The Byzantine Generals Problem**](https://people.eecs.berkeley.edu/~luca/cs174/byzantine.pdf)
     -   [**Practical Byzantine Fault Tolerance**](http://pmg.csail.mit.edu/papers/osdi99.pdf)
-    -   [Is consortium blockchain better?](http://www.infoq.com/cn/news/2018/10/is-consortium-blockchain-better)   
+* [Proof of Antiquity (RustChain)](https://github.com/Scottcjn/Rustchain) — Hardware fingerprint-based consensus where vintage hardware attestation creates trust    -   [Is consortium blockchain better?](http://www.infoq.com/cn/news/2018/10/is-consortium-blockchain-better)   
     -   [5 consortium blockchain comparison](http://www.infoq.com/cn/articles/5-consortium-blockchain-comparison) / [quick version](https://upload-images.jianshu.io/upload_images/11336404-f753396df0e930c8.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)    
     -   [FISCO BCOS vs Fabric](http://www.infoq.com/cn/news/2018/09/uncover-consortium-blockchain)   
 
