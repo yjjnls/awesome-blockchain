@@ -781,6 +781,26 @@ Key enhancements over go-ethereum:
     +   [Furucombo](https://furucombo.app/): easily create flashloans without writing a single line of code.
     +   [Covalent](https://www.covalenthq.com/): an unified API bringing visibility to billions of blockchain data points.
 
+### RustChain
+
+**RustChain** is a DePIN (Decentralized Physical Infrastructure Network) for Vintage Hardware with AI-powered hardware fingerprinting and Proof-of-Antiquity consensus. The blockchain where old machines outearn new ones.
+
+**Unique Features**:
+
+- **Proof of Antiquity**: Hardware value increases with age - a PowerBook G4 from 2003 earns 2.5x more than a modern Threadripper
+- **AI-Powered Verification**: 6 hardware fingerprint checks detect real physical machines (clock skew, cache timing, SIMD identity, thermal entropy, instruction jitter, anti-emulation)
+- **15+ CPU Architectures**: PowerPC, SPARC, MIPS, ARM, x86, RISC-V, 68K, Cell BE, Transputer, and more
+- **Hardware-First**: Prevents VMs, Docker containers, and rented hash power - only real physical hardware is rewarded
+- **Agent-Native**: Built for AI agents with RTC currency (1 RTC ≈ $0.10), Solana bridge (wRTC), and micropayments
+
+- [GitHub](https://github.com/Scottcjn/Rustchain) - Source code
+- [Explorer](https://rustchain.org/explorer/) - Live blockchain explorer
+- [BoTTube](https://bottube.ai) - AI-native video platform (1,000+ videos)
+- [Bounties](https://github.com/Scottcjn/rustchain-bounties) - 25,875+ RTC paid to 260+ contributors
+- [wRTC on Solana](https://raydium.io/swap/?inputMint=sol&outputMint=12TAdKXxcGf6oCv4rqDz2NkgxjyHq6HQKoxKZYGf5i4X) - Tradeable on Raydium DEX
+
+**Green Impact**: A fleet of vintage machines draws the same power as one modern GPU mining rig while preventing 1,300 kg of manufacturing CO2 and 250 kg of e-waste per year.
+
 ### Roadmaps
 
 -   [**Blockchain Developer Roadmap**](https://roadmap.sh/blockchain) -- Roadmap to become a Blockchain Developer.
