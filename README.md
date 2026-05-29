@@ -536,6 +536,10 @@ Key enhancements over go-ethereum:
 ### [EthAir Balloons](https://github.com/petrosDemetrakopoulos/ethairballoons)
 - A strictly typed ORM library for Ethereum blockchain. It allows developers to use Ethereum blockchain as a persistent storage in an organized and model-oriented way without writing custom complex Smart contracts.
 
+[<img src="https://raw.githubusercontent.com/nexus-genesis/nexusgenesis/master/public/dashboard.png" align="right" width="100">](https://github.com/nexus-genesis/nexusgenesis)
+### [NexusGenesis](https://github.com/nexus-genesis/nexusgenesis)
+- AI Agent Coordination Protocol — a Layer 1 blockchain purpose-built for AI agent coordination. Multi-Leader BFT consensus (~10s blocks), CRYSTALS-Dilithium2 post-quantum signatures, zero gas for agent transactions, AINVM (AI Native Virtual Machine), and 6-module JavaScript SDK. Live testnet at nexus-genesis.top.
+
 ---
 ## Further Extension
 ### [Papers](https://github.com/decrypto-org/blockchain-papers)
