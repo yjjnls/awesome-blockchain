@@ -49,6 +49,7 @@ The blockchain is an incorruptible digital ledger of economic transactions that 
       - [Internet of Things Applications](#internet-of-things-applications)
       - [Energy Applications](#energy-applications)
       - [Media and Journalism](#media-and-journalism)
+      - [Gaming Applications](#gaming-applications)
       - [DeFi (Decentralised Finance)](#defi-decentralised-finance)
     - [Roadmaps](#roadmaps)
   - [Contribute](#contribute)
@@ -767,6 +768,10 @@ Key enhancements over go-ethereum:
 -   [Steem](https://steem.io) - Decentralized social network which incentivises content creation and curation.
 -   [PopChest](https://popchest.com) - Incentivized distributed video platform.
 -   [Civil](https://joincivil.com) - Decentralized newsmaking platform.
+
+#### Gaming Applications
+
+-   [Block Lottos](https://blocklottos.com/games) - Polygon and Base on-chain lottery games with wallet-signed ticket transactions, public OpenAPI docs, agent-readable discovery files, referral earning routes, and advertising placements.
 
 #### DeFi (Decentralised Finance)
 
