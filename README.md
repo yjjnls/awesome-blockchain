@@ -26,6 +26,7 @@ The blockchain is an incorruptible digital ledger of economic transactions that 
     - [Solidity](#solidity)
     - [truffle](#truffle)
     - [web3.js](#web3js)
+    - [AI-assisted security review](#ai-assisted-security-review)
   - [Implementation of Blockchain](#implementation-of-blockchain)
   - [Projects and Applications](#projects-and-applications)
     - [Quorum](#quorum)
@@ -351,6 +352,9 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 
 ### web3.js
 -   [doc](https://web3js.readthedocs.io/en/1.0/) / [Chinese version](http://web3.tryblockchain.org/Web3.js-api-refrence.html)
+
+### AI-assisted security review
+-   [ChainForge](https://github.com/codegraphtheory/chainforge) - Hermes Agent profile for smart contract implementation, threat modeling, tokenomics review, Octra workflows, and audit-readiness checks.
 
 ## Implementation of Blockchain
 -   [**ATS**: _Functional Blockchain_](https://beta.observablehq.com/@galletti94/functional-blockchain)
