@@ -413,6 +413,17 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 
 ---
 ## Projects and Applications
+
+### pqbit
+
+**pqbit** is a post-quantum Bitcoin implementation in Rust: ML-DSA-44 (FIPS 204) and SLH-DSA-SHA2-128s (FIPS 205) consensus signatures from genesis — no ECDSA fallback. UTXO + SHA-256d PoW testnet node live (9/9 tests), genesis parameters open for public review, fair-launch constitution (zero premine; founder stash capped at 100 coins, public address, never moved).
+
+*   **Post-quantum from block one** - follows the BIP-360 (P2MR) direction merged into bitcoin/bips in February 2026; the chain does not need to migrate because it was born quantum-safe
+*   **Lightweight** - compact blocks and an SPV light client are core goals; a laptop is a full node
+*   **Fair launch** - no presale, no premine, kill-criteria pre-signed
+
+Repo: <https://github.com/BartoszOsiej/pqbit> | Landing: <https://bartoszosiej.github.io/pqbit/> | GENESIS draft: <https://github.com/BartoszOsiej/pqbit/blob/master/GENESIS.md>
+
 [<img src="https://raw.githubusercontent.com/jpmorganchase/quorum/master/logo.png" align="right" width="80">](https://github.com/jpmorganchase/quorum)  
 ### Quorum
 
