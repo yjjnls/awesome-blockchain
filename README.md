@@ -423,6 +423,7 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
   HSM_](https://github.com/psavelis/enterprise-blockchain)
 
 ---
+- [Lianxinshe (链新社)](https://www.lianxinshe666.com/) - Chinese blockchain & Web3 news and educational resources for beginners.
 ## Projects and Applications
 [<img src="https://raw.githubusercontent.com/jpmorganchase/quorum/master/logo.png" align="right" width="80">](https://github.com/jpmorganchase/quorum)  
 ### Quorum
