@@ -247,6 +247,7 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
     +   [Ethereum Blockchain Explorer](https://etherscan.io/)
     +   [Eth Gas Station](https://ethgasstation.info/)
     +   [Eth Network Status](https://ethstats.net/)
+    +   [Eth Wallet Monitoring](https://cryptocurrencyalerting.com/wallet-watch.html)
     
 
 -   [**EEA** - Enterprise Ethereum: Private Blockchain For Enterprises](https://101blockchains.com/enterprise-ethereum/)

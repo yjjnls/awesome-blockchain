@@ -40,6 +40,7 @@
 -   [Smartbit](https://www.smartbit.com.au)
 -   [Cashier-BTC](https://github.com/Overtorment/Cashier-BTC) - self-hosted payment gateway.
 -   [Chainradar API](https://github.com/yasaricli/chainradar-api) - Blockchain Explorer API for Chainradar
+-   [Cryptocurrency Alerting](https://cryptocurrencyalerting.com/blockchain-alerts.html) - Blockchain monitoring and alerts
 
 ## Wallets API
 
