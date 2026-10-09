@@ -247,6 +247,7 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
     +   [Ethereum Blockchain Explorer](https://etherscan.io/)
     +   [Eth Gas Station](https://ethgasstation.info/)
     +   [Eth Network Status](https://ethstats.net/)
+    +   [Eth Wallet Monitoring](https://cryptocurrencyalerting.com/wallet-watch.html)
     
 
 -   [**EEA** - Enterprise Ethereum: Private Blockchain For Enterprises](https://101blockchains.com/enterprise-ethereum/)
@@ -343,6 +344,9 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 
 ## Releated Tools
 
+### Policy & Security
+-   [PolicyLayer](https://github.com/PolicyLayer/PolicyLayer) - Non-custodial spending controls for AI agents. Enforces spending limits without holding private keys
+
 ### Solidity
 -   [doc](https://solidity.readthedocs.io/en/develop/index.html) / [Chinese version](https://solidity-cn.readthedocs.io/zh/develop/)
 
@@ -351,6 +355,9 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 
 ### web3.js
 -   [doc](https://web3js.readthedocs.io/en/1.0/) / [Chinese version](http://web3.tryblockchain.org/Web3.js-api-refrence.html)
+
+### ProofBets
+-   [ProofBets](https://proofbets.com) - On-chain verification of crypto casino claims. Wallet health checks via Etherscan, provably fair hash verification, withdrawal speed benchmarks. Free API and tools.
 
 ## Implementation of Blockchain
 -   [**ATS**: _Functional Blockchain_](https://beta.observablehq.com/@galletti94/functional-blockchain)
@@ -526,6 +533,10 @@ Key enhancements over go-ethereum:
 #### [BigchainDB](https://www.bigchaindb.com/)
 - [White paper](https://www.bigchaindb.com/whitepaper) / [Chinese version](http://blog.csdn.net/fengqing79/article/details/70154076)
 
+#### [DB3 Network](https://github.com/dbpunk-labs/db3)
+- Decentralized Firebase Firestore Alternative.
+
+
 ### BitShares
 - [White paper]() / [Chinese version](https://www.8btc.com/article/3369)
 
@@ -536,6 +547,13 @@ Key enhancements over go-ethereum:
 ### [EthAir Balloons](https://github.com/petrosDemetrakopoulos/ethairballoons)
 - A strictly typed ORM library for Ethereum blockchain. It allows developers to use Ethereum blockchain as a persistent storage in an organized and model-oriented way without writing custom complex Smart contracts.
 
+[<img src="https://www.astrakode.tech/wp-content/themes/astrakode/img/astra-logo.svg" align="right" width="100">](https://www.astrakode.tech/)
+### AstraKode Blockchain (AKB)
+[AstraKode Blockchain (AKB)](https://www.astrakode.tech/), a web-based, no-code platform that simplifies the design, development, testing, and deployment of enterprise blockchain solutions and smart contracts. 
+*   **Technology offered** - Hyperledger Fabric, Solidity.
+*   Freemium with downloadable open source code.
+*   Configurable [Prebuilt Solutions](https://www.astrakode.tech/pre-built-solutions/)
+  
 ---
 ## Further Extension
 ### [Papers](https://github.com/decrypto-org/blockchain-papers)
@@ -746,6 +764,7 @@ Key enhancements over go-ethereum:
 -   [IOTA](http://www.iotatoken.com) - Decentralized Internet of Things token on blockless blockchain.
 -   [Machinomy](http://machinomy.com) - Distributed platform for IoT micropayments.
 -   [Project Oaken](https://www.projectoaken.com) - IoT blockchain platform.
+-   [x402](https://github.com/xpaysh/awesome-x402) - Internet-native payment protocol using HTTP 402 status code for blockchain payments.
 -   [Slock.it](https://slock.it) - Ethereum-based platform for building Shared Things.
 
 #### Energy Applications
@@ -780,7 +799,9 @@ Key enhancements over go-ethereum:
     +   [Zapper](https://zapper.fi/): dashboard for viewing and managing your DeFi investments.
     +   [Furucombo](https://furucombo.app/): easily create flashloans without writing a single line of code.
     +   [Codex](https://www.codex.io): Real-time, enriched, blockchain data API indexing 60 million+ tokens and 400M wallets across 80+ networks.
+    +   [Bitquery](https://bitquery.io/): Bitquery provides blockchain data, offering real-time streaming APIs for 40+ chains, NFT APIs, and a money flow investigation tool.
     +   [Covalent](https://www.covalenthq.com/): an unified API bringing visibility to billions of blockchain data points.
+    +   [BTCBench Fee Calculator](https://www.btcbench.com/calculator.html) - Estimate transaction costs based on current network conditions.
 
 ### Roadmaps
 
