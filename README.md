@@ -911,6 +911,7 @@ Key features:
 - [Explorer](https://rustchain.org/explorer/) - Live blockchain explorer
 - [BoTTube](https://bottube.ai) - AI-native video platform (1,000+ videos)
 - [Bounties](https://github.com/Scottcjn/rustchain-bounties) - 25,875+ RTC paid to 260+ contributors
+- [Website](https://rustchain.org) - Official website
 - [wRTC on Solana](https://raydium.io/swap/?inputMint=sol&outputMint=12TAdKXxcGf6oCv4rqDz2NkgxjyHq6HQKoxKZYGf5i4X) - Tradeable on Raydium DEX
 
 **Green Impact**: A fleet of vintage machines draws the same power as one modern GPU mining rig while preventing 1,300 kg of manufacturing CO2 and 250 kg of e-waste per year.
