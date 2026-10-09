@@ -568,6 +568,7 @@ Key features:
 
 #### [Filecoin](https://filecoin.io/)
 - [White paper](https://filecoin.io/filecoin.pdf) / [Chinese version](http://chainx.org/paper/index/index/id/13.html)
+- [SwapTitan](https://swaptitan.net) - Instant no-KYC cross-chain crypto swap service. 1288+ assets, BTC/ETH/SOL/XMR. REST API, MCP server for AI agents, CLI tool. ~0.9% fee. No registration.
 
 #### [Polybase](https://polybase.xyz)
 - [White paper](https://framerusercontent.com/modules/assets/GRv4t0d6jQOJbIO7ZOFgonnXqM~f7GLGr1YpwfK85uVr8su7Mxe_3b6VkIZW94sRev8jj4.pdf) / [Docs](https://github.com/polybase/docs)
