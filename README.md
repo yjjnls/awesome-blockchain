@@ -390,6 +390,7 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 -   [**Go**: _GoChain - A basic implementation of blockchain in go_](https://github.com/crisadamo/gochain)
 -   [**Go**: _Having fun implementing a blockchain using Golang_](https://github.com/izqui/blockchain)
 -   [**Go**: _NaiveChain - A naive and simple implementation of blockchains_](https://github.com/kofj/naivechain)
+-   [**Go**: _Building a blockchain from scratch in Go with gRPC_](https://github.com/volodymyrprokopyuk/go-blockchain) - A practical guide that progressively builds a blockchain from scratch in Go with gRPC, explaining the design along the way.
 -   [**Java**: _Creating Your First Blockchain with Java_](https://medium.com/programmers-blockchain/create-simple-blockchain-java-tutorial-from-scratch-6eeed3cb03fa)
 -   [**Java**: _Write a blockchain with java_](https://www.jianshu.com/p/afd8c465c91a)
 -   [**JavaScript**: _A cryptocurrency implementation in less than 1500 lines of code_](https://github.com/conradoqg/naivecoin)
@@ -575,6 +576,9 @@ Key features:
 #### [Filecoin](https://filecoin.io/)
 - [White paper](https://filecoin.io/filecoin.pdf) / [Chinese version](http://chainx.org/paper/index/index/id/13.html)
 - [SwapTitan](https://swaptitan.net) - Instant no-KYC cross-chain crypto swap service. 1288+ assets, BTC/ETH/SOL/XMR. REST API, MCP server for AI agents, CLI tool. ~0.9% fee. No registration.
+
+#### [Solana](https://solana.com/)
+- [White paper](https://solana.com/solana-whitepaper.pdf) / [Docs](https://solana.com/docs) - A decentralized blockchain built to enable scalable, user-friendly apps. Fast and uses a novel Proof of History consensus.
 
 #### [Polybase](https://polybase.xyz)
 - [White paper](https://framerusercontent.com/modules/assets/GRv4t0d6jQOJbIO7ZOFgonnXqM~f7GLGr1YpwfK85uVr8su7Mxe_3b6VkIZW94sRev8jj4.pdf) / [Docs](https://github.com/polybase/docs)
@@ -884,6 +888,7 @@ Key features:
 -   [1inch Exchange](https://1inch.exchange) - Get the best rates among multiple DEXes.
 -   [WAIaaS](https://github.com/minhoyoo-iotrust/WAIaaS) - Self-hosted wallet-as-a-service for AI agents with multi-chain support (EVM + Solana) and DeFi integrations.
 -   [Synthetix](https://synthetix.io/) - Protocol for synthetic assets.
+-   [DirectCryptoPay](https://directcryptopay.com) - Non-custodial crypto payment gateway for merchants. Accept USDC/USDT/ETH on 10 chains (EVM + Solana + TRON + TON), funds flow directly to merchant wallets. Stripe-style DX, HMAC webhooks, WooCommerce plugin.
 -   [AgentFund](https://github.com/RioTheGreat-ai/agentfund-escrow) - Crowdfunding for AI agents with milestone-based escrow on Base chain.
 -   [NanoStack](https://api.nano-labs.io) - Permissionless cross-chain execution API supporting 86 chains (BTC, ETH, Base, Arbitrum, Optimism, Solana, Cosmos, Polkadot). 8-15 bps fees, no API key required.
 
@@ -899,6 +904,7 @@ Key features:
     +   [Chartscout](https://chartscout.io) : Real-time crypto chart pattern detection and automated trading alerts across multiple exchanges.
     +   [ProofBets](https://proofbets.com): on-chain verification of crypto casino claims. Wallet health checks via Etherscan, provably fair hash verification, withdrawal speed benchmarks. Free API and tools.
     +   [DeepAlpha](https://github.com/stefanoviana/deepalpha): AI-powered crypto trading bot with ML ensemble, 12 exchanges, grid trading, and DCA strategies.
+    +   [Crypto Pump Scanner](https://github.com/stefanoviana/crypto-pump-scanner): Real-time pump detection for crypto — monitors 500+ Bybit USDT pairs every 3s for volume spikes, with cascade take-profit auto-trading. MIT licensed, Python.
 
 ### RustChain
 
