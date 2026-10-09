@@ -358,8 +358,9 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 ### truffle
 -   [BlockChain KickStarter From Scratch](https://prasannabrabourame.medium.com/blockchain-kickstarter-from-scratch-9a3906596cd0)
 
-### web3.js
--   [doc](https://web3js.readthedocs.io/en/1.0/) / [Chinese version](http://web3.tryblockchain.org/Web3.js-api-refrence.html)
+### web3.js v4
+
+-   [doc](https://docs.web3js.org/) / [Chinese version](http://web3.tryblockchain.org/Web3.js-api-refrence.html)
 
 ### ProofBets
 -   [ProofBets](https://proofbets.com) - On-chain verification of crypto casino claims. Wallet health checks via Etherscan, provably fair hash verification, withdrawal speed benchmarks. Free API and tools.
