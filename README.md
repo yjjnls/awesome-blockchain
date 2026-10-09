@@ -920,6 +920,25 @@ Key features:
 
 ---
 
+
+### Keep learning
+
+- [LianXinShe (链新社) - Chinese Blockchain Learning Resources:](https://www.lianxinshe666.com/special/blockchain/) Curated tutorials, guides, and educational content covering DeFi, NFTs, and Web3 basics in Chinese.
+
+- [Blockchain Revolution:](https://amzn.to/2u20uvf) How the Technology Behind Bitcoin and Other Cryptocurrencies Is Changing the World.
+- [Mastering Bitcoin for Starters:](https://amzn.to/2uc8Z6q) Bitcoin and Cryptocurrency Technologies, Mining, Investing and Trading.
+- [Digital Gold:](https://amzn.to/2IZqzjx) Bitcoin and the Inside Story of the Misfits and Millionaires Trying to Reinvent Money.
+- [The Inevitable:](https://amzn.to/2u1ukQB) Understanding the 12 Technological Forces That Will Shape Our Future.
+- [Cryptoassets:](https://amzn.to/2u0GCc6) The Innovative Investor's Guide to Bitcoin and Beyond.
+- [The Age of Cryptocurrency:](https://amzn.to/2NvtCDn) How Bitcoin and the Blockchain Are Challenging the Global Economic Order.
+- [Blockchain Decrypted for 2018:](https://amzn.to/2KUn9A8) How To Profit With Crypto Currencies, Bitcoin, Coins And Altcoins This Year.
+- [Cryptocurrency 2018:](https://amzn.to/2KS7rJ3) Mining, Investing and Trading in Blockchain, including Bitcoin, Ethereum, Litecoin, Ripple, Dash, others.
+- [The Internet of Money:](https://amzn.to/2u8pdgQ) A Collection of Talks by Andreas M. Antonopoulos.
+- [The Starfish and the Spider:](https://amzn.to/2tYuRTC) The Unstoppable Power of Leaderless Organizations.
+- [Mastering Bitcoin:](https://amzn.to/2KWexcc) Programming the Open Blockchain. See on [github.](https://github.com/bitcoinbook/bitcoinbook)
+- [The Book Of Satoshi:](https://amzn.to/2KUsojq) The Collected Writings of Bitcoin Creator Satoshi Nakamoto.
+- [American Kingpin:](https://amzn.to/2zh8deh) Catching the Billion-Dollar Baron of the Dark Web.
+
 ## Contribute
 
 Contributions welcome!
