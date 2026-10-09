@@ -809,6 +809,7 @@ Key enhancements over go-ethereum:
 -   [Compound](https://compound.finance) - Decentralized lending and borrowing.
 -   [1inch Exchange](https://1inch.exchange) - Get the best rates among multiple DEXes.
 -   [Synthetix](https://synthetix.io/) - Protocol for synthetic assets.
+-   [AgentFund](https://github.com/RioTheGreat-ai/agentfund-escrow) - Crowdfunding for AI agents with milestone-based escrow on Base chain.
 
 +   Tools
     +   [Defi Dashboard](https://debank.com/): portfolio tracker, project lists, rankings, etc.
