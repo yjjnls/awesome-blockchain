@@ -55,3 +55,7 @@
     - [FantomCoin](http://fantomcoin.org) - FantomCoin, allows merge mining with Monero
     - [Aeon](https://github.com/aeonix/aeon) - Aeon coin, a fork of Monero
     - [Digital Note](http://digitalnote.org)
+
+## Exchanges & Trading
+- [Haveno](https://haveno.exchange) - Decentralized, non-custodial XMR DEX (fork of Bisq). Supports fiat-to-XMR via escrow multisig. No KYC. Instances: [RetosSwap](https://retoswap.com), [DawnSwap](https://dawnswap.cash)
+- [XMRBazaar](https://xmrbazaar.com) - P2P classifieds-style XMR marketplace, zero fees
