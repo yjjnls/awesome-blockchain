@@ -810,6 +810,7 @@ Key enhancements over go-ethereum:
 -   [Uniswap](https://uniswap.org) - Decentralized exchange powered by the Automated Market Maker model (AMM).
 -   [Compound](https://compound.finance) - Decentralized lending and borrowing.
 -   [1inch Exchange](https://1inch.exchange) - Get the best rates among multiple DEXes.
+-   [WAIaaS](https://github.com/minhoyoo-iotrust/WAIaaS) - Self-hosted wallet-as-a-service for AI agents with multi-chain support (EVM + Solana) and DeFi integrations.
 -   [Synthetix](https://synthetix.io/) - Protocol for synthetic assets.
 -   [AgentFund](https://github.com/RioTheGreat-ai/agentfund-escrow) - Crowdfunding for AI agents with milestone-based escrow on Base chain.
 
