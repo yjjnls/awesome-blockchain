@@ -875,6 +875,7 @@ Key features:
 -   [WAIaaS](https://github.com/minhoyoo-iotrust/WAIaaS) - Self-hosted wallet-as-a-service for AI agents with multi-chain support (EVM + Solana) and DeFi integrations.
 -   [Synthetix](https://synthetix.io/) - Protocol for synthetic assets.
 -   [AgentFund](https://github.com/RioTheGreat-ai/agentfund-escrow) - Crowdfunding for AI agents with milestone-based escrow on Base chain.
+-   [NanoStack](https://api.nano-labs.io) - Permissionless cross-chain execution API supporting 86 chains (BTC, ETH, Base, Arbitrum, Optimism, Solana, Cosmos, Polkadot). 8-15 bps fees, no API key required.
 
 +   Tools
     +   [Defi Dashboard](https://debank.com/): portfolio tracker, project lists, rankings, etc.
