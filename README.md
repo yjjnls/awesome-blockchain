@@ -892,6 +892,7 @@ Key features:
     +   [BTCBench Fee Calculator](https://www.btcbench.com/calculator.html) - Estimate transaction costs based on current network conditions.
     +   [Chartscout](https://chartscout.io) : Real-time crypto chart pattern detection and automated trading alerts across multiple exchanges.
     +   [ProofBets](https://proofbets.com): on-chain verification of crypto casino claims. Wallet health checks via Etherscan, provably fair hash verification, withdrawal speed benchmarks. Free API and tools.
+    +   [DeepAlpha](https://github.com/stefanoviana/deepalpha): AI-powered crypto trading bot with ML ensemble, 12 exchanges, grid trading, and DCA strategies.
 
 ### RustChain
 
