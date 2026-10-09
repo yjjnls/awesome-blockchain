@@ -613,7 +613,27 @@ Key features:
 *   **Technology offered** - Hyperledger Fabric, Solidity.
 *   Freemium with downloadable open source code.
 *   Configurable [Prebuilt Solutions](https://www.astrakode.tech/pre-built-solutions/)
-  
+
+[<img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" align="right" width="80">](https://github.com/Lumen-Founder/LUMEN-GENESIS-KIT)
+### [LUMEN Genesis Kit](https://github.com/Lumen-Founder/LUMEN-GENESIS-KIT)
+**LUMEN** is a decentralized World Computer infrastructure built on Base Mainnet. It provides an autonomous agent kernel and context bus compatible with LangChain, enabling developers to create trustless, economically-incentivized AI agents.
+
+Key features:
+
+* **Decentralized Context Bus** - Share and access agent context across the network through on-chain storage
+* **LangChain Integration** - Seamless integration with LangChain for AI agent development via NPM package
+* **Base Mainnet Deployment** - Production-ready smart contracts verified on Base L2 blockchain
+* **Complete Development Kit** - Includes agent runtime, deployment tools, monitoring dashboard, and SDK
+* **Autonomous Agent Framework** - Self-healing heartbeat mechanism and economic bond management
+* **Open Source** - MIT licensed with comprehensive documentation
+
+- [GitHub Repository](https://github.com/Lumen-Founder/LUMEN-GENESIS-KIT) - Full source code and documentation
+- [NPM Package](https://www.npmjs.com/package/lumen-langchain-kit) - LangChain integration library
+- [Smart Contract](https://base.blockscout.com/address/0x52078D914CbccD78EE856b37b438818afaB3899c) - Verified Kernel contract on Base
+
++ [**How to get started**](https://github.com/Lumen-Founder/LUMEN-GENESIS-KIT#readme)
++ [**Documentation**](https://github.com/Lumen-Founder/LUMEN-GENESIS-KIT/tree/main/lumen-langchain-kit)
+
 ---
 ## Further Extension
 ### [Papers](https://github.com/decrypto-org/blockchain-papers)
