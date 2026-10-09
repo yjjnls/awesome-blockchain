@@ -253,6 +253,7 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
     +   [Eth Gas Station](https://ethgasstation.info/)
     +   [Eth Network Status](https://ethstats.net/)
     +   [Eth Wallet Monitoring](https://cryptocurrencyalerting.com/wallet-watch.html)
+    +   [Free public JSON-RPC endpoint for Ethereum](https://rpcfree.com)
     
 
 -   [**EEA** - Enterprise Ethereum: Private Blockchain For Enterprises](https://101blockchains.com/enterprise-ethereum/)
