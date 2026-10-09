@@ -7,6 +7,7 @@
 The blockchain is an incorruptible digital ledger of economic transactions that can be programmed to record not just financial transactions but virtually everything of value (by [Don Tapscott](https://www.linkedin.com/pulse/whats-next-generation-internet-surprise-its-all-don-tapscott)).
 
 <font color=#0099ff size=3>**This is not a simple collection of Internet resources, but verified and organized data ensuring it's really suitable for your learning process and useful for your development and application.**</font>
+- [7/Seven Chain Node](https://github.com/umairkhan2582/seven-chain-node) - Validator node for 7/Seven Chain (Chain ID: 70007), an EVM-compatible blockchain (BSC/Parlia fork) powering [TheSeven.meme](https://theseven.meme) — world's first on-chain perpetual futures exchange with 100+ pairs, up to 2001× leverage, and zero trading fees.
 
 ## Contents
 <details><summary>Click to expand</summary>
