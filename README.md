@@ -797,6 +797,7 @@ Key enhancements over go-ethereum:
     +   [Furucombo](https://furucombo.app/): easily create flashloans without writing a single line of code.
     +   [Bitquery](https://bitquery.io/): Bitquery provides blockchain data, offering real-time streaming APIs for 40+ chains, NFT APIs, and a money flow investigation tool.
     +   [Covalent](https://www.covalenthq.com/): an unified API bringing visibility to billions of blockchain data points.
+    +   [BTCBench Fee Calculator](https://www.btcbench.com/calculator.html) - Estimate transaction costs based on current network conditions.
 
 ### Roadmaps
 
