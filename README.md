@@ -426,6 +426,7 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
     -   [_Transaction relaying_](https://lhartikk.github.io/jekyll/update/2017/07/10/chapter5.html)
     -   [_Wallet UI and blockchain explorer_](https://lhartikk.github.io/jekyll/update/2017/07/09/chapter6.html)
 -   [**TypeScript**: _NaivecoinStake: a tutorial for building a cryptocurrency with the Proof of Stake consensus_](https://naivecoinstake.learn.uno/)
+-   [**Rust**: _RustChain - Proof-of-Antiquity blockchain that rewards vintage hardware_](https://github.com/Scottcjn/Rustchain) - A Rust+Python hybrid chain where old computers earn more than new ones, supporting 15+ CPU architectures.
 - [Explore Blockchain OSS, libraries, packages, source code, cloud functions and APIs](https://kandi.openweaver.com/explore/blockchain) 
 -   [**TypeScript**: _Enterprise blockchain reference implementation with post-quantum crypto, MPC, and
   HSM_](https://github.com/psavelis/enterprise-blockchain)
