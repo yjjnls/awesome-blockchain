@@ -361,6 +361,7 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 -   [ProofBets](https://proofbets.com) - On-chain verification of crypto casino claims. Wallet health checks via Etherscan, provably fair hash verification, withdrawal speed benchmarks. Free API and tools.
 
 ## Implementation of Blockchain
+-   [**Python**: _py-ethclient_](https://github.com/tokamak-network/py-ethclient) - A from-scratch Python Ethereum L1 execution client with EVM (140+ opcodes), RLPx networking, eth/68, snap/1, full & snap sync, Engine API, and JSON-RPC.
 -   [**ATS**: _Functional Blockchain_](https://beta.observablehq.com/@galletti94/functional-blockchain)
 -   [**C#**: _Programming The Blockchain in C#_](https://programmingblockchain.gitbooks.io/programmingblockchain/)
 -   [**Crystal**: _Write your own blockchain and PoW algorithm using Crystal_](https://medium.com/@bradford_hamilton/write-your-own-blockchain-and-pow-algorithm-using-crystal-d53d5d9d0c52)
