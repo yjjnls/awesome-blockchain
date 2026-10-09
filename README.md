@@ -639,6 +639,10 @@ Key features:
 + [**How to get started**](https://github.com/Lumen-Founder/LUMEN-GENESIS-KIT#readme)
 + [**Documentation**](https://github.com/Lumen-Founder/LUMEN-GENESIS-KIT/tree/main/lumen-langchain-kit)
 
+[<img src="https://raw.githubusercontent.com/nexus-genesis/nexusgenesis/master/public/dashboard.png" align="right" width="100">](https://github.com/nexus-genesis/nexusgenesis)
+### [NexusGenesis](https://github.com/nexus-genesis/nexusgenesis)
+- AI Agent Coordination Protocol — a Layer 1 blockchain purpose-built for AI agent coordination. Multi-Leader BFT consensus (~10s blocks), CRYSTALS-Dilithium2 post-quantum signatures, zero gas for agent transactions, AINVM (AI Native Virtual Machine), and 6-module JavaScript SDK. Live testnet at nexus-genesis.top.
+
 ---
 ## Further Extension
 ### [Papers](https://github.com/decrypto-org/blockchain-papers)
