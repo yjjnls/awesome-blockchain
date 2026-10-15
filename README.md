@@ -937,6 +937,8 @@ Key features:
 
 ### Keep learning
 
+- [Zcash address types](https://zecview.com/privacy/address-types/) - Source-linked educational guide distinguishing transparent, shielded, and Unified Addresses from wallet-specific receiver support.
+
 - [LianXinShe (链新社) - Chinese Blockchain Learning Resources:](https://www.lianxinshe666.com/special/blockchain/) Curated tutorials, guides, and educational content covering DeFi, NFTs, and Web3 basics in Chinese.
 
 - [Blockchain Revolution:](https://amzn.to/2u20uvf) How the Technology Behind Bitcoin and Other Cryptocurrencies Is Changing the World.
