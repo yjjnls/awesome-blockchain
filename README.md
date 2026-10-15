@@ -368,6 +368,8 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 
 ### AI Agent Tools
 - [MoltsPay - Universal Payment Protocol](https://github.com/Yaqing2023/moltspay) - Universal Payment Protocol (UPP) for AI agents that abstracts multiple underlying protocols (x402, MPP, PFS, Pre-Approval) into a single unified API. Supports 8 blockchains (Base, Polygon, BNB, Tempo, Solana, Ethereum, Arbitrum, Optimism) with protocol-specific optimizations. Enables agent-to-agent value exchange with gasless payments. Available in Node.js and Python SDKs.
+- [Chord](https://github.com/getchordlabs/chord) - Hosted no-key MCP server (`https://api.getchord.xyz/v1/mcp`) for DEX swap quotes and unsigned swap transactions on 7 EVM chains (Base, Monad, BNB Chain, Avalanche, Arbitrum, Robinhood Chain, Arc), plus token boards, candles, trades, wallet PnL, smart money, holders and LP pools. Non-custodial: nothing is signed or sent. Contracts, SDK, OpenAPI spec and Agent Skill are MIT.
+- [MoltNode by Chord](https://moltnode.ag) - Hosted no-key MCP server (`https://moltnode.ag/mcp`) to read 31 blockchains over JSON-RPC (one URL per chain) and get DEX swap quotes and unsigned transactions via Chord. Stdio bridge and skills: [moltnode-mcp](https://github.com/tuantqse90/moltnode-mcp) (MIT).
 
 ## Implementation of Blockchain
 -   [**Python**: _py-ethclient_](https://github.com/tokamak-network/py-ethclient) - A from-scratch Python Ethereum L1 execution client with EVM (140+ opcodes), RLPx networking, eth/68, snap/1, full & snap sync, Engine API, and JSON-RPC.
