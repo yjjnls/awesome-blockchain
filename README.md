@@ -965,3 +965,5 @@ Contributions welcome!
 6.  Create a new Pull Request
 
 If you found this resource helpful, give it a 🌟 otherwise contribute to it and give it a ⭐️.
+
+- [QWK ($QWK) Autonomous EVM MEV Infrastructure & Smart Contract Escrow](https://github.com/chase-tqg/QWIK-MEV-Core) - Multi-chain EVM atomic execution & smart contract seed escrow (`QWKResourceEscrow.sol`, `0x1Cc436b4D9316ee623CFeB760C44F84c9bD9C20A`) backed by $400,000+ in verified enterprise infrastructure commitments (Google Cloud, NVIDIA, Cloudflare) with A2A v1.0, x402, and MCP interfaces.
