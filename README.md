@@ -62,7 +62,7 @@ The blockchain is an incorruptible digital ledger of economic transactions that 
 
 A: A blockchain is a distributed database with a list (that is, chain) of records (that is, blocks) linked and secured by
 digital fingerprints (that is, crypto hashes).
-Example from [`genesis_block.json`](https://github.com/yjjnls/awesome-blockchain/tree/master/src/js/genesis_block.json):
+Example from [`genesis_block.json`](https://github.com/yjjnls/awesome-blockchain/blob/master/src/basic_chain/js/genesis_block.json):
 
 ```js
 {
@@ -89,7 +89,7 @@ A: A hash e.g. `d611edb9fd86ee234cdc08d9bf382330d6ccc721cd5e59cf2a01b0a2a8decfff
 is a small digest checksum calculated
 with a one-way crypto(graphic) hash digest checksum function
 e.g. SHA256 (Secure Hash Algorithm 256 Bits)
-from the data. Example from [`crypto.js`](https://github.com/yjjnls/awesome-blockchain/blob/master/src/js/crypto.js):
+from the data. Example from [`crypto.js`](https://github.com/yjjnls/awesome-blockchain/blob/master/src/basic_chain/js/crypto.js):
 
 ```js
 function calc_hash(data) {
@@ -234,15 +234,15 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
         -   [DAG Explanation and Images](https://ethereum.stackexchange.com/questions/1993/what-actually-is-a-dag)
         -   [Ethash in Ethereum Yellowpaper](https://ethereum.github.io/yellowpaper/paper.pdf#appendix.J)
         -   [Ethash C API Example Usage](https://github.com/ethereum/wiki/wiki/Ethash-C-API)
--   [Accounts, Transactions, Gas, and Block Gas Limits in Ethereum](https://hudsonjameson.com/2017-06-27-accounts-transactions-gas-ethereum/)
+-   [Accounts, Transactions, Gas, and Block Gas Limits in Ethereum](https://ethereum.org/developers/docs/gas/)
 -   [Ethereum Improvement Proposals](https://eips.ethereum.org/)
--   [Important EIPs and ERCs](https://github.com/ethereumbook/ethereumbook/blob/develop/appdx-standards-eip-erc.asciidoc#table-of-most-important-eips-and-ercs) / [EIP list](https://github.com/ethereum/EIPs)
+-   [Important EIPs and ERCs](https://github.com/ethereumbook/ethereumbook/blob/develop/src/chapter_10.md) / [EIP list](https://github.com/ethereum/EIPs)
 -   Security
-    -   [Ethereum Smart Contract Security Best Practices](https://consensys.github.io/smart-contract-best-practices/) / [Chinese version](https://github.com/ConsenSys/smart-contract-best-practices/blob/master/README-zh.md)
+    -   [Ethereum Smart Contract Security Best Practices](https://consensys.github.io/smart-contract-best-practices/)
     -   [Onward with Ethereum Smart Contract Security](https://blog.zeppelin.solutions/onward-with-ethereum-smart-contract-security-97a827e47702)
-    -   [The Hitchhiker's Guide to Smart Contracts in Ethereum](https://blog.zeppelin.solutions/the-hitchhikers-guide-to-smart-contracts-in-ethereum-848f08001f05)
+    -   [The Hitchhiker's Guide to Smart Contracts in Ethereum](https://www.openzeppelin.com/news/the-hitchhikers-guide-to-smart-contracts-in-ethereum-848f08001f05)
     -   [**OpenZeppelin**](https://docs.openzeppelin.com/openzeppelin/)
-    -   [**openzeppelin contracts**](https://github.com/OpenZeppelin/openzeppelin-contracts) / [doc](https://docs.openzeppelin.com/contracts/2.x/)
+    -   [**openzeppelin contracts**](https://github.com/OpenZeppelin/openzeppelin-contracts) / [doc](https://docs.openzeppelin.com/contracts)
     -   [openzepplin sdk](https://github.com/OpenZeppelin/openzeppelin-sdk)
 -   Token
     -   [ERC20](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md) / [impl](https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/token/ERC20)
@@ -268,7 +268,7 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 
 ### Consortium Blockchain
 *   **Theory**
-    -   [**The Byzantine Generals Problem**](https://people.eecs.berkeley.edu/~luca/cs174/byzantine.pdf)
+    -   [**The Byzantine Generals Problem**](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/12/The-Byzantine-Generals-Problem.pdf)
     -   [**Practical Byzantine Fault Tolerance**](http://pmg.csail.mit.edu/papers/osdi99.pdf)
 * [Proof of Antiquity (RustChain)](https://github.com/Scottcjn/Rustchain) — Hardware fingerprint-based consensus where vintage hardware attestation creates trust    -   [Is consortium blockchain better?](http://www.infoq.com/cn/news/2018/10/is-consortium-blockchain-better)   
     -   [5 consortium blockchain comparison](http://www.infoq.com/cn/articles/5-consortium-blockchain-comparison) / [quick version](https://upload-images.jianshu.io/upload_images/11336404-f753396df0e930c8.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)    
@@ -290,17 +290,15 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
     -   [Fabric Org](https://wiki.hyperledger.org/display/Fabric)
     -   [Fabric Design Documents](https://wiki.hyperledger.org/display/fabric/Design+Documents)
     -   [Fabric Wiki](https://hyperledger-fabric.readthedocs.io/en/latest/)
-        -   1.4 [En](https://hyperledger-fabric.readthedocs.io/en/release-1.4/) / [Zn](https://hyperledger-fabric.readthedocs.io/zh_CN/release-1.4/) / [Release](https://hyperledger-fabric.readthedocs.io/_/downloads/en/release-1.4/pdf/)
-        -   2.2 [En](https://hyperledger-fabric.readthedocs.io/en/release-2.2/) / [Zn](https://hyperledger-fabric.readthedocs.io/zh_CN/release-2.2/)
+        -   1.4 [En](https://hyperledger-fabric.readthedocs.io/en/release-1.4/) / [Zn](https://hyperledger-fabric.readthedocs.io/zh-cn/latest/) / [Release](https://hyperledger-fabric.readthedocs.io/_/downloads/en/release-1.4/pdf/)
+        -   2.2 [En](https://hyperledger-fabric.readthedocs.io/en/release-2.2/) / [Zn](https://hyperledger-fabric.readthedocs.io/zh-cn/latest/)
     -   [Fabric Source Code Analyse](https://yeasy.gitbook.io/hyperledger_code_fabric/overview)
     -   [A Kafka-based Ordering Service for Fabric](https://docs.google.com/document/d/19JihmW-8blTzN99lAubOfseLUZqdrB6sBR0HsRgCAnY/edit)
 
 -   Explorer
     -   [Explorer Proposal](https://docs.google.com/document/d/1GuVNHZ5Jqq-gTVKflnZ1YiJfEoozvugqenC6QEQFQj4/edit)
-    -   [Explorer doc](https://blockchain-explorer.readthedocs.io/en/master/architecture/index.html)
 
 -   [IBM OpenTech Hyperledger Fabric 1.4 LTS Course](https://space.bilibili.com/102734951/channel/detail?cid=69148)
--   [edx: Introduction to Hyperledger Blockchain Technologies Free Course](https://www.edx.org/course/introduction-to-hyperledger-blockchain-technologie)
 
 
 #### [XuperChain](https://github.com/xuperchain/xuperchain)
@@ -351,7 +349,6 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 ## Releated Tools
 
 ### Policy & Security
--   [PolicyLayer](https://github.com/PolicyLayer/PolicyLayer) - Non-custodial spending controls for AI agents. Enforces spending limits without holding private keys
 
 ### Solidity
 -   [doc](https://solidity.readthedocs.io/en/develop/index.html) / [Chinese version](https://solidity-cn.readthedocs.io/zh/develop/)
@@ -383,7 +380,6 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
     -   [_Part 5: Addresses_](https://jeiwan.net/posts/building-blockchain-in-go-part-5/)
     -   [_Part 6: Transactions 2_](https://jeiwan.net/posts/building-blockchain-in-go-part-6/)
     -   [_Part 7: Network_](https://jeiwan.net/posts/building-blockchain-in-go-part-7/)
--   [**Go**: _Building A Simple Blockchain with Go_](https://www.codementor.io/codehakase/building-a-simple-blockchain-with-go-k7crur06v)
 -   [**Go**: _Code your own blockchain in less than 200 lines of Go_](https://medium.com/@mycoralhealth/code-your-own-blockchain-in-less-than-200-lines-of-go-e296282bcffc)
 -   [**Go**: _Code your own blockchain mining algorithm in Go_](https://medium.com/@mycoralhealth/code-your-own-blockchain-mining-algorithm-in-go-82c6a71aba1f)
 -   [**Go**: _GoCoin - A full Bitcoin solution written in Go language (golang)_](https://github.com/piotrnar/gocoin)
@@ -506,18 +502,16 @@ Key features:
 
 -   [IOTA](https://iota.org) - Next Generation Blockchain
 -   [Whitepaper](https://iota.org/IOTA_Whitepaper.pdf) - The Tangle / [Chinese version](http://www.iotachina.com/wp-content/uploads/2016/11/2016112902003453.pdf)
--   [Wikipedia](https://en.wikipedia.org/wiki/IOTA_(Distributed_Ledger_Technology))
+-   [Wikipedia](https://en.wikipedia.org/wiki/IOTA_(cryptocurrency))
 -   [A Primer on IOTA](https://blog.iota.org/a-primer-on-iota-with-presentation-e0a6eb2cc621) - A Primer on IOTA (with Presentation)
 -   [IOTA China](http://iotachina.com/) - IOTA China 首页
 -   [IOTA Italia](http://iotaitalia.com/) - IOTA Italia
 -   [IOTA Korea](http://blog.naver.com/iotakorea) - IOTA 한국
--   [IOTA Japan](http://lhj.hatenablog.jp/entry/iota) - IOTA 日本
 -   [IOTA on Reddit](https://www.reddit.com/r/Iota/)
 
 
 +   [**How to get started**](https://github.com/iotaledger/iri#how-to-get-started)   
 +   [**Roadmap**](https://www.iota.org/research/roadmap)
-+   [**IOTA Transactions, Confirmation and Consensus**](https://github.com/noneymous/iota-consensus-presentation) / [Chinese version](https://github.com/liuchengxu/blockchain-tutorial/blob/master/content/iota/iota_consensus_v1.0.md)
 +   [**More resouces**](./Extension/iota.md)  
 
 
@@ -555,7 +549,7 @@ Key features:
 
 [<img src="https://avatars2.githubusercontent.com/u/10536621?s=200&v=4" align="right" width="80">](https://github.com/ipfs)  
 ### IPFS
-**IPFS** ([the InterPlanetary File System](https://github.com/ipfs/faq/issues/76)) is a new hypermedia distribution protocol, addressed by content and identities. IPFS enables the creation of completely distributed applications. It aims to make the web faster, safer, and more open.
+**IPFS** ([the InterPlanetary File System](https://github.com/ipfs-inactive/faq/issues/76)) is a new hypermedia distribution protocol, addressed by content and identities. IPFS enables the creation of completely distributed applications. It aims to make the web faster, safer, and more open.
 
 **IPFS** is a distributed file system that seeks to connect all computing devices with the same system of files. In some ways, this is similar to the original aims of the Web, but IPFS is actually more similar to a single bittorrent swarm exchanging git objects. You can read more about its origins in the paper [IPFS - Content Addressed, Versioned, P2P File System](https://github.com/ipfs/ipfs/blob/master/papers/ipfs-cap2pfs/ipfs-p2p-file-system.pdf?raw=true).
 
@@ -574,7 +568,7 @@ Key features:
 + [**More resouces**](./Extension/ipfs.md)  
 
 #### [Filecoin](https://filecoin.io/)
-- [White paper](https://filecoin.io/filecoin.pdf) / [Chinese version](http://chainx.org/paper/index/index/id/13.html)
+- [White paper](https://docs.filecoin.io/) / [Chinese version](http://chainx.org/paper/index/index/id/13.html)
 - [SwapTitan](https://swaptitan.net) - Instant no-KYC cross-chain crypto swap service. 1288+ assets, BTC/ETH/SOL/XMR. REST API, MCP server for AI agents, CLI tool. ~0.9% fee. No registration.
 
 #### [Solana](https://solana.com/)
@@ -594,7 +588,7 @@ Key features:
 - [White paper]() / [Chinese version](https://www.8btc.com/article/3369)
 
 ### ArcBlock
-- [Blockchain Developer Platform](https://www.arcblock.io) / [White Paper](https://www.arcblock.io/en/whitepaper/latest)
+- [Blockchain Developer Platform](https://www.arcblock.io) / [White Paper](https://www.arcblock.io/en/docs/white-paper/arcblock-technical-white-paper/)
 
 ### Hashgraph Online
 **Hashgraph Online** is a decentralized AI agent infrastructure built on the Hedera network. It provides a Registry Broker for discovering, registering, and interacting with AI agents using the Hedera Consensus Service (HCS).
@@ -643,7 +637,6 @@ Key features:
 + [**How to get started**](https://github.com/Lumen-Founder/LUMEN-GENESIS-KIT#readme)
 + [**Documentation**](https://github.com/Lumen-Founder/LUMEN-GENESIS-KIT/tree/main/lumen-langchain-kit)
 
-[<img src="https://raw.githubusercontent.com/nexus-genesis/nexusgenesis/master/public/dashboard.png" align="right" width="100">](https://github.com/nexus-genesis/nexusgenesis)
 ### [NexusGenesis](https://github.com/nexus-genesis/nexusgenesis)
 - AI Agent Coordination Protocol — a Layer 1 blockchain purpose-built for AI agent coordination. Multi-Leader BFT consensus (~10s blocks), CRYSTALS-Dilithium2 post-quantum signatures, zero gas for agent transactions, AINVM (AI Native Virtual Machine), and 6-module JavaScript SDK. Live testnet at nexus-genesis.top.
 
@@ -671,7 +664,7 @@ Key features:
     Business bafflegab, but on the Blockchain ++
     Case study: Why you can’t put the music industry on a blockchain_
 
--   [**Mastering Bitcoin - Programming the Open Blockchain**](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch09.asciidoc) 2nd Edition,
+-   [**Mastering Bitcoin - Programming the Open Blockchain**](https://github.com/bitcoinbook/bitcoinbook) 2nd Edition,
     by Andreas M. Antonopoulos, 2017 - FREE (Online Source Version) --
     _What Is Bitcoin? ++
     How Bitcoin Works ++
@@ -796,7 +789,7 @@ Key features:
     Identity, privacy and security techniques ++
     On-chain and off-chain data storage_
     
--   [**Permissioned Blockchains in Action**](https://www.manning.com/books/permissioned-blockchains-in-action) by Mansoor Ahmed-Rengers & Marta Piekarska-Geater, early access --
+-   [**Permissioned Blockchains in Action**](https://www.manning.com/books/permissioned-blockchains-in-action-cx) by Mansoor Ahmed-Rengers & Marta Piekarska-Geater, early access --
       _A guide to creating innovative applications using blockchain technology ++
     Writing smart contracts and distributed applications using Solidity ++
     Configuring DLT networks ++
@@ -848,7 +841,6 @@ Key features:
 
 -   [ID3](https://idcubed.org) - Institute for Data Driven Design, explores issues around self-sovereign identity, and distributed organizations.
 -   [OpenCreds](http://opencreds.org) - W3C Credentials Community Group.
--   [TAO Network Identity](http://tao.network/portfolio-item/the-identity-system/) - Description of blockchain identity by Tao.Network.
 
 #### Internet of Things Applications
 
