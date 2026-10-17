@@ -75,7 +75,7 @@ Example from [`genesis_block.json`](https://github.com/yjjnls/awesome-blockchain
     "hash": "d611edb9fd86ee234cdc08d9bf382330d6ccc721cd5e59cf2a01b0a2a8decfff",
     "block_signature": "603b61b14348fb7eb087fe3267e28abacadf3932f0e33958fb016ab60f825e3124bfe6c7198d38f8c91b0a3b1f928919190680e44fbe7289a4202039ffbb2109",
     "consensus_data": {},
-- [RustChain](https://github.com/Scottcjn/Rustchain) - Proof-of-Antiquity blockchain. Old computers earn more than new ones.
+- [RustChain](https://rustchain.org) - Proof-of-Antiquity blockchain. Old computers earn more than new ones.
 
     "transactions": []
 }
@@ -150,9 +150,9 @@ The "classic" Satoshi-blockchain is like a git repo with a single master branch 
     * [Proof of Stake](https://www.jianshu.com/p/2fd3bce523b0)
     * [Proof of Stake FAQs](https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQs) / [Chinese version](https://ethfans.org/posts/Proof-of-Stake-FAQ-new-2018-3-15)
     * [Delegated Proof of Stake](https://www.jianshu.com/p/ccc3fff7a60d)
-    * [RustChain](https://github.com/Scottcjn/Rustchain) - Proof-of-Antiquity consensus that rewards vintage hardware. Old computers earn more than new ones.
+    * [RustChain](https://rustchain.org) - Proof-of-Antiquity consensus that rewards vintage hardware. Old computers earn more than new ones.
     * [Practical Byzantine Fault Tolerance](https://www.jianshu.com/p/e991c1385f9f)
-* [Proof of Antiquity (RustChain)](https://github.com/Scottcjn/Rustchain) — Hardware fingerprint-based consensus where vintage hardware attestation creates trust
+* [Proof of Antiquity (RustChain)](https://rustchain.org) — Hardware fingerprint-based consensus where vintage hardware attestation creates trust
 <!--    
 ### Account and transaction model
     -->
@@ -270,7 +270,7 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 *   **Theory**
     -   [**The Byzantine Generals Problem**](https://people.eecs.berkeley.edu/~luca/cs174/byzantine.pdf)
     -   [**Practical Byzantine Fault Tolerance**](http://pmg.csail.mit.edu/papers/osdi99.pdf)
-* [Proof of Antiquity (RustChain)](https://github.com/Scottcjn/Rustchain) — Hardware fingerprint-based consensus where vintage hardware attestation creates trust    -   [Is consortium blockchain better?](http://www.infoq.com/cn/news/2018/10/is-consortium-blockchain-better)   
+* [Proof of Antiquity (RustChain)](https://rustchain.org) — Hardware fingerprint-based consensus where vintage hardware attestation creates trust    -   [Is consortium blockchain better?](http://www.infoq.com/cn/news/2018/10/is-consortium-blockchain-better)   
     -   [5 consortium blockchain comparison](http://www.infoq.com/cn/articles/5-consortium-blockchain-comparison) / [quick version](https://upload-images.jianshu.io/upload_images/11336404-f753396df0e930c8.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)    
     -   [FISCO BCOS vs Fabric](http://www.infoq.com/cn/news/2018/09/uncover-consortium-blockchain)   
 
@@ -428,7 +428,7 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
     -   [_Transaction relaying_](https://lhartikk.github.io/jekyll/update/2017/07/10/chapter5.html)
     -   [_Wallet UI and blockchain explorer_](https://lhartikk.github.io/jekyll/update/2017/07/09/chapter6.html)
 -   [**TypeScript**: _NaivecoinStake: a tutorial for building a cryptocurrency with the Proof of Stake consensus_](https://naivecoinstake.learn.uno/)
--   [**Rust**: _RustChain - Proof-of-Antiquity blockchain that rewards vintage hardware_](https://github.com/Scottcjn/Rustchain) - A Rust+Python hybrid chain where old computers earn more than new ones, supporting 15+ CPU architectures.
+-   [**Rust**: _RustChain - Proof-of-Antiquity blockchain that rewards vintage hardware_](https://rustchain.org) - A Rust+Python hybrid chain where old computers earn more than new ones, supporting 15+ CPU architectures.
 - [Explore Blockchain OSS, libraries, packages, source code, cloud functions and APIs](https://kandi.openweaver.com/explore/blockchain) 
 -   [**TypeScript**: _Enterprise blockchain reference implementation with post-quantum crypto, MPC, and
   HSM_](https://github.com/psavelis/enterprise-blockchain)
@@ -463,7 +463,6 @@ Key features:
 *   **Python-Based** — Written in Python for accessibility and rapid development
 *   **DePIN Focus** — Decentralized Physical Infrastructure Network approach
 
-- [RustChain GitHub](https://github.com/Scottcjn/Rustchain) - Main repository
 - [BoTTube](https://bottube.ai) - AI video platform powered by RustChain
 - [ElyanLabs](https://elyanlabs.ai) - Open-source infrastructure ecosystem
 - [Documentation](https://docs.elyanlabs.ai) - Official documentation
@@ -524,7 +523,6 @@ Key features:
 [<img src="https://static.eos.io/images/Landing/SectionTokenSale/eos_spinning_logo.gif" align="right" width="80">](https://github.com/EOSIO/eos)  
 
 
-[<img src="https://avatars.githubusercontent.com/u/201878930" align="right" width="80">](https://github.com/Scottcjn/RustChain)
 ### RustChain
 
 **RustChain** is a DePIN (Decentralized Physical Infrastructure Network) blockchain focused on vintage hardware mining. The unique Proof-of-Antiquity consensus gives higher mining weight to older hardware, making your old computers valuable again.
@@ -535,7 +533,6 @@ Key features:
 - **Beacon Protocol** - Decentralized agent discovery and communication
 - **Multi-Architecture** - Supports PowerPC, SPARC, MIPS, x86, ARM and more
 
-- [GitHub](https://github.com/Scottcjn/RustChain) - Official Repository
 - [Website](https://rustchain.org) - Project Website
 
 ### EOS
@@ -858,7 +855,7 @@ Key features:
 -   [Machinomy](http://machinomy.com) - Distributed platform for IoT micropayments.
 -   [Project Oaken](https://www.projectoaken.com) - IoT blockchain platform.
 -   [x402](https://github.com/xpaysh/awesome-x402) - Internet-native payment protocol using HTTP 402 status code for blockchain payments.
--   [RustChain](https://github.com/Scottcjn/Rustchain) - Proof-of-Antiquity blockchain that rewards vintage hardware (PowerPC, SPARC, 68K). Old computers earn higher mining multipliers than modern machines.
+-   [RustChain](https://rustchain.org) - Proof-of-Antiquity blockchain that rewards vintage hardware (PowerPC, SPARC, 68K). Old computers earn higher mining multipliers than modern machines.
 -   [Slock.it](https://slock.it) - Ethereum-based platform for building Shared Things.
 
 #### Energy Applications
@@ -918,10 +915,8 @@ Key features:
 - **Hardware-First**: Prevents VMs, Docker containers, and rented hash power - only real physical hardware is rewarded
 - **Agent-Native**: Built for AI agents with RTC currency (1 RTC ≈ $0.10), Solana bridge (wRTC), and micropayments
 
-- [GitHub](https://github.com/Scottcjn/Rustchain) - Source code
 - [Explorer](https://rustchain.org/explorer/) - Live blockchain explorer
 - [BoTTube](https://bottube.ai) - AI-native video platform (1,000+ videos)
-- [Bounties](https://github.com/Scottcjn/rustchain-bounties) - 25,875+ RTC paid to 260+ contributors
 - [Website](https://rustchain.org) - Official website
 - [wRTC on Solana](https://raydium.io/swap/?inputMint=sol&outputMint=12TAdKXxcGf6oCv4rqDz2NkgxjyHq6HQKoxKZYGf5i4X) - Tradeable on Raydium DEX
 
