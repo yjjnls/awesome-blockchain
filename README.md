@@ -901,6 +901,7 @@ Key features:
     +   [Bitquery](https://bitquery.io/): Bitquery provides blockchain data, offering real-time streaming APIs for 40+ chains, NFT APIs, and a money flow investigation tool.
     +   [Covalent](https://www.covalenthq.com/): an unified API bringing visibility to billions of blockchain data points.
     +   [BTCBench Fee Calculator](https://www.btcbench.com/calculator.html) - Estimate transaction costs based on current network conditions.
+    +   [Stablecoin Yield Reality Check](https://livastic-vm3-primary-tmp-260920.github.io/stablecoin-yield-reality-check/) - Free, no-wallet USDC/stablecoin metadata screen that separates reported base APY and reward incentives, shows 30-day trends and TVL, and estimates hypothetical fee break-even; source timestamps and risk limitations are explicit.
     +   [Chartscout](https://chartscout.io) : Real-time crypto chart pattern detection and automated trading alerts across multiple exchanges.
     +   [ProofBets](https://proofbets.com): on-chain verification of crypto casino claims. Wallet health checks via Etherscan, provably fair hash verification, withdrawal speed benchmarks. Free API and tools.
     +   [DeepAlpha](https://github.com/stefanoviana/deepalpha): AI-powered crypto trading bot with ML ensemble, 12 exchanges, grid trading, and DCA strategies.
