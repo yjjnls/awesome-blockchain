@@ -411,6 +411,7 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 -   [**Python**: _Build your own blockchain: a Python tutorial_](http://ecomunsing.com/build-your-own-blockchain)
 -   [**Python**: _Learn Blockchains by Building One_](https://hackernoon.com/learn-blockchains-by-building-one-117428612f46)
 -   [**Python**: _Let’s Build the Tiniest Blockchain_](https://medium.com/crypto-currently/lets-build-the-tiniest-blockchain-e70965a248b)
+-   [**Python**: _Doomsday Network (DOOM)_](https://github.com/doomsday-network/doomsday) - A complete Layer-1 Proof-of-Work blockchain and cryptocurrency in Python with secp256k1 UTXO consensus, P2P mesh gossip, CUDA PTX GPU solver, 0%-fee PPLNS mining pool, and a 1:1 Base Mainnet ERC-20 bridge.
 -   [**Python: _write-your-own-blockchain_**](https://bigishdata.com/2017/10/17/write-your-own-blockchain-part-1-creating-storing-syncing-displaying-mining-and-proving-work/)
     -   [_Part 1 — Creating, Storing, Syncing, Displaying, Mining, and Proving Work_](https://bigishdata.com/2017/10/17/write-your-own-blockchain-part-1-creating-storing-syncing-displaying-mining-and-proving-work/)
     -   [_Part 2 — Syncing Chains From Different Nodes_](https://bigishdata.com/2017/10/27/build-your-own-blockchain-part-2-syncing-chains-from-different-nodes/)
