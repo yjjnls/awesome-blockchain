@@ -880,6 +880,7 @@ Key features:
 -   [Steem](https://steem.io) - Decentralized social network which incentivises content creation and curation.
 -   [PopChest](https://popchest.com) - Incentivized distributed video platform.
 -   [Civil](https://joincivil.com) - Decentralized newsmaking platform.
+-   [Kiwi News](https://news.kiwistand.com) - Community-curated crypto and Ethereum link aggregator, similar to Hacker News, built on an open peer-to-peer protocol.
 
 #### DeFi (Decentralised Finance)
 
