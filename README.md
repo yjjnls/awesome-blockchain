@@ -411,6 +411,7 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 -   [**Python**: _Build your own blockchain: a Python tutorial_](http://ecomunsing.com/build-your-own-blockchain)
 -   [**Python**: _Learn Blockchains by Building One_](https://hackernoon.com/learn-blockchains-by-building-one-117428612f46)
 -   [**Python**: _Let’s Build the Tiniest Blockchain_](https://medium.com/crypto-currently/lets-build-the-tiniest-blockchain-e70965a248b)
+- [DoomPay](https://github.com/doomsday-network/doom-pay) - 2-line Stripe-style non-custodial Web3 checkout widget (`pay.js`) and MCP server for verifying L1 `DOOM` and Base Mainnet `wDOOM` payments.
 -   [**Python: _write-your-own-blockchain_**](https://bigishdata.com/2017/10/17/write-your-own-blockchain-part-1-creating-storing-syncing-displaying-mining-and-proving-work/)
     -   [_Part 1 — Creating, Storing, Syncing, Displaying, Mining, and Proving Work_](https://bigishdata.com/2017/10/17/write-your-own-blockchain-part-1-creating-storing-syncing-displaying-mining-and-proving-work/)
     -   [_Part 2 — Syncing Chains From Different Nodes_](https://bigishdata.com/2017/10/27/build-your-own-blockchain-part-2-syncing-chains-from-different-nodes/)
