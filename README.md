@@ -905,6 +905,7 @@ Key features:
     +   [ProofBets](https://proofbets.com): on-chain verification of crypto casino claims. Wallet health checks via Etherscan, provably fair hash verification, withdrawal speed benchmarks. Free API and tools.
     +   [DeepAlpha](https://github.com/stefanoviana/deepalpha): AI-powered crypto trading bot with ML ensemble, 12 exchanges, grid trading, and DCA strategies.
     +   [Crypto Pump Scanner](https://github.com/stefanoviana/crypto-pump-scanner): Real-time pump detection for crypto — monitors 500+ Bybit USDT pairs every 3s for volume spikes, with cascade take-profit auto-trading. MIT licensed, Python.
+        +   [WalletWatcher Alerts](https://t.me/WalletWatcherAlertsBot): Telegram bot that messages you whenever a wallet you watch receives or sends funds. Read-only, public addresses only, no keys or wallet connection. Free for 1 wallet with no signup, Pro €6/month for 20 wallets.
 
 ### RustChain
 
