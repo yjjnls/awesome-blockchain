@@ -53,6 +53,7 @@
 
 ## Open Source Wallets
 
+-   [BitTool Signer for iOS](https://github.com/bitbill/bittool-signer-ios) - MIT-licensed offline mobile signer with QR-based Bitcoin PSBT signing.
 -   [CoPay by BitPay](https://copay.io/)
 -   [CoinPunk](https://coinpunk.com/)
 -   [Coinb.in](https://coinb.in)
