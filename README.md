@@ -352,6 +352,7 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 
 ### Policy & Security
 -   [PolicyLayer](https://github.com/PolicyLayer/PolicyLayer) - Non-custodial spending controls for AI agents. Enforces spending limits without holding private keys
+-   [FreezeRadar](https://freezeradar.com) - Wallet risk checks for freezeable stablecoins: screens addresses for USDT/USDC/PAXG issuer blacklist status, sanctions exposure and live freeze/release events.
 
 ### Solidity
 -   [doc](https://solidity.readthedocs.io/en/develop/index.html) / [Chinese version](https://solidity-cn.readthedocs.io/zh/develop/)
