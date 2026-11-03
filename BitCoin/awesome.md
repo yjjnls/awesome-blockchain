@@ -57,6 +57,7 @@
 -   [CoinPunk](https://coinpunk.com/)
 -   [Coinb.in](https://coinb.in)
 -   [Electrum](https://electrum.org/)
+-   [Oath Wallet](https://github.com/devdasx/oath-wallet) - MIT-licensed Bitcoin and multichain wallet for iPhone and iPad, written in Swift and SwiftUI.
 
 ## Blockchain Explorers
 
