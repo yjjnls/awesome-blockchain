@@ -199,6 +199,7 @@ The "classic" Satoshi-blockchain is like a git repo with a single master branch 
 
 +   [But how does bitcoin actually work?](https://www.youtube.com/watch?v=bBC-nXj3Ng4)
 +   [Mining visualization](http://www.yogh.io/#mine:last)
++   [Visualize Bitcoin: a visual companion for learning Bitcoin](https://visualizebitcoin.org/)
 +   [Wallets](./BitCoin/awesome.md#wallets-api)
 +   [Explorers](./BitCoin/awesome.md#blockchain-explorers)
 +   [Libraries](./BitCoin/awesome.md#libraries) - C++, JavaScript, PHP, Ruby, Python, Java, .Net
