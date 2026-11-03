@@ -902,6 +902,7 @@ Key features:
 #### Gaming Applications
 
 -   [Block Lottos](https://blocklottos.com/games) - Polygon and Base on-chain lottery games with wallet-signed ticket transactions, public OpenAPI docs, agent-readable discovery files, referral earning routes, and advertising placements.
+-   [Kiwi News](https://news.kiwistand.com) - Community-curated crypto and Ethereum link aggregator, similar to Hacker News, built on an open peer-to-peer protocol.
 
 #### DeFi (Decentralised Finance)
 
