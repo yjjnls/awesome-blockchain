@@ -902,6 +902,7 @@ Key features:
 -   [DirectCryptoPay](https://directcryptopay.com) - Non-custodial crypto payment gateway for merchants. Accept USDC/USDT/ETH on 10 chains (EVM + Solana + TRON + TON), funds flow directly to merchant wallets. Stripe-style DX, HMAC webhooks, WooCommerce plugin.
 -   [AgentFund](https://github.com/RioTheGreat-ai/agentfund-escrow) - Crowdfunding for AI agents with milestone-based escrow on Base chain.
 -   [NanoStack](https://api.nano-labs.io) - Permissionless cross-chain execution API supporting 86 chains (BTC, ETH, Base, Arbitrum, Optimism, Solana, Cosmos, Polkadot). 8-15 bps fees, no API key required.
+-   [Melbo](https://melbo.io) - Prediction markets for real-world events, built on Polygon.
 
 +   Tools
     +   [Defi Dashboard](https://debank.com/): portfolio tracker, project lists, rankings, etc.
