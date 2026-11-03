@@ -367,6 +367,9 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 ### ProofBets
 -   [ProofBets](https://proofbets.com) - On-chain verification of crypto casino claims. Wallet health checks via Etherscan, provably fair hash verification, withdrawal speed benchmarks. Free API and tools.
 
+### Market Sentiment
+-   [Fear & Greed Index Bot](https://discord.com/oauth2/authorize?client_id=1125794469829169253&scope=bot+applications.commands&permissions=67127296) - Discord bot that shows the Crypto Fear & Greed Index in the server member list, with slash commands for the daily value and the last 30 days. 在 Discord 成员列表中显示加密货币恐惧与贪婪指数的机器人。
+
 ### AI Agent Tools
 - [MoltsPay - Universal Payment Protocol](https://github.com/Yaqing2023/moltspay) - Universal Payment Protocol (UPP) for AI agents that abstracts multiple underlying protocols (x402, MPP, PFS, Pre-Approval) into a single unified API. Supports 8 blockchains (Base, Polygon, BNB, Tempo, Solana, Ethereum, Arbitrum, Optimism) with protocol-specific optimizations. Enables agent-to-agent value exchange with gasless payments. Available in Node.js and Python SDKs.
 - [FractalAI PQC Receipts](https://fractalai.net.co/.well-known/x402.json) - Post-quantum (ML-DSA-65, NIST FIPS 204) signed receipts for x402 agent payments: 12 pay-per-call endpoints on Base whose answer carries a signature the payer verifies offline against a published key directory with epoch rotation, plus a write-once on-chain anchor ([PQCReceiptAnchor](https://arbiscan.io/address/0x3A23c614033cb22139DC13932524767c5fE841d8) on Arbitrum One, MIT verifier at [johnInarti/pqc-receipt-anchor](https://github.com/johnInarti/pqc-receipt-anchor)). Ships as an `@x402/core` ResourceServerExtension, so an existing x402 seller can emit the same receipts.
