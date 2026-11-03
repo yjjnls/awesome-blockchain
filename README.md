@@ -372,6 +372,8 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 
 ### Market Sentiment
 -   [Fear & Greed Index Bot](https://discord.com/oauth2/authorize?client_id=1125794469829169253&scope=bot+applications.commands&permissions=67127296) - Discord bot that shows the Crypto Fear & Greed Index in the server member list, with slash commands for the daily value and the last 30 days. 在 Discord 成员列表中显示加密货币恐惧与贪婪指数的机器人。
+### Provably Fair Verifier
+-   [provably-fair-verifier](https://github.com/cryptoplayguide/provably-fair-verifier) - Open-source browser verifier (MIT) that recomputes HMAC-SHA256 seed outcomes for Dice, Limbo, Crash, Mines and Plinko (Plinko drop path only).
 
 ### AI Agent Tools
 - [MoltsPay - Universal Payment Protocol](https://github.com/Yaqing2023/moltspay) - Universal Payment Protocol (UPP) for AI agents that abstracts multiple underlying protocols (x402, MPP, PFS, Pre-Approval) into a single unified API. Supports 8 blockchains (Base, Polygon, BNB, Tempo, Solana, Ethereum, Arbitrum, Optimism) with protocol-specific optimizations. Enables agent-to-agent value exchange with gasless payments. Available in Node.js and Python SDKs.
