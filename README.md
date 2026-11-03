@@ -649,6 +649,10 @@ Key features:
 ### [NexusGenesis](https://github.com/nexus-genesis/nexusgenesis)
 - AI Agent Coordination Protocol — a Layer 1 blockchain purpose-built for AI agent coordination. Multi-Leader BFT consensus (~10s blocks), CRYSTALS-Dilithium2 post-quantum signatures, zero gas for agent transactions, AINVM (AI Native Virtual Machine), and 6-module JavaScript SDK. Live testnet at nexus-genesis.top.
 
+[<img src="https://kula.money/prana-logo.png" align="right" width="100">](https://github.com/HinduTempleCoins/PRANA)
+### [PRANA](https://github.com/HinduTempleCoins/PRANA)
+- Proof-of-work EVM Layer-1 built on core-geth, mined with Etchash (ECIP-1099) on ordinary GPUs. Fair launch with no premine, mainnet since 2026-08-29 (chain ID 712217), EIP-1559 active. Consensus sends 98% of each block reward to an on-chain pot contract that pays miners by pool shares, and 2% to a protocol treasury. Public RPC https://rpc.prana.melek.salon, Blockscout explorer https://pranascan.soapbox.community, mining guide https://witness.melek.salon/mine.
+
 ---
 ## Further Extension
 ### [Papers](https://github.com/decrypto-org/blockchain-papers)
