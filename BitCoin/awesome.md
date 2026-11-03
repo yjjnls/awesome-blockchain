@@ -61,7 +61,7 @@
 ## Blockchain Explorers
 
 -   [3xpl.com](https://3xpl.com/bitcoin) - Fastest ad-free block explorer by [@3xplcom](https://github.com/3xplcom)
--   [Chain.so](http://chain.so)
+-   [SoChain](https://sochain.com) - Block explorer and API for Bitcoin, Litecoin, Dogecoin and Zcash
 -   [Blockchain.info](https://blockchain.info)
 -   [Blockchair.com](https://blockchair.com/bitcoin) - Universal blockchain explorer and search engine by [@Blockchair](https://github.com/Blockchair)
 -   [BlockTrail](https://www.blocktrail.com/BTC) 
