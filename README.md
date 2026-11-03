@@ -886,6 +886,7 @@ Key features:
 -   [Steem](https://steem.io) - Decentralized social network which incentivises content creation and curation.
 -   [PopChest](https://popchest.com) - Incentivized distributed video platform.
 -   [Civil](https://joincivil.com) - Decentralized newsmaking platform.
+-   [MELEK](https://melek.salon) - Graphene social blockchain (Steem/Blurt lineage) with a self-hostable condenser front end and an AI block-producing witness. ([node source](https://github.com/HinduTempleCoins/melek-chain))
 
 #### Gaming Applications
 
