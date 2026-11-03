@@ -28,6 +28,7 @@
 -   [txwatcher](https://github.com/tsileo/txwatcher) - A little Python utility that lets you monitor Bitcoin addresses through Blockchain Websocket API and perform custom callbacks.
 -   [hellobitcoin](https://github.com/prettymuchbryce/hellobitcoin) - A collection of simple programs which can generate bitcoin wallets, create and sign transactions, and send transactions over the bitcoin network.
 -   [Mining visualization](http://www.yogh.io/#mine:last)
+-   [Visualize Bitcoin: a visual companion for learning Bitcoin](https://visualizebitcoin.org/)
 
 ## Blockchain API and Web services
 
@@ -70,6 +71,7 @@
 -   [Bitcoin Transaction Explorer](https://github.com/JornC/bitcoin-transaction-explorer)
 -   [Blockexplorer.com](https://blockexplorer.com)
 -   [Blockonomics](https://www.blockonomics.co)
+-   [Written in Bitcoin](https://writteninbitcoin.com/en) - Searchable archive of everything written into the Bitcoin blockchain since 2009: coinbase messages, OP_RETURN, pre-Ordinals files, Counterparty, Stamps, Atomicals and Ordinals inscriptions.
 
 
 ## Libraries
