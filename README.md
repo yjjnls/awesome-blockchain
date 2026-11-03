@@ -351,6 +351,8 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 
 ## Releated Tools
 
+- [0xArchive](https://docs.0xarchive.io/quickstart) - Real-time and historical Hyperliquid and Lighter market data through REST and WebSocket APIs.
+
 ### Policy & Security
 -   [PolicyLayer](https://github.com/PolicyLayer/PolicyLayer) - Non-custodial spending controls for AI agents. Enforces spending limits without holding private keys
 
