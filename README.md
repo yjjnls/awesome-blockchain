@@ -910,6 +910,10 @@ Key features:
 -   [Block Lottos](https://blocklottos.com/games) - Polygon and Base on-chain lottery games with wallet-signed ticket transactions, public OpenAPI docs, agent-readable discovery files, referral earning routes, and advertising placements.
 -   [Kiwi News](https://news.kiwistand.com) - Community-curated crypto and Ethereum link aggregator, similar to Hacker News, built on an open peer-to-peer protocol.
 
+#### Work and Freelancing Applications
+
+-   [chainjobs](https://chainjobs.app/) - Free Web3 and freelance job board: post jobs, offer services and chat directly; agree on payment in crypto or by bank transfer, with 0% platform commission.
+
 #### DeFi (Decentralised Finance)
 
 -   [Uniswap](https://uniswap.org) - Decentralized exchange powered by the Automated Market Maker model (AMM).
