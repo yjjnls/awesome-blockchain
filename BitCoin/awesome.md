@@ -27,6 +27,7 @@
 -   [bx](https://github.com/libbitcoin/libbitcoin-explorer) - Bitcoin Command Line Tool
 -   [txwatcher](https://github.com/tsileo/txwatcher) - A little Python utility that lets you monitor Bitcoin addresses through Blockchain Websocket API and perform custom callbacks.
 -   [hellobitcoin](https://github.com/prettymuchbryce/hellobitcoin) - A collection of simple programs which can generate bitcoin wallets, create and sign transactions, and send transactions over the bitcoin network.
+-   [btc-toolkit](https://github.com/devdavidejesus/btc-toolkit) - Zero-dependency Python command line tool to decode OP_RETURN messages, inspect addresses and transactions, and verify a transaction against its block's Merkle proof and proof of work.
 -   [Mining visualization](http://www.yogh.io/#mine:last)
 -   [Visualize Bitcoin: a visual companion for learning Bitcoin](https://visualizebitcoin.org/)
 
