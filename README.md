@@ -356,6 +356,7 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 ### Tools Directory
 
 - [18btc](https://18btc.cc) - Curated crypto tools directory with hands-on reviews across market data, on-chain analytics, DeFi data, wallets, security tools and office tools. Bilingual Chinese/English.
+- [Chain.Love](https://www.chain.love/) - Open-source directory for comparing blockchain infrastructure and developer tools across RPC nodes, indexers, explorers, bridges, oracles, faucets, SDKs, wallets, security and analytics. ([Source](https://github.com/Chain-Love/chain-love))
 
 ### Policy & Security
 -   [PolicyLayer](https://github.com/PolicyLayer/PolicyLayer) - Non-custodial spending controls for AI agents. Enforces spending limits without holding private keys
