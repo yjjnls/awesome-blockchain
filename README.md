@@ -489,6 +489,7 @@ Key enhancements over go-ethereum:
 - [Review of the Cryptonote White Paper](https://downloads.getmonero.org/whitepaper_review.pdf) - By the research lab of Monero
 - [Cryptonote Standards](https://cryptonote.org/cns) - The 10 Cryptonote standards (equivalent to BIPs for Bitcoin)
 - [monerometrics](https://monerometrics.net) - Monero network observatory: chain reorgs, orphan blocks, verified mining pool shares, hashrate and fees, with a free read-only API and MCP server
+- [XMRList](https://xmrlist.com) - Hand-reviewed directory of businesses that accept Monero, with KYC policy, Tor address and uptime per listing, a free no-key JSON API and a daily CC BY 4.0 dataset
 
 
 + [**How to get started**](https://github.com/monero-project/monero#compiling-monero-from-source)
