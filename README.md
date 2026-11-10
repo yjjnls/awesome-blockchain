@@ -510,6 +510,7 @@ Key features:
 - [Cryptonote Whitepaper](https://cryptonote.org/whitepaper.pdf) - White paper of cryptonote, the family of crypto-currencies of Monero
 - [Review of the Cryptonote White Paper](https://downloads.getmonero.org/whitepaper_review.pdf) - By the research lab of Monero
 - [Cryptonote Standards](https://cryptonote.org/cns) - The 10 Cryptonote standards (equivalent to BIPs for Bitcoin)
+- [monerometrics](https://monerometrics.net) - Monero network observatory: chain reorgs, orphan blocks, verified mining pool shares, hashrate and fees, with a free read-only API and MCP server
 
 
 + [**How to get started**](https://github.com/monero-project/monero#compiling-monero-from-source)
