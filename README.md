@@ -919,6 +919,7 @@ Key features:
 
 #### DeFi (Decentralised Finance)
 
+-   [GSPC Exchange](https://exchange.gspcoin.us) - High-speed non-custodial Peer-to-Peer (P2P) crypto escrow exchange with real-time central limit order books and multi-chain settlement across 21 digital assets (GSPC, BTC, ETH, SOL, LTC, USDT, USDC, and more).
 -   [Uniswap](https://uniswap.org) - Decentralized exchange powered by the Automated Market Maker model (AMM).
 -   [Compound](https://compound.finance) - Decentralized lending and borrowing.
 -   [1inch Exchange](https://1inch.exchange) - Get the best rates among multiple DEXes.
