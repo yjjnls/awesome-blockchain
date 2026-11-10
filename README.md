@@ -7,7 +7,6 @@
 The blockchain is an incorruptible digital ledger of economic transactions that can be programmed to record not just financial transactions but virtually everything of value (by [Don Tapscott](https://www.linkedin.com/pulse/whats-next-generation-internet-surprise-its-all-don-tapscott)).
 
 <font color=#0099ff size=3>**This is not a simple collection of Internet resources, but verified and organized data ensuring it's really suitable for your learning process and useful for your development and application.**</font>
-- [7/Seven Chain Node](https://github.com/umairkhan2582/seven-chain-node) - Validator node for 7/Seven Chain (Chain ID: 70007), an EVM-compatible blockchain (BSC/Parlia fork) powering [TheSeven.meme](https://theseven.meme) — world's first on-chain perpetual futures exchange with 100+ pairs, up to 2001× leverage, and zero trading fees.
 
 ## Contents
 <details><summary>Click to expand</summary>
@@ -76,7 +75,6 @@ Example from [`genesis_block.json`](https://github.com/yjjnls/awesome-blockchain
     "hash": "d611edb9fd86ee234cdc08d9bf382330d6ccc721cd5e59cf2a01b0a2a8decfff",
     "block_signature": "603b61b14348fb7eb087fe3267e28abacadf3932f0e33958fb016ab60f825e3124bfe6c7198d38f8c91b0a3b1f928919190680e44fbe7289a4202039ffbb2109",
     "consensus_data": {},
-- [RustChain](https://github.com/Scottcjn/Rustchain) - Proof-of-Antiquity blockchain. Old computers earn more than new ones.
 
     "transactions": []
 }
@@ -151,9 +149,7 @@ The "classic" Satoshi-blockchain is like a git repo with a single master branch 
     * [Proof of Stake](https://www.jianshu.com/p/2fd3bce523b0)
     * [Proof of Stake FAQs](https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQs) / [Chinese version](https://ethfans.org/posts/Proof-of-Stake-FAQ-new-2018-3-15)
     * [Delegated Proof of Stake](https://www.jianshu.com/p/ccc3fff7a60d)
-    * [RustChain](https://github.com/Scottcjn/Rustchain) - Proof-of-Antiquity consensus that rewards vintage hardware. Old computers earn more than new ones.
     * [Practical Byzantine Fault Tolerance](https://www.jianshu.com/p/e991c1385f9f)
-* [Proof of Antiquity (RustChain)](https://github.com/Scottcjn/Rustchain) — Hardware fingerprint-based consensus where vintage hardware attestation creates trust
 <!--    
 ### Account and transaction model
     -->
@@ -272,7 +268,6 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 *   **Theory**
     -   [**The Byzantine Generals Problem**](https://people.eecs.berkeley.edu/~luca/cs174/byzantine.pdf)
     -   [**Practical Byzantine Fault Tolerance**](http://pmg.csail.mit.edu/papers/osdi99.pdf)
-* [Proof of Antiquity (RustChain)](https://github.com/Scottcjn/Rustchain) — Hardware fingerprint-based consensus where vintage hardware attestation creates trust    -   [Is consortium blockchain better?](http://www.infoq.com/cn/news/2018/10/is-consortium-blockchain-better)   
     -   [5 consortium blockchain comparison](http://www.infoq.com/cn/articles/5-consortium-blockchain-comparison) / [quick version](https://upload-images.jianshu.io/upload_images/11336404-f753396df0e930c8.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)    
     -   [FISCO BCOS vs Fabric](http://www.infoq.com/cn/news/2018/09/uncover-consortium-blockchain)   
 
@@ -453,7 +448,6 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
     -   [_Transaction relaying_](https://lhartikk.github.io/jekyll/update/2017/07/10/chapter5.html)
     -   [_Wallet UI and blockchain explorer_](https://lhartikk.github.io/jekyll/update/2017/07/09/chapter6.html)
 -   [**TypeScript**: _NaivecoinStake: a tutorial for building a cryptocurrency with the Proof of Stake consensus_](https://naivecoinstake.learn.uno/)
--   [**Rust**: _RustChain - Proof-of-Antiquity blockchain that rewards vintage hardware_](https://github.com/Scottcjn/Rustchain) - A Rust+Python hybrid chain where old computers earn more than new ones, supporting 15+ CPU architectures.
 - [Explore Blockchain OSS, libraries, packages, source code, cloud functions and APIs](https://kandi.openweaver.com/explore/blockchain) 
 -   [**TypeScript**: _Enterprise blockchain reference implementation with post-quantum crypto, MPC, and
   HSM_](https://github.com/psavelis/enterprise-blockchain)
@@ -476,24 +470,6 @@ Key enhancements over go-ethereum:
     *   **Istanbul BFT** - a PBFT-inspired consensus algorithm with transaction finality, by AMIS.
 *   **Peer Permissioning** - node/peer permissioning using smart contracts, ensuring only known parties can join the network
 *   **Higher Performance** - Quorum offers significantly higher performance than public geth
-
-### RustChain
-
-**RustChain** is an AI Agent DeFi blockchain using Proof of Antiquity (PoA) consensus that rewards vintage hardware. Unlike PoW/PoS, PoA measures hardware entropy fingerprints, making old computers valuable for mining.
-
-Key features:
-*   **Proof of Antiquity** — Consensus based on hardware age and entropy, not computational power
-*   **AI Agent Integration** — Native support for AI agents (BoTTube platform for bot-created videos)
-*   **Vintage Hardware Mining** — Rewards older hardware, reducing e-waste and promoting sustainability
-*   **Python-Based** — Written in Python for accessibility and rapid development
-*   **DePIN Focus** — Decentralized Physical Infrastructure Network approach
-
-- [RustChain GitHub](https://github.com/Scottcjn/Rustchain) - Main repository
-- [BoTTube](https://bottube.ai) - AI video platform powered by RustChain
-- [ElyanLabs](https://elyanlabs.ai) - Open-source infrastructure ecosystem
-- [Documentation](https://docs.elyanlabs.ai) - Official documentation
-
-
 
 [<img src="https://avatars3.githubusercontent.com/u/7450663?s=460&v=4" align="right" width="80">](https://github.com/monero-project/monero)  
 ### Monero
@@ -550,19 +526,6 @@ Key features:
 [<img src="https://static.eos.io/images/Landing/SectionTokenSale/eos_spinning_logo.gif" align="right" width="80">](https://github.com/EOSIO/eos)  
 
 
-[<img src="https://avatars.githubusercontent.com/u/201878930" align="right" width="80">](https://github.com/Scottcjn/RustChain)
-### RustChain
-
-**RustChain** is a DePIN (Decentralized Physical Infrastructure Network) blockchain focused on vintage hardware mining. The unique Proof-of-Antiquity consensus gives higher mining weight to older hardware, making your old computers valuable again.
-
-Key features:
-- **Proof-of-Antiquity** - Older hardware gets higher mining weight (up to 2.5x for PowerBook G4)
-- **AI-Augmented** - Optimized for AI workloads on legacy CPU architectures
-- **Beacon Protocol** - Decentralized agent discovery and communication
-- **Multi-Architecture** - Supports PowerPC, SPARC, MIPS, x86, ARM and more
-
-- [GitHub](https://github.com/Scottcjn/RustChain) - Official Repository
-- [Website](https://rustchain.org) - Project Website
 
 ### EOS
 
@@ -888,7 +851,6 @@ Key features:
 -   [Machinomy](http://machinomy.com) - Distributed platform for IoT micropayments.
 -   [Project Oaken](https://www.projectoaken.com) - IoT blockchain platform.
 -   [x402](https://github.com/xpaysh/awesome-x402) - Internet-native payment protocol using HTTP 402 status code for blockchain payments.
--   [RustChain](https://github.com/Scottcjn/Rustchain) - Proof-of-Antiquity blockchain that rewards vintage hardware (PowerPC, SPARC, 68K). Old computers earn higher mining multipliers than modern machines.
 -   [Slock.it](https://slock.it) - Ethereum-based platform for building Shared Things.
 
 #### Energy Applications
