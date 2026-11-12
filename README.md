@@ -896,6 +896,7 @@ Key features:
 -   [NanoStack](https://api.nano-labs.io) - Permissionless cross-chain execution API supporting 86 chains (BTC, ETH, Base, Arbitrum, Optimism, Solana, Cosmos, Polkadot). 8-15 bps fees, no API key required.
 -   [Melbo](https://melbo.io) - Prediction markets for real-world events, built on Polygon.
 -   [Papaya](https://papaya.finance/technology/protocol) - Non-custodial protocol for recurring stablecoin payments: per-second streaming and periodic subscriptions in USDC/USDT. ([SDK](https://github.com/Papaya-Finance/sdk) · [Docs](https://docs.papaya.finance))
+-   [ALPHA](https://alphapad.xyz) - Multi-chain token launchpad on Solana, Ethereum, Base, BNB Chain, Robinhood Chain, Arc, Monad, Avalanche and Arbitrum; creators price each token in a coin, stablecoin, stock token or gold, and markets graduate to Uniswap v4 or Meteora DAMM v2 with locked liquidity. ([X](https://x.com/alphapadxyz))
 
 +   Tools
     +   [Defi Dashboard](https://debank.com/): portfolio tracker, project lists, rankings, etc.
