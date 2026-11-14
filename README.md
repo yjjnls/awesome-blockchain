@@ -945,6 +945,7 @@ Key features:
 
 ### Keep learning
 
+- [链小知区块链: Token approvals](https://lianxiaozhi.com/learn/token-approvals) - Simplified Chinese, source-linked explainer distinguishing ERC-20 allowances from disconnecting a dapp, with owner/spender/network checks and revocation verification.
 - [Zcash address types](https://zecview.com/privacy/address-types/) - Source-linked educational guide distinguishing transparent, shielded, and Unified Addresses from wallet-specific receiver support.
 
 - [LianXinShe (链新社) - Chinese Blockchain Learning Resources:](https://www.lianxinshe666.com/special/blockchain/) Curated tutorials, guides, and educational content covering DeFi, NFTs, and Web3 basics in Chinese.
