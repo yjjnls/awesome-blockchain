@@ -349,6 +349,7 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 
 - [0xArchive](https://docs.0xarchive.io/quickstart) - Real-time and historical Hyperliquid and Lighter market data through REST and WebSocket APIs.
 - [Siebly](https://siebly.io/sdk) - Open-source (MIT) JavaScript and TypeScript SDKs for crypto exchange REST APIs and WebSockets: [Hyperliquid JavaScript SDK](https://siebly.io/sdk/hyperliquid/javascript), Binance, Bybit, OKX, Gate, Bitget, KuCoin, Coinbase, Kraken and HTX. [Docs](https://sieblyio.github.io/docs/)
+- [crypto-logos](https://github.com/logoapi/crypto-logos) - SVG logos for 37 major coins by ticker symbol, in light and dark versions. Free, no key, also served by symbol as logoapi.sh/crypto/BTC.svg.
 ### Tools Directory
 
 - [18btc](https://18btc.cc) - Curated crypto tools directory with hands-on reviews across market data, on-chain analytics, DeFi data, wallets, security tools and office tools. Bilingual Chinese/English.
@@ -358,6 +359,7 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 ### Policy & Security
 -   [PolicyLayer](https://github.com/PolicyLayer/PolicyLayer) - Non-custodial spending controls for AI agents. Enforces spending limits without holding private keys
 -   [FreezeRadar](https://freezeradar.com) - Wallet risk checks for freezeable stablecoins: screens addresses for USDT/USDC/PAXG issuer blacklist status, sanctions exposure and live freeze/release events.
+-   [Bunker](https://bunker.nosistech.com) - Offline browser tool that shows which crypto addresses expose their public key, on 100+ networks, with a plan to hide them. ([Source](https://github.com/nosistech/nosis-bunker))
 
 ### Solidity
 -   [doc](https://solidity.readthedocs.io/en/develop/index.html) / [Chinese version](https://solidity-cn.readthedocs.io/zh/develop/)
@@ -382,6 +384,7 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 - [MoltsPay - Universal Payment Protocol](https://github.com/Yaqing2023/moltspay) - Universal Payment Protocol (UPP) for AI agents that abstracts multiple underlying protocols (x402, MPP, PFS, Pre-Approval) into a single unified API. Supports 8 blockchains (Base, Polygon, BNB, Tempo, Solana, Ethereum, Arbitrum, Optimism) with protocol-specific optimizations. Enables agent-to-agent value exchange with gasless payments. Available in Node.js and Python SDKs.
 - [FractalAI PQC Receipts](https://fractalai.net.co/.well-known/x402.json) - Post-quantum (ML-DSA-65, NIST FIPS 204) signed receipts for x402 agent payments: 12 pay-per-call endpoints on Base whose answer carries a signature the payer verifies offline against a published key directory with epoch rotation, plus a write-once on-chain anchor ([PQCReceiptAnchor](https://arbiscan.io/address/0x3A23c614033cb22139DC13932524767c5fE841d8) on Arbitrum One, MIT verifier at [johnInarti/pqc-receipt-anchor](https://github.com/johnInarti/pqc-receipt-anchor)). Ships as an `@x402/core` ResourceServerExtension, so an existing x402 seller can emit the same receipts.
 - [send21 agent budget](https://github.com/send21io/send21-agent-budget) - A budget guard between an AI agent and the send21 MCP server for crypto pay links and payment drafts.
+- [crypto-exchange-fees](https://github.com/BestBerlin/crypto-exchange-fees) - Open dataset (JSON/CSV, CC BY 4.0) and stdio MCP server for base-tier maker/taker fees of major CEX, DEX and perp DEX venues; every figure links to the exchange's official fee page with a verification date, and unverifiable values are left blank.
 
 ### RPC Infrastructure
 -   [eRPC](https://github.com/erpc/erpc) - Fault-tolerant RPC proxy for EVM chains and Solana with re-org-aware caching, failover, retries and multi-chain routing behind one endpoint. [Docs](https://docs.erpc.cloud/)
@@ -897,6 +900,7 @@ Key features:
 -   [NanoStack](https://api.nano-labs.io) - Permissionless cross-chain execution API supporting 86 chains (BTC, ETH, Base, Arbitrum, Optimism, Solana, Cosmos, Polkadot). 8-15 bps fees, no API key required.
 -   [Melbo](https://melbo.io) - Prediction markets for real-world events, built on Polygon.
 -   [Papaya](https://papaya.finance/technology/protocol) - Non-custodial protocol for recurring stablecoin payments: per-second streaming and periodic subscriptions in USDC/USDT. ([SDK](https://github.com/Papaya-Finance/sdk) · [Docs](https://docs.papaya.finance))
+-   [SODAX](https://sodax.com) - Intent-based cross-network execution layer: swaps, bridging, lending and leverage yield across 20+ networks (Solana, Ethereum, Arbitrum, Base, Stellar, Hedera and more), with a REST API and TypeScript SDK. ([SDK](https://github.com/gosodax/sodax-sdks) · [Docs](https://docs.sodax.com))
 
 +   Tools
     +   [Defi Dashboard](https://debank.com/): portfolio tracker, project lists, rankings, etc.
@@ -946,6 +950,7 @@ Key features:
 
 ### Keep learning
 
+- [链小知区块链: Token approvals](https://lianxiaozhi.com/learn/token-approvals) - Simplified Chinese, source-linked explainer distinguishing ERC-20 allowances from disconnecting a dapp, with owner/spender/network checks and revocation verification.
 - [Zcash address types](https://zecview.com/privacy/address-types/) - Source-linked educational guide distinguishing transparent, shielded, and Unified Addresses from wallet-specific receiver support.
 
 - [LianXinShe (链新社) - Chinese Blockchain Learning Resources:](https://www.lianxinshe666.com/special/blockchain/) Curated tutorials, guides, and educational content covering DeFi, NFTs, and Web3 basics in Chinese.
