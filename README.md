@@ -49,7 +49,6 @@ The blockchain is an incorruptible digital ledger of economic transactions that 
       - [Internet of Things Applications](#internet-of-things-applications)
       - [Energy Applications](#energy-applications)
       - [Media and Journalism](#media-and-journalism)
-      - [Gaming Applications](#gaming-applications)
       - [DeFi (Decentralised Finance)](#defi-decentralised-finance)
     - [Roadmaps](#roadmaps)
   - [Contribute](#contribute)
@@ -371,9 +370,6 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 
 -   [doc](https://docs.web3js.org/) / [Chinese version](http://web3.tryblockchain.org/Web3.js-api-refrence.html)
 
-### ProofBets
--   [ProofBets](https://proofbets.com) - On-chain verification of crypto casino claims. Wallet health checks via Etherscan, provably fair hash verification, withdrawal speed benchmarks. Free API and tools.
-
 ### Market Sentiment
 -   [Fear & Greed Index Bot](https://discord.com/oauth2/authorize?client_id=1125794469829169253&scope=bot+applications.commands&permissions=67127296) - Discord bot that shows the Crypto Fear & Greed Index in the server member list, with slash commands for the daily value and the last 30 days. 在 Discord 成员列表中显示加密货币恐惧与贪婪指数的机器人。
 ### Provably Fair Verifier
@@ -457,7 +453,6 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
   HSM_](https://github.com/psavelis/enterprise-blockchain)
 
 ---
-- [Lianxinshe (链新社)](https://www.lianxinshe666.com/) - Chinese blockchain & Web3 news and educational resources for beginners.
 ## Projects and Applications
 [<img src="https://raw.githubusercontent.com/jpmorganchase/quorum/master/logo.png" align="right" width="80">](https://github.com/jpmorganchase/quorum)  
 ### Quorum
@@ -639,10 +634,6 @@ Key features:
 [<img src="https://raw.githubusercontent.com/nexus-genesis/nexusgenesis/master/public/dashboard.png" align="right" width="100">](https://github.com/nexus-genesis/nexusgenesis)
 ### [NexusGenesis](https://github.com/nexus-genesis/nexusgenesis)
 - AI Agent Coordination Protocol — a Layer 1 blockchain purpose-built for AI agent coordination. Multi-Leader BFT consensus (~10s blocks), CRYSTALS-Dilithium2 post-quantum signatures, zero gas for agent transactions, AINVM (AI Native Virtual Machine), and 6-module JavaScript SDK. Live testnet at nexus-genesis.top.
-
-[<img src="https://kula.money/prana-logo.png" align="right" width="100">](https://github.com/HinduTempleCoins/PRANA)
-### [PRANA](https://github.com/HinduTempleCoins/PRANA)
-- Proof-of-work EVM Layer-1 built on core-geth, mined with Etchash (ECIP-1099) on ordinary GPUs. Fair launch with no premine, mainnet since 2026-08-29 (chain ID 712217), EIP-1559 active. Consensus sends 98% of each block reward to an on-chain pot contract that pays miners by pool shares, and 2% to a protocol treasury. Public RPC https://rpc.prana.melek.salon, Blockscout explorer https://pranascan.soapbox.community, mining guide https://witness.melek.salon/mine.
 
 ---
 ## Further Extension
@@ -876,11 +867,7 @@ Key features:
 -   [Steem](https://steem.io) - Decentralized social network which incentivises content creation and curation.
 -   [PopChest](https://popchest.com) - Incentivized distributed video platform.
 -   [Civil](https://joincivil.com) - Decentralized newsmaking platform.
--   [MELEK](https://melek.salon) - Graphene social blockchain (Steem/Blurt lineage) with a self-hostable condenser front end and an AI block-producing witness. ([node source](https://github.com/HinduTempleCoins/melek-chain))
 
-#### Gaming Applications
-
--   [Block Lottos](https://blocklottos.com/games) - Polygon and Base on-chain lottery games with wallet-signed ticket transactions, public OpenAPI docs, agent-readable discovery files, referral earning routes, and advertising placements.
 -   [Kiwi News](https://news.kiwistand.com) - Community-curated crypto and Ethereum link aggregator, similar to Hacker News, built on an open peer-to-peer protocol.
 
 #### Work and Freelancing Applications
@@ -915,7 +902,6 @@ Key features:
     +   [BTCBench Fee Calculator](https://www.btcbench.com/calculator.html) - Estimate transaction costs based on current network conditions.
     +   [Stablecoin Yield Reality Check](https://livastic-vm3-primary-tmp-260920.github.io/stablecoin-yield-reality-check/) - Free, no-wallet USDC/stablecoin metadata screen that separates reported base APY and reward incentives, shows 30-day trends and TVL, and estimates hypothetical fee break-even; source timestamps and risk limitations are explicit.
     +   [Chartscout](https://chartscout.io) : Real-time crypto chart pattern detection and automated trading alerts across multiple exchanges.
-    +   [ProofBets](https://proofbets.com): on-chain verification of crypto casino claims. Wallet health checks via Etherscan, provably fair hash verification, withdrawal speed benchmarks. Free API and tools.
     +   [DeepAlpha](https://github.com/stefanoviana/deepalpha): AI-powered crypto trading bot with ML ensemble, 12 exchanges, grid trading, and DCA strategies.
     +   [Crypto Pump Scanner](https://github.com/stefanoviana/crypto-pump-scanner): Real-time pump detection for crypto — monitors 500+ Bybit USDT pairs every 3s for volume spikes, with cascade take-profit auto-trading. MIT licensed, Python.
         +   [WalletWatcher Alerts](https://t.me/WalletWatcherAlertsBot): Telegram bot that messages you whenever a wallet you watch receives or sends funds. Read-only, public addresses only, no keys or wallet connection. Free for 1 wallet with no signup, Pro €6/month for 20 wallets.
@@ -953,8 +939,6 @@ Key features:
 
 - [链小知区块链: Token approvals](https://lianxiaozhi.com/learn/token-approvals) - Simplified Chinese, source-linked explainer distinguishing ERC-20 allowances from disconnecting a dapp, with owner/spender/network checks and revocation verification.
 - [Zcash address types](https://zecview.com/privacy/address-types/) - Source-linked educational guide distinguishing transparent, shielded, and Unified Addresses from wallet-specific receiver support.
-
-- [LianXinShe (链新社) - Chinese Blockchain Learning Resources:](https://www.lianxinshe666.com/special/blockchain/) Curated tutorials, guides, and educational content covering DeFi, NFTs, and Web3 basics in Chinese.
 
 - [Blockchain Revolution:](https://amzn.to/2u20uvf) How the Technology Behind Bitcoin and Other Cryptocurrencies Is Changing the World.
 - [Mastering Bitcoin for Starters:](https://amzn.to/2uc8Z6q) Bitcoin and Cryptocurrency Technologies, Mining, Investing and Trading.
