@@ -348,6 +348,7 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 ## Releated Tools
 
 - [0xArchive](https://docs.0xarchive.io/quickstart) - Real-time and historical Hyperliquid and Lighter market data through REST and WebSocket APIs.
+- [crypto-logos](https://github.com/logoapi/crypto-logos) - SVG logos for 37 major coins by ticker symbol, in light and dark versions. Free, no key, also served by symbol as logoapi.sh/crypto/BTC.svg.
 ### Tools Directory
 
 - [18btc](https://18btc.cc) - Curated crypto tools directory with hands-on reviews across market data, on-chain analytics, DeFi data, wallets, security tools and office tools. Bilingual Chinese/English.
