@@ -348,6 +348,7 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 ## Releated Tools
 
 - [0xArchive](https://docs.0xarchive.io/quickstart) - Real-time and historical Hyperliquid and Lighter market data through REST and WebSocket APIs.
+- [Siebly](https://siebly.io/sdk) - Open-source (MIT) JavaScript and TypeScript SDKs for crypto exchange REST APIs and WebSockets: [Hyperliquid JavaScript SDK](https://siebly.io/sdk/hyperliquid/javascript), Binance, Bybit, OKX, Gate, Bitget, KuCoin, Coinbase, Kraken and HTX. [Docs](https://sieblyio.github.io/docs/)
 - [crypto-logos](https://github.com/logoapi/crypto-logos) - SVG logos for 37 major coins by ticker symbol, in light and dark versions. Free, no key, also served by symbol as logoapi.sh/crypto/BTC.svg.
 ### Tools Directory
 
