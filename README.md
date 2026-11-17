@@ -889,6 +889,7 @@ Key features:
 -   [Papaya](https://papaya.finance/technology/protocol) - Non-custodial protocol for recurring stablecoin payments: per-second streaming and periodic subscriptions in USDC/USDT. ([SDK](https://github.com/Papaya-Finance/sdk) · [Docs](https://docs.papaya.finance))
 -   [ALPHA](https://alphapad.xyz) - Multi-chain token launchpad on Solana, Ethereum, Base, BNB Chain, Robinhood Chain, Arc, Monad, Avalanche and Arbitrum; creators price each token in a coin, stablecoin, stock token or gold, and markets graduate to Uniswap v4 or Meteora DAMM v2 with locked liquidity. ([X](https://x.com/alphapadxyz))
 -   [SODAX](https://sodax.com) - Intent-based cross-network execution layer: swaps, bridging, lending and leverage yield across 20+ networks (Solana, Ethereum, Arbitrum, Base, Stellar, Hedera and more), with a REST API and TypeScript SDK. ([SDK](https://github.com/gosodax/sodax-sdks) · [Docs](https://docs.sodax.com))
+-   [Plaxswap](https://plaxswap.com) - Crypto swaps that show each route with its fees and time before you swap, a non-custodial wallet for Android and the web, and a crypto payment gateway with an API and WooCommerce, WHMCS and XenForo plugins.
 
 +   Tools
     +   [Defi Dashboard](https://debank.com/): portfolio tracker, project lists, rankings, etc.
