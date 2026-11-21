@@ -388,6 +388,7 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 - [MoltNode by Chord](https://moltnode.ag) - Hosted no-key MCP server (`https://moltnode.ag/mcp`) to read 31 blockchains over JSON-RPC (one URL per chain) and get DEX swap quotes and unsigned transactions via Chord. Stdio bridge and skills: [moltnode-mcp](https://github.com/tuantqse90/moltnode-mcp) (MIT).
 - [Thyme Gate](https://gate.thymelabs.io) - Keyless public JSON-RPC (no account or API key) for Ethereum, Sepolia, Polygon PoS, Polygon Amoy, OP Mainnet and Unichain Sepolia, served from Thyme Labs' own archive nodes. 22 requests/s per IP; client IPs are never logged.
 - [gasrent](https://gasrent.click) - TRON energy and bandwidth rental aggregator. Compares providers and delegates 65k to 4M energy to your address, paid in TRX, no KYC. REST API ([docs](https://gasrent.click/api.html), [MIT examples](https://github.com/gasrent/gasrent-api-examples)).
+- [AsiaFee](https://asiafee.com/en) - TRON energy rental for USDT (TRC20) transfers, paid in TRX or USDT with no sign-up. Includes a free USDT fee calculator and a TRON address energy and bandwidth lookup.
 
 ## Implementation of Blockchain
 -   [**Python**: _py-ethclient_](https://github.com/tokamak-network/py-ethclient) - A from-scratch Python Ethereum L1 execution client with EVM (140+ opcodes), RLPx networking, eth/68, snap/1, full & snap sync, Engine API, and JSON-RPC.
