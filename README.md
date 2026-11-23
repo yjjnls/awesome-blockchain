@@ -347,18 +347,14 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 ## Releated Tools
 
 - [0xArchive](https://docs.0xarchive.io/quickstart) - Real-time and historical Hyperliquid and Lighter market data through REST and WebSocket APIs.
-- [Siebly](https://siebly.io/sdk) - Open-source (MIT) JavaScript and TypeScript SDKs for crypto exchange REST APIs and WebSockets: [Hyperliquid JavaScript SDK](https://siebly.io/sdk/hyperliquid/javascript), Binance, Bybit, OKX, Gate, Bitget, KuCoin, Coinbase, Kraken and HTX. [Docs](https://sieblyio.github.io/docs/)
-- [crypto-logos](https://github.com/logoapi/crypto-logos) - SVG logos for 37 major coins by ticker symbol, in light and dark versions. Free, no key, also served by symbol as logoapi.sh/crypto/BTC.svg.
 ### Tools Directory
 
 - [18btc](https://18btc.cc) - Curated crypto tools directory with hands-on reviews across market data, on-chain analytics, DeFi data, wallets, security tools and office tools. Bilingual Chinese/English.
-- [1000x Leverage](https://1000xleverage.com/) - Evidence-graded comparison of crypto perpetual venues listing 500x–1001x maximum leverage, with chain, model, live status and a per-row check date.
 - [Chain.Love](https://www.chain.love/) - Open-source directory for comparing blockchain infrastructure and developer tools across RPC nodes, indexers, explorers, bridges, oracles, faucets, SDKs, wallets, security and analytics. ([Source](https://github.com/Chain-Love/chain-love))
 
 ### Policy & Security
 -   [PolicyLayer](https://github.com/PolicyLayer/PolicyLayer) - Non-custodial spending controls for AI agents. Enforces spending limits without holding private keys
 -   [FreezeRadar](https://freezeradar.com) - Wallet risk checks for freezeable stablecoins: screens addresses for USDT/USDC/PAXG issuer blacklist status, sanctions exposure and live freeze/release events.
--   [Bunker](https://bunker.nosistech.com) - Offline browser tool that shows which crypto addresses expose their public key, on 100+ networks, with a plan to hide them. ([Source](https://github.com/nosistech/nosis-bunker))
 
 ### Solidity
 -   [doc](https://solidity.readthedocs.io/en/develop/index.html) / [Chinese version](https://solidity-cn.readthedocs.io/zh/develop/)
@@ -374,20 +370,16 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
 -   [Fear & Greed Index Bot](https://discord.com/oauth2/authorize?client_id=1125794469829169253&scope=bot+applications.commands&permissions=67127296) - Discord bot that shows the Crypto Fear & Greed Index in the server member list, with slash commands for the daily value and the last 30 days. 在 Discord 成员列表中显示加密货币恐惧与贪婪指数的机器人。
 ### Provably Fair Verifier
 -   [provably-fair-verifier](https://github.com/cryptoplayguide/provably-fair-verifier) - Open-source browser verifier (MIT) that recomputes HMAC-SHA256 seed outcomes for Dice, Limbo, Crash, Mines and Plinko (Plinko drop path only).
--   [SealDraw](https://sealdraw.2cstudio.app) - Provably fair giveaways and whitelist raffles on Solana. One Seeker Genesis Token is one entry, winners are drawn from a future Solana block, and anyone can re-run the draw in the browser or with a standalone Node script (`/verify.mjs`).
 
 ### AI Agent Tools
 - [MoltsPay - Universal Payment Protocol](https://github.com/Yaqing2023/moltspay) - Universal Payment Protocol (UPP) for AI agents that abstracts multiple underlying protocols (x402, MPP, PFS, Pre-Approval) into a single unified API. Supports 8 blockchains (Base, Polygon, BNB, Tempo, Solana, Ethereum, Arbitrum, Optimism) with protocol-specific optimizations. Enables agent-to-agent value exchange with gasless payments. Available in Node.js and Python SDKs.
 - [FractalAI PQC Receipts](https://fractalai.net.co/.well-known/x402.json) - Post-quantum (ML-DSA-65, NIST FIPS 204) signed receipts for x402 agent payments: 12 pay-per-call endpoints on Base whose answer carries a signature the payer verifies offline against a published key directory with epoch rotation, plus a write-once on-chain anchor ([PQCReceiptAnchor](https://arbiscan.io/address/0x3A23c614033cb22139DC13932524767c5fE841d8) on Arbitrum One, MIT verifier at [johnInarti/pqc-receipt-anchor](https://github.com/johnInarti/pqc-receipt-anchor)). Ships as an `@x402/core` ResourceServerExtension, so an existing x402 seller can emit the same receipts.
-- [send21 agent budget](https://github.com/send21io/send21-agent-budget) - A budget guard between an AI agent and the send21 MCP server for crypto pay links and payment drafts.
-- [crypto-exchange-fees](https://github.com/BestBerlin/crypto-exchange-fees) - Open dataset (JSON/CSV, CC BY 4.0) and stdio MCP server for base-tier maker/taker fees of major CEX, DEX and perp DEX venues; every figure links to the exchange's official fee page with a verification date, and unverifiable values are left blank.
 
 ### RPC Infrastructure
 -   [eRPC](https://github.com/erpc/erpc) - Fault-tolerant RPC proxy for EVM chains and Solana with re-org-aware caching, failover, retries and multi-chain routing behind one endpoint. [Docs](https://docs.erpc.cloud/)
 - [Chord](https://github.com/getchordlabs/chord) - Hosted no-key MCP server (`https://api.getchord.xyz/v1/mcp`) for DEX swap quotes and unsigned swap transactions on 7 EVM chains (Base, Monad, BNB Chain, Avalanche, Arbitrum, Robinhood Chain, Arc), plus token boards, candles, trades, wallet PnL, smart money, holders and LP pools. Non-custodial: nothing is signed or sent. Contracts, SDK, OpenAPI spec and Agent Skill are MIT.
 - [MoltNode by Chord](https://moltnode.ag) - Hosted no-key MCP server (`https://moltnode.ag/mcp`) to read 31 blockchains over JSON-RPC (one URL per chain) and get DEX swap quotes and unsigned transactions via Chord. Stdio bridge and skills: [moltnode-mcp](https://github.com/tuantqse90/moltnode-mcp) (MIT).
 - [Thyme Gate](https://gate.thymelabs.io) - Keyless public JSON-RPC (no account or API key) for Ethereum, Sepolia, Polygon PoS, Polygon Amoy, OP Mainnet and Unichain Sepolia, served from Thyme Labs' own archive nodes. 22 requests/s per IP; client IPs are never logged.
-- [gasrent](https://gasrent.click) - TRON energy and bandwidth rental aggregator. Compares providers and delegates 65k to 4M energy to your address, paid in TRX, no KYC. REST API ([docs](https://gasrent.click/api.html), [MIT examples](https://github.com/gasrent/gasrent-api-examples)).
 
 ## Implementation of Blockchain
 -   [**Python**: _py-ethclient_](https://github.com/tokamak-network/py-ethclient) - A from-scratch Python Ethereum L1 execution client with EVM (140+ opcodes), RLPx networking, eth/68, snap/1, full & snap sync, Engine API, and JSON-RPC.
@@ -870,13 +862,9 @@ Key features:
 
 -   [Kiwi News](https://news.kiwistand.com) - Community-curated crypto and Ethereum link aggregator, similar to Hacker News, built on an open peer-to-peer protocol.
 
-#### Work and Freelancing Applications
-
--   [chainjobs](https://chainjobs.app/) - Free Web3 and freelance job board: post jobs, offer services and chat directly; agree on payment in crypto or by bank transfer, with 0% platform commission.
 
 #### DeFi (Decentralised Finance)
 
--   [GSPC Exchange](https://exchange.gspcoin.us) - High-speed non-custodial Peer-to-Peer (P2P) crypto escrow exchange with real-time central limit order books and multi-chain settlement across 21 digital assets (GSPC, BTC, ETH, SOL, LTC, USDT, USDC, and more).
 -   [Uniswap](https://uniswap.org) - Decentralized exchange powered by the Automated Market Maker model (AMM).
 -   [Compound](https://compound.finance) - Decentralized lending and borrowing.
 -   [1inch Exchange](https://1inch.exchange) - Get the best rates among multiple DEXes.
@@ -885,9 +873,7 @@ Key features:
 -   [DirectCryptoPay](https://directcryptopay.com) - Non-custodial crypto payment gateway for merchants. Accept USDC/USDT/ETH on 10 chains (EVM + Solana + TRON + TON), funds flow directly to merchant wallets. Stripe-style DX, HMAC webhooks, WooCommerce plugin.
 -   [AgentFund](https://github.com/RioTheGreat-ai/agentfund-escrow) - Crowdfunding for AI agents with milestone-based escrow on Base chain.
 -   [NanoStack](https://api.nano-labs.io) - Permissionless cross-chain execution API supporting 86 chains (BTC, ETH, Base, Arbitrum, Optimism, Solana, Cosmos, Polkadot). 8-15 bps fees, no API key required.
--   [Melbo](https://melbo.io) - Prediction markets for real-world events, built on Polygon.
 -   [Papaya](https://papaya.finance/technology/protocol) - Non-custodial protocol for recurring stablecoin payments: per-second streaming and periodic subscriptions in USDC/USDT. ([SDK](https://github.com/Papaya-Finance/sdk) · [Docs](https://docs.papaya.finance))
--   [ALPHA](https://alphapad.xyz) - Multi-chain token launchpad on Solana, Ethereum, Base, BNB Chain, Robinhood Chain, Arc, Monad, Avalanche and Arbitrum; creators price each token in a coin, stablecoin, stock token or gold, and markets graduate to Uniswap v4 or Meteora DAMM v2 with locked liquidity. ([X](https://x.com/alphapadxyz))
 -   [SODAX](https://sodax.com) - Intent-based cross-network execution layer: swaps, bridging, lending and leverage yield across 20+ networks (Solana, Ethereum, Arbitrum, Base, Stellar, Hedera and more), with a REST API and TypeScript SDK. ([SDK](https://github.com/gosodax/sodax-sdks) · [Docs](https://docs.sodax.com))
 
 +   Tools
