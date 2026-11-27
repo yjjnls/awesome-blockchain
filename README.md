@@ -140,6 +140,7 @@ The "classic" Satoshi-blockchain is like a git repo with a single master branch 
     <!-- * [Merkle tree in blockchain](./Basic/merkle_tree_in_blockchain.md)   -->
     * [Merkle DAG](http://www.sohu.com/a/247540268_100222281)   
     * [**CryptoNote v2.0**](https://cryptonote.org/whitepaper.pdf) - Untraceable Transactions and Egalitarian Proof-of-work
+    * [Post-quantum blockchains](https://github.com/Balance0014/post-quantum-blockchains) - Which blockchains already use post-quantum signatures, with which schemes and limits. Source-checked, in English and Chinese. 哪些区块链已经用上抗量子签名、用的什么方案、有什么限制，附原始出处，中英双语。
 <!--   
 ### Consensus
     -->
