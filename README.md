@@ -431,6 +431,7 @@ These apps run on a custom built **blockchain, an enormously powerful shared glo
     -   [_Part 4.2 — Ethereum Proof of Work Difficulty Explained_](https://bigishdata.com/2017/11/21/how-to-build-your-own-blockchain-part-4-2-ethereum-proof-of-work-difficulty-explained/)
 -   [**Ruby**: _lets-build-a-blockchain_](https://github.com/Haseeb-Qureshi/lets-build-a-blockchain)
 -   [**Ruby**: _Programming Blockchains Step-by-Step (Manuscripts Book Edition)_](https://github.com/yukimotopress/programming-blockchains-step-by-step)
+-   [**Rust**: _Machine_](https://github.com/yourmememachine/mememachine) - A Solana-derived Layer 1 blockchain (Agave 2.3.13 fork) with its own genesis and native token, a chain-native anti-rug launch standard, and a lock/mint bridge to Solana designed from published hack post-mortems.
 -   [**Scala**: _How to build a simple actor-based blockchain_](https://medium.freecodecamp.org/how-to-build-a-simple-actor-based-blockchain-aac1e996c177)
 -   [**TypeScript**: _Naivecoin: a tutorial for building a cryptocurrency_](https://lhartikk.github.io/)
     -   [_Minimal working blockchain_](https://lhartikk.github.io/jekyll/update/2017/07/14/chapter1.html)
